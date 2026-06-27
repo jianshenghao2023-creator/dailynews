@@ -11,6 +11,12 @@ audio/samples/
 # Old local build output. GitHub Pages uses docs/.
 public/
 
+# Local portable app build outputs.
+tools/edge-tts-converter/build/
+tools/edge-tts-converter/dist/
+tools/edge-tts-converter/*.spec
+tools/edge-tts-converter/*.zip
+
 # OS/editor files.
 .DS_Store
 Thumbs.db
