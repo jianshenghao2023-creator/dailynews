@@ -136,9 +136,11 @@ function renderStory() {
   if (item.source?.url) {
     els.sourceLink.hidden = false;
     els.sourceLink.href = item.source.url;
+    els.sourceLink.textContent = `Source - ${item.source?.name || "Unknown source"}`;
   } else {
     els.sourceLink.hidden = true;
     els.sourceLink.removeAttribute("href");
+    els.sourceLink.textContent = "Source";
   }
 
   loadAudioSource();
