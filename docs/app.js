@@ -23,9 +23,7 @@ const els = {
   autoAdvance: document.querySelector("#autoAdvance"),
   audioPlayer: document.querySelector("#audioPlayer"),
   subtitleLines: document.querySelector("#subtitleLines"),
-  englishText: document.querySelector("#englishText"),
   chineseText: document.querySelector("#chineseText"),
-  cefrBadge: document.querySelector("#cefrBadge"),
 };
 
 function cacheBust(url) {
@@ -133,9 +131,7 @@ function renderStory() {
 
   els.sourceName.textContent = item.source?.name || "Unknown source";
   els.storyTitle.textContent = item.title || "Untitled story";
-  els.englishText.textContent = item.english || "";
   els.chineseText.textContent = item.chinese || "";
-  els.cefrBadge.textContent = state.daily.cefr_level || state.manifest.settings?.cefrLevel || "";
 
   if (item.source?.url) {
     els.sourceLink.hidden = false;
