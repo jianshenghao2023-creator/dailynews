@@ -1,0 +1,32 @@
+{
+  "appName": "DailyNews",
+  "generatedAt": "2026-06-27T09:27:59.504577+00:00",
+  "latestDate": "2026-06-27",
+  "latestDataUrl": "data/2026-06-27.json",
+  "days": [
+    {
+      "date": "2026-06-27",
+      "isDemo": true,
+      "itemCount": 1,
+      "dataUrl": "data/2026-06-27.json",
+      "topics": [
+        "energy",
+        "china",
+        "climate"
+      ]
+    }
+  ],
+  "settings": {
+    "timezone": "Europe/Berlin",
+    "dailyRunTime": "07:00",
+    "cefrLevel": "B2",
+    "maxEnglishWords": 80,
+    "topics": [
+      "world",
+      "technology",
+      "business",
+      "science",
+      "health"
+    ]
+  }
+}

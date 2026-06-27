@@ -1,0 +1,83 @@
+# DailyNews configuration
+# Format: simple key=value lines. Lines beginning with # are comments.
+# Codex should read this file at the start of every daily run.
+
+[schedule]
+# Use an IANA time zone so Germany daylight saving time is handled correctly.
+timezone=Europe/Berlin
+daily_run_time=07:00
+
+[news]
+topics=world,technology,business,science,health
+news_count=10
+recency=latest
+prefer_publicly_accessible_articles=true
+avoid_paywalled_articles=true
+
+# International news sources.
+# Each source has a name, homepage, and optional RSS/feed URL when available.
+media_source_1_name=BBC News
+media_source_1_homepage=https://www.bbc.com/news
+media_source_1_feed=https://feeds.bbci.co.uk/news/world/rss.xml
+
+media_source_2_name=Reuters
+media_source_2_homepage=https://www.reuters.com/world/
+media_source_2_feed=
+
+media_source_3_name=Associated Press
+media_source_3_homepage=https://apnews.com/
+media_source_3_feed=https://apnews.com/hub/ap-top-news?output=rss
+
+media_source_4_name=Deutsche Welle
+media_source_4_homepage=https://www.dw.com/en/top-stories/s-9097
+media_source_4_feed=https://rss.dw.com/xml/rss-en-all
+
+media_source_5_name=The Guardian
+media_source_5_homepage=https://www.theguardian.com/international
+media_source_5_feed=https://www.theguardian.com/world/rss
+
+media_source_6_name=Al Jazeera
+media_source_6_homepage=https://www.aljazeera.com/
+media_source_6_feed=https://www.aljazeera.com/xml/rss/all.xml
+
+[rewriting]
+english_cefr_level=B2
+max_english_words=80
+style=clear,neutral,learner_friendly
+include_source_attribution=true
+include_source_url=true
+generate_chinese_version=true
+chinese_variant=simplified
+
+[audio]
+generate_mp3=true
+tts_provider=edge_tts
+english_voice=en-US-AvaNeural
+english_voice_alternative=en-GB-RyanNeural
+chinese_voice=zh-CN-XiaoxiaoNeural
+edge_tts_rate=-8%
+edge_tts_pitch=+0Hz
+speech_order=english_then_chinese
+english_voice_style=natural,clear,good_for_shadowing
+chinese_voice_style=natural,clear
+pause_between_sentences_ms=450
+pause_between_languages_ms=900
+subtitle_sync_level=sentence
+
+[output]
+data_dir=data
+audio_dir=audio
+site_source_dir=site
+public_dir=docs
+latest_manifest=docs/manifest.json
+daily_json_pattern=data/{date}.json
+daily_audio_dir_pattern=audio/{date}
+
+[publishing]
+publish_target=github_pages
+github_account=jianshenghao2023-creator
+github_repository=dailynews
+github_pages_url=https://jianshenghao2023-creator.github.io/dailynews/
+commit_message_prefix=DailyNews
+auto_commit=false
+auto_push=false

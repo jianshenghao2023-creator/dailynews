@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="DailyNews icon">
+  <rect width="128" height="128" rx="24" fill="#f7f4ee"/>
+  <rect x="22" y="24" width="84" height="80" rx="10" fill="#ffffff" stroke="#20242a" stroke-width="4"/>
+  <path d="M36 44h56M36 60h42M36 76h50" stroke="#11756f" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="91" cy="88" r="13" fill="#bc5a4f"/>
+  <path d="M88 81v14l11-7z" fill="#ffffff"/>
+</svg>

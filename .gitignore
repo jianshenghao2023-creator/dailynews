@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Local environment values and secrets.
+.env
+
+# Generated samples used while testing voices.
+audio/samples/
+
+# Old local build output. GitHub Pages uses docs/.
+public/
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

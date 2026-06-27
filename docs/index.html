@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f4ee">
+    <title>DailyNews</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">DailyNews</p>
+          <h1 id="dateTitle">Loading today's news</h1>
+        </div>
+        <button id="refreshButton" class="icon-button" type="button" aria-label="Refresh content" title="Refresh content">
+          <span class="refresh-symbol" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <section class="status-line" aria-live="polite">
+        <span id="runMeta">Fetching latest content...</span>
+        <span id="countMeta"></span>
+      </section>
+
+      <section id="emptyState" class="empty-state" hidden>
+        <h2>No daily content yet</h2>
+        <p>Run the daily Codex workflow, then rebuild the static site.</p>
+      </section>
+
+      <section id="playerView" class="player-grid" hidden>
+        <aside class="news-list-panel" aria-label="News list">
+          <div class="panel-heading">
+            <h2>Stories</h2>
+            <span id="listDate"></span>
+          </div>
+          <div id="newsList" class="news-list"></div>
+        </aside>
+
+        <section class="reader-panel" aria-label="Selected story">
+          <div class="story-header">
+            <p id="sourceName" class="source-name"></p>
+            <h2 id="storyTitle"></h2>
+            <a id="sourceLink" class="source-link" target="_blank" rel="noreferrer">Source</a>
+          </div>
+
+          <div class="control-strip" aria-label="Playback controls">
+            <button id="playButton" class="primary-control" type="button" aria-label="Play or pause" title="Play or pause">
+              <span id="playIcon" class="play-symbol icon-play" aria-hidden="true"></span>
+            </button>
+            <button id="replayButton" class="icon-button" type="button" aria-label="Replay current track" title="Replay current track">
+              <span class="replay-symbol" aria-hidden="true"></span>
+            </button>
+            <div class="segmented-control" role="group" aria-label="Language">
+              <button id="englishButton" type="button" class="active">EN</button>
+              <button id="chineseButton" type="button">CN</button>
+            </div>
+            <label class="toggle-control">
+              <input id="autoAdvance" type="checkbox" checked>
+              <span>Auto</span>
+            </label>
+          </div>
+
+          <audio id="audioPlayer" preload="metadata"></audio>
+
+          <div class="subtitle-box" aria-live="polite">
+            <p class="section-label">Subtitle</p>
+            <div id="subtitleLines" class="subtitle-lines"></div>
+          </div>
+
+          <div class="text-columns">
+            <article class="language-block">
+              <div class="block-heading">
+                <span>English</span>
+                <span id="cefrBadge"></span>
+              </div>
+              <p id="englishText"></p>
+            </article>
+            <article class="language-block">
+              <div class="block-heading">
+                <span>中文</span>
+              </div>
+              <p id="chineseText"></p>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
