@@ -9,7 +9,7 @@ Each daily run should:
 3. Select the configured number of recent topic-relevant stories.
 4. Rewrite each story into short English at the configured CEFR level.
 5. Generate a Simplified Chinese version.
-6. Generate MP3 audio and sentence-level subtitle timing.
+6. Generate English MP3 audio and sentence-level subtitle timing.
 7. Update the static site files for mobile listening.
 8. Publish the static site to GitHub Pages once GitHub is configured.
 
@@ -21,7 +21,7 @@ The scheduled run time is configured in `config.txt` as 07:00 Europe/Berlin.
 - `prompts/daily-run.md` - Durable prompt for the Codex automation.
 - `schema/daily-news.schema.json` - Expected daily JSON shape.
 - `data/` - Generated daily JSON files.
-- `audio/` - Generated MP3 files.
+- `audio/` - Generated English MP3 and SRT files.
 - `site/` - Static web app source.
 - `docs/` - Built static site output for GitHub Pages deployment.
 - `scripts/` - Future helper scripts for validation, audio, and site build steps.
@@ -37,6 +37,8 @@ The local pipeline is scaffolded and testable:
 ```
 
 `data/2026-06-27.json` is demo content for testing the player. In normal daily runs, Codex should replace this pattern with real current news content generated from the configured sources.
+
+Chinese text is generated for reading support, but Chinese MP3 is disabled by default.
 
 To preview locally:
 

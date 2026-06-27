@@ -13,3 +13,5 @@ Use `Europe/Berlin` for the daily schedule unless the user changes `config.txt`.
 Daily content generation belongs to Codex automation, not hard-coded scripts. Scripts may validate configuration, generate audio from text, copy static assets, and build deployment output.
 
 After Codex writes `data/YYYY-MM-DD.json`, run `.venv\Scripts\python.exe scripts\run_postprocess.py` from the project root.
+
+Generate English audio only while `generate_chinese_mp3=false`; keep Simplified Chinese as text.

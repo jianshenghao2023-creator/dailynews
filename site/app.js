@@ -2,7 +2,6 @@ const state = {
   manifest: null,
   daily: null,
   selectedIndex: 0,
-  language: "english",
   isPlaying: false,
 };
 
@@ -21,8 +20,6 @@ const els = {
   playButton: document.querySelector("#playButton"),
   playIcon: document.querySelector("#playIcon"),
   replayButton: document.querySelector("#replayButton"),
-  englishButton: document.querySelector("#englishButton"),
-  chineseButton: document.querySelector("#chineseButton"),
   autoAdvance: document.querySelector("#autoAdvance"),
   audioPlayer: document.querySelector("#audioPlayer"),
   subtitleLines: document.querySelector("#subtitleLines"),
@@ -54,7 +51,6 @@ async function loadLatest() {
     }
     state.daily = await fetchJson(state.manifest.latestDataUrl);
     state.selectedIndex = 0;
-    state.language = "english";
     renderAll();
   } catch (error) {
     renderError(error);
@@ -92,7 +88,7 @@ function renderAll() {
   els.listDate.textContent = daily.timezone || "";
   const itemCount = daily.items?.length ?? 0;
   setStatus(
-    `${daily.timezone || state.manifest.settings?.timezone || "Local"} · ${daily.cefr_level || state.manifest.settings?.cefrLevel || "B2"}`,
+    `${daily.timezone || state.manifest.settings?.timezone || "Local"} - ${daily.cefr_level || state.manifest.settings?.cefrLevel || "B2"}`,
     `${itemCount} ${itemCount === 1 ? "story" : "stories"}`
   );
   renderList();
@@ -108,7 +104,6 @@ function renderList() {
     button.className = `story-button${index === state.selectedIndex ? " active" : ""}`;
     button.addEventListener("click", () => {
       state.selectedIndex = index;
-      state.language = "english";
       state.isPlaying = false;
       renderList();
       renderStory();
@@ -150,19 +145,13 @@ function renderStory() {
     els.sourceLink.removeAttribute("href");
   }
 
-  setLanguageButtons();
   loadAudioSource();
   renderSubtitles();
 }
 
-function setLanguageButtons() {
-  els.englishButton.classList.toggle("active", state.language === "english");
-  els.chineseButton.classList.toggle("active", state.language === "chinese");
-}
-
 function loadAudioSource() {
   const item = selectedItem();
-  const audioUrl = item?.audio?.[state.language];
+  const audioUrl = item?.audio?.english;
   els.audioPlayer.pause();
   state.isPlaying = false;
   els.playIcon.className = "play-symbol icon-play";
@@ -179,13 +168,13 @@ function loadAudioSource() {
 
 function renderSubtitles() {
   const item = selectedItem();
-  const cues = item?.subtitles?.[state.language] || [];
+  const cues = item?.subtitles?.english || [];
   els.subtitleLines.replaceChildren();
 
   if (!cues.length) {
     const empty = document.createElement("p");
     empty.className = "subtitle-line";
-    empty.textContent = state.language === "english" ? item?.english || "" : item?.chinese || "";
+    empty.textContent = item?.english || "";
     els.subtitleLines.append(empty);
     return;
   }
@@ -228,19 +217,6 @@ function replayCurrent() {
   els.audioPlayer.play().catch((error) => setStatus(playbackErrorMessage(error), ""));
 }
 
-function switchLanguage(language, shouldPlay = false) {
-  if (state.language === language) {
-    return;
-  }
-  state.language = language;
-  setLanguageButtons();
-  loadAudioSource();
-  renderSubtitles();
-  if (shouldPlay) {
-    els.audioPlayer.play().catch((error) => setStatus(playbackErrorMessage(error), ""));
-  }
-}
-
 function updateSubtitleHighlight() {
   const time = els.audioPlayer.currentTime;
   let activeLine = null;
@@ -260,15 +236,8 @@ function updateSubtitleHighlight() {
 }
 
 function handleEnded() {
-  const item = selectedItem();
-  if (state.language === "english" && item?.audio?.chinese) {
-    switchLanguage("chinese", true);
-    return;
-  }
-
   if (els.autoAdvance.checked && state.daily.items[state.selectedIndex + 1]) {
     state.selectedIndex += 1;
-    state.language = "english";
     renderList();
     renderStory();
     els.audioPlayer.play().catch((error) => setStatus(playbackErrorMessage(error), ""));
@@ -280,8 +249,6 @@ els.playButton.addEventListener("click", () => {
   togglePlay().catch((error) => setStatus(playbackErrorMessage(error), ""));
 });
 els.replayButton.addEventListener("click", replayCurrent);
-els.englishButton.addEventListener("click", () => switchLanguage("english"));
-els.chineseButton.addEventListener("click", () => switchLanguage("chinese"));
 els.audioPlayer.addEventListener("play", () => {
   state.isPlaying = true;
   els.playIcon.className = "play-symbol icon-pause";

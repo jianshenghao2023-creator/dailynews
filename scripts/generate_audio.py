@@ -102,6 +102,8 @@ def generate_for_item(
     chinese_voice: str,
     rate: str,
     pitch: str,
+    generate_english: bool,
+    generate_chinese: bool,
 ) -> None:
     item_id = item["id"]
     item_audio_dir = audio_dir / date
@@ -110,23 +112,28 @@ def generate_for_item(
     en_srt = item_audio_dir / f"{item_id}-en.srt"
     zh_srt = item_audio_dir / f"{item_id}-zh.srt"
 
-    if item.get("english"):
+    if generate_english and item.get("english"):
         run_edge_tts(item["english"], english_voice, rate, pitch, en_mp3, en_srt)
-    if item.get("chinese"):
+    if generate_chinese and item.get("chinese"):
         run_edge_tts(item["chinese"], chinese_voice, rate, pitch, zh_mp3, zh_srt)
+    else:
+        for stale_file in (zh_mp3, zh_srt):
+            if stale_file.exists():
+                stale_file.unlink()
 
-    item["audio"] = {
-        "english": f"audio/{date}/{item_id}-en.mp3",
-        "chinese": f"audio/{date}/{item_id}-zh.mp3",
-    }
-    item["subtitle_files"] = {
-        "english": f"audio/{date}/{item_id}-en.srt",
-        "chinese": f"audio/{date}/{item_id}-zh.srt",
-    }
-    item["subtitles"] = {
-        "english": parse_srt(en_srt),
-        "chinese": parse_srt(zh_srt),
-    }
+    item["audio"] = {}
+    item["subtitle_files"] = {}
+    item["subtitles"] = {}
+
+    if generate_english and en_mp3.exists():
+        item["audio"]["english"] = f"audio/{date}/{item_id}-en.mp3"
+        item["subtitle_files"]["english"] = f"audio/{date}/{item_id}-en.srt"
+        item["subtitles"]["english"] = parse_srt(en_srt)
+
+    if generate_chinese and zh_mp3.exists():
+        item["audio"]["chinese"] = f"audio/{date}/{item_id}-zh.mp3"
+        item["subtitle_files"]["chinese"] = f"audio/{date}/{item_id}-zh.srt"
+        item["subtitles"]["chinese"] = parse_srt(zh_srt)
 
 
 def main() -> int:
@@ -156,6 +163,8 @@ def main() -> int:
             chinese_voice=config["audio"]["chinese_voice"],
             rate=config["audio"]["edge_tts_rate"],
             pitch=config["audio"]["edge_tts_pitch"],
+            generate_english=config["audio"]["generate_english_mp3"],
+            generate_chinese=config["audio"]["generate_chinese_mp3"],
         )
         print(f"Generated audio for {item['id']}")
 

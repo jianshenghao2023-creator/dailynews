@@ -120,11 +120,18 @@ def normalized_config(path: str | Path = "config.txt") -> dict[str, Any]:
         },
         "audio": {
             "generate_mp3": as_bool(get(config, "audio", "generate_mp3"), True),
+            "generate_english_mp3": as_bool(
+                get(config, "audio", "generate_english_mp3"), True
+            ),
+            "generate_chinese_mp3": as_bool(
+                get(config, "audio", "generate_chinese_mp3"), False
+            ),
             "tts_provider": get(config, "audio", "tts_provider", "edge_tts"),
             "english_voice": get(config, "audio", "english_voice", "en-US-AvaNeural"),
             "chinese_voice": get(config, "audio", "chinese_voice", "zh-CN-XiaoxiaoNeural"),
             "edge_tts_rate": get(config, "audio", "edge_tts_rate", "-8%"),
             "edge_tts_pitch": get(config, "audio", "edge_tts_pitch", "+0Hz"),
+            "speech_order": get(config, "audio", "speech_order", "english_only"),
         },
         "output": {
             "data_dir": get(config, "output", "data_dir", "data"),
@@ -181,8 +188,19 @@ def validate_config(path: str | Path = "config.txt") -> list[ConfigError]:
     if provider != "edge_tts":
         errors.append(ConfigError("Only edge_tts is implemented for now.", "audio", "tts_provider"))
 
-    if config["audio"]["generate_mp3"] and not config["audio"]["english_voice"]:
+    if (
+        config["audio"]["generate_mp3"]
+        and config["audio"]["generate_english_mp3"]
+        and not config["audio"]["english_voice"]
+    ):
         errors.append(ConfigError("English voice is required when MP3 generation is enabled.", "audio", "english_voice"))
+
+    if (
+        config["audio"]["generate_mp3"]
+        and config["audio"]["generate_chinese_mp3"]
+        and not config["audio"]["chinese_voice"]
+    ):
+        errors.append(ConfigError("Chinese voice is required when Chinese MP3 generation is enabled.", "audio", "chinese_voice"))
 
     if "output" not in raw:
         errors.append(ConfigError("Missing output section.", "output", None))

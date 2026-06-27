@@ -14,11 +14,13 @@ Daily workflow:
    - with source attribution and source URL,
    - plus a Simplified Chinese version.
 5. Generate or update `data/YYYY-MM-DD.json` using the schema in `schema/daily-news.schema.json`.
-6. Run `.venv\Scripts\python.exe scripts\run_postprocess.py` from the project root. This validates config, generates Edge TTS MP3 files, writes subtitle timing, and builds `docs/`.
+6. Run `.venv\Scripts\python.exe scripts\run_postprocess.py` from the project root. This validates config, generates English Edge TTS MP3 files, writes English subtitle timing, and builds `docs/`.
 7. If GitHub publishing is configured and `auto_commit=true`, commit the changed `data/`, `audio/`, and `docs/` files.
 8. If GitHub publishing is configured and `auto_push=true`, push the commit.
 
 Do not invent source articles. If there are not enough reliable current articles, include fewer items and record the reason in the run notes.
+
+Chinese text should be generated, but Chinese MP3 should not be generated unless `config.txt` explicitly sets `generate_chinese_mp3=true`.
 
 The daily JSON should use this shape:
 

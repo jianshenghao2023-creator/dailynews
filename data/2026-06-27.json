@@ -27,12 +27,10 @@
         "decarbonisation"
       ],
       "audio": {
-        "english": "audio/2026-06-27/demo-001-en.mp3",
-        "chinese": "audio/2026-06-27/demo-001-zh.mp3"
+        "english": "audio/2026-06-27/demo-001-en.mp3"
       },
       "subtitle_files": {
-        "english": "audio/2026-06-27/demo-001-en.srt",
-        "chinese": "audio/2026-06-27/demo-001-zh.srt"
+        "english": "audio/2026-06-27/demo-001-en.srt"
       },
       "subtitles": {
         "english": [
@@ -45,23 +43,6 @@
             "start": 9.044,
             "end": 20.607,
             "text": "China is charting an ambitious five-year plan to harness nuclear and other non-fossil sources in a bid to generate half of the country's electricity needs by 2030."
-          }
-        ],
-        "chinese": [
-          {
-            "start": 0.1,
-            "end": 3.895,
-            "text": "最近的石油冲击增强了北京的决心。"
-          },
-          {
-            "start": 3.845,
-            "end": 10.448,
-            "text": "中国正努力在推进脱碳和保障未来能源需求之间取得平衡。"
-          },
-          {
-            "start": 10.448,
-            "end": 22.01,
-            "text": "中国正在制定一项雄心勃勃的五年计划，希望利用核能和其他非化石能源，到2030年满足全国一半的电力需求。"
           }
         ]
       }
