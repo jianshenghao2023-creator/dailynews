@@ -1,54 +1,380 @@
 {
   "date": "2026-06-27",
   "timezone": "Europe/Berlin",
-  "is_demo": true,
-  "generated_at": "2026-06-27T00:00:00+02:00",
+  "is_demo": false,
+  "generated_at": "2026-06-27T16:46:26+02:00",
   "topics": [
-    "energy",
-    "china",
-    "climate"
+    "China-Europe trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
   ],
   "cefr_level": "B2",
   "max_english_words": 80,
   "items": [
     {
-      "id": "demo-001",
-      "title": "China Plans More Non-Fossil Power",
+      "id": "news-20260627-001",
+      "title": "EU Trade Gap With China Reaches Record Level",
       "source": {
-        "name": "User-provided sample",
-        "url": ""
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jun/15/eu-trade-deficit-with-china-record-1bn-a-day"
       },
-      "english": "Recent oil shocks have strengthened Beijing's resolve as it tries to balance decarbonisation efforts with securing future energy demand. China is charting an ambitious five-year plan to harness nuclear and other non-fossil sources in a bid to generate half of the country's electricity needs by 2030.",
-      "chinese": "最近的石油冲击增强了北京的决心。中国正努力在推进脱碳和保障未来能源需求之间取得平衡。中国正在制定一项雄心勃勃的五年计划，希望利用核能和其他非化石能源，到2030年满足全国一半的电力需求。",
+      "english": "The EU's trade deficit with China has reached about one billion euros a day, according to new data. Imports of Chinese electric vehicles and industrial parts are rising quickly, while European exports are weaker. European officials worry this could damage factories and jobs, but strong action is difficult because member states do not fully agree.",
+      "chinese": "新数据显示，欧盟对中国的贸易逆差已达到每天约10亿欧元。中国电动汽车和工业零部件进口快速增长，而欧洲出口相对疲弱。欧洲官员担心这会损害本地工厂和就业，但由于成员国意见不完全一致，采取强硬措施并不容易。",
       "keywords": [
         "China",
-        "energy",
-        "nuclear power",
-        "decarbonisation"
+        "EU",
+        "trade deficit",
+        "electric vehicles"
       ],
       "audio": {
-        "english": "audio/2026-06-27/demo-001-en.mp3"
+        "english": "audio/2026-06-27/news-20260627-001-en.mp3"
       },
       "subtitle_files": {
-        "english": "audio/2026-06-27/demo-001-en.srt"
+        "english": "audio/2026-06-27/news-20260627-001-en.srt"
       },
       "subtitles": {
         "english": [
           {
             "start": 0.1,
-            "end": 9.094,
-            "text": "Recent oil shocks have strengthened Beijing's resolve as it tries to balance decarbonisation efforts with securing future energy demand."
+            "end": 6.39,
+            "text": "The EU's trade deficit with China has reached about one billion euros a day, according to new data."
           },
           {
-            "start": 9.044,
-            "end": 20.607,
-            "text": "China is charting an ambitious five-year plan to harness nuclear and other non-fossil sources in a bid to generate half of the country's electricity needs by 2030."
+            "start": 6.34,
+            "end": 14.098,
+            "text": "Imports of Chinese electric vehicles and industrial parts are rising quickly, while European exports are weaker."
+          },
+          {
+            "start": 14.098,
+            "end": 23.365,
+            "text": "European officials worry this could damage factories and jobs, but strong action is difficult because member states do not fully agree."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-002",
+      "title": "Trump Threatens Europe Over Digital Taxes",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/jun/27/trump-threatens-tariff-eu-countries-impose-digital-tax"
+      },
+      "english": "Donald Trump has threatened a 100 percent tariff on goods from European countries that tax large US technology companies. France, Spain, Italy and the UK already use digital services taxes. Brussels says these rules are fair and not anti-American. The warning could make US-EU trade talks more tense before a July deadline.",
+      "chinese": "唐纳德·特朗普威胁称，如果欧洲国家向大型美国科技公司征收数字服务税，美国将对这些国家的商品征收100%的关税。法国、西班牙、意大利和英国已经实施类似税收。布鲁塞尔表示这些规则公平，并非针对美国。此举可能让7月期限前的美欧贸易谈判更加紧张。",
+      "keywords": [
+        "digital tax",
+        "tariffs",
+        "US-EU trade",
+        "technology"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.08,
+            "text": "Donald Trump has threatened a 100 percent tariff on goods from European countries that tax large US technology companies."
+          },
+          {
+            "start": 9.03,
+            "end": 14.289,
+            "text": "France, Spain, Italy and the UK already use digital services taxes."
+          },
+          {
+            "start": 14.289,
+            "end": 18.718,
+            "text": "Brussels says these rules are fair and not anti-American."
+          },
+          {
+            "start": 18.718,
+            "end": 23.46,
+            "text": "The warning could make US-EU trade talks more tense before a July deadline."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-003",
+      "title": "EU Debates Protection for Ukrainian Men",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://amp.dw.com/en/military-age-ukrainian-men-could-lose-eu-protection/a-77729285"
+      },
+      "english": "The European Commission has suggested that military-age Ukrainian men could lose temporary protection in the EU. Some governments support the idea, and Kyiv also backs it. The plan is politically sensitive because it touches refugee rights, border control and Ukraine's need for soldiers. Protection for other Ukrainians would continue under the wider scheme.",
+      "chinese": "欧盟委员会建议，达到服役年龄的乌克兰男性可能失去在欧盟的临时保护身份。一些成员国支持这一想法，基辅方面也表示赞成。该计划非常敏感，因为它涉及难民权利、边境管理以及乌克兰对兵员的需求。其他乌克兰人的保护安排仍会继续。",
+      "keywords": [
+        "EU",
+        "Ukraine",
+        "refugees",
+        "military service"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.396,
+            "text": "The European Commission has suggested that military-age Ukrainian men could lose temporary protection in the EU."
+          },
+          {
+            "start": 7.346,
+            "end": 11.53,
+            "text": "Some governments support the idea, and Kyiv also backs it."
+          },
+          {
+            "start": 11.53,
+            "end": 19.506,
+            "text": "The plan is politically sensitive because it touches refugee rights, border control and Ukraine's need for soldiers."
+          },
+          {
+            "start": 19.506,
+            "end": 24.085,
+            "text": "Protection for other Ukrainians would continue under the wider scheme."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-004",
+      "title": "Europe Struggles With Extreme Heat",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/jun/27/decades-climate-warnings-why-europe-so-unprepared-rising-heat"
+      },
+      "english": "Europe is facing a severe heatwave, and experts say the continent is still poorly prepared. Schools, hospitals, transport and homes are under pressure as temperatures rise. Scientists say climate change has made such heat far more likely. The crisis is becoming a social issue because older people, children and low-income families face the greatest risks.",
+      "chinese": "欧洲正遭遇严重热浪，专家认为欧洲仍准备不足。随着气温升高，学校、医院、交通系统和家庭都承受压力。科学家表示，气候变化让这种高温更容易发生。这场危机也成为社会问题，因为老人、儿童和低收入家庭面临最大的风险。",
+      "keywords": [
+        "Europe",
+        "heatwave",
+        "climate",
+        "social inequality"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.485,
+            "text": "Europe is facing a severe heatwave, and experts say the continent is still poorly prepared."
+          },
+          {
+            "start": 6.435,
+            "end": 12.536,
+            "text": "Schools, hospitals, transport and homes are under pressure as temperatures rise."
+          },
+          {
+            "start": 12.536,
+            "end": 16.775,
+            "text": "Scientists say climate change has made such heat far more likely."
+          },
+          {
+            "start": 16.775,
+            "end": 25.009,
+            "text": "The crisis is becoming a social issue because older people, children and low-income families face the greatest risks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-005",
+      "title": "Saudi Oil Exports Rise as Gulf Ports Restart",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/saudi-arabia-is-ramping-up-oil-exports-as-gulf-ports-restart/"
+      },
+      "english": "Saudi Arabia is increasing crude oil exports as Gulf ports restart after disruption linked to the Iran war. The country is also using Red Sea terminals to reduce pressure on routes near the Strait of Hormuz. For shipping markets, this means tanker flows may recover, but traders still see high risk in the region.",
+      "chinese": "沙特阿拉伯正在增加原油出口，此前受伊朗战争影响的海湾港口开始恢复运行。沙特也在使用红海港口，以减轻霍尔木兹海峡附近航线的压力。对航运市场来说，这意味着油轮流量可能恢复，但交易商仍认为该地区风险很高。",
+      "keywords": [
+        "shipping",
+        "oil exports",
+        "Saudi Arabia",
+        "Hormuz"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.102,
+            "text": "Saudi Arabia is increasing crude oil exports as Gulf ports restart after disruption linked to the Iran war."
+          },
+          {
+            "start": 8.052,
+            "end": 14.248,
+            "text": "The country is also using Red Sea terminals to reduce pressure on routes near the Strait of Hormuz."
+          },
+          {
+            "start": 14.248,
+            "end": 21.598,
+            "text": "For shipping markets, this means tanker flows may recover, but traders still see high risk in the region."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-006",
+      "title": "Older Ships Raise Safety Concerns",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/shippings-aging-global-fleet-is-raising-safety-risks/"
+      },
+      "english": "The world's merchant fleet is getting older, and insurers warn that safety risks are rising. Ships over 20 years old are linked to more than half of reported safety incidents. New ships are hard to obtain because shipyards are busy and global trade is unstable. This may increase costs for owners, cargo clients and insurers.",
+      "chinese": "全球商船船队正在老化，保险机构警告安全风险正在上升。20年以上船龄的船舶与超过一半的安全事故有关。由于船厂订单繁忙、全球贸易不稳定，新船并不容易获得。这可能增加船东、货主和保险公司的成本。",
+      "keywords": [
+        "shipping",
+        "fleet age",
+        "insurance",
+        "safety"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.567,
+            "text": "The world's merchant fleet is getting older, and insurers warn that safety risks are rising."
+          },
+          {
+            "start": 6.517,
+            "end": 11.965,
+            "text": "Ships over 20 years old are linked to more than half of reported safety incidents."
+          },
+          {
+            "start": 11.965,
+            "end": 18.011,
+            "text": "New ships are hard to obtain because shipyards are busy and global trade is unstable."
+          },
+          {
+            "start": 18.011,
+            "end": 22.617,
+            "text": "This may increase costs for owners, cargo clients and insurers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-007",
+      "title": "OpenAI Releases GPT-5.6 Under Close Watch",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview"
+      },
+      "english": "OpenAI has introduced GPT-5.6 in a limited preview while US officials pay close attention to AI safety and export risks. The new model suite is aimed at coding, cybersecurity and long-term agent tasks. Access will be monitored during the preview period. The launch has become a major online topic because it mixes AI progress with government control.",
+      "chinese": "OpenAI推出了GPT-5.6的有限预览版，同时美国官员正密切关注人工智能安全和出口风险。这个新模型系列面向编程、网络安全和长期智能体任务。预览期间，访问权限将受到监控。由于它把AI进展和政府管控联系在一起，这一发布成为网络热门话题。",
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "GPT-5.6",
+        "regulation"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-007-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-007-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.439,
+            "text": "OpenAI has introduced GPT-5.6 in a limited preview while US officials pay close attention to AI safety and export risks."
+          },
+          {
+            "start": 10.389,
+            "end": 16.245,
+            "text": "The new model suite is aimed at coding, cybersecurity and long-term agent tasks."
+          },
+          {
+            "start": 16.245,
+            "end": 19.601,
+            "text": "Access will be monitored during the preview period."
+          },
+          {
+            "start": 19.601,
+            "end": 26.245,
+            "text": "The launch has become a major online topic because it mixes AI progress with government control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260627-008",
+      "title": "US and Iran Trade Blame After Hormuz Attack",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/6/27/iran-and-us-trade-blame-for-attacks-threatening-fragile-ceasefire"
+      },
+      "english": "The US and Iran are blaming each other after attacks connected to a commercial ship near the Strait of Hormuz. Washington says it struck Iranian targets after a drone attack on a vessel. Tehran rejects parts of the US account. The crisis threatens a fragile ceasefire and adds new uncertainty for energy transport and global shipping.",
+      "chinese": "一艘商船在霍尔木兹海峡附近遭遇袭击后，美国和伊朗相互指责。华盛顿表示，在一艘船遭无人机袭击后，美军打击了伊朗目标。德黑兰否认美国说法中的部分内容。这场危机威胁脆弱的停火，也给能源运输和全球航运增加新的不确定性。",
+      "keywords": [
+        "Iran",
+        "United States",
+        "Hormuz",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-06-27/news-20260627-008-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-27/news-20260627-008-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.165,
+            "text": "The US and Iran are blaming each other after attacks connected to a commercial ship near the Strait of Hormuz."
+          },
+          {
+            "start": 7.115,
+            "end": 12.169,
+            "text": "Washington says it struck Iranian targets after a drone attack on a vessel."
+          },
+          {
+            "start": 12.169,
+            "end": 15.05,
+            "text": "Tehran rejects parts of the US account."
+          },
+          {
+            "start": 15.05,
+            "end": 22.427,
+            "text": "The crisis threatens a fragile ceasefire and adds new uncertainty for energy transport and global shipping."
           }
         ]
       }
     }
   ],
   "run_notes": [
-    "Demo content for testing the audio and static site pipeline. Replace with Codex-generated daily news content in normal runs."
+    "Generated immediately for 2026-06-27 using current web search results from the configured source set.",
+    "Chinese MP3 generation is disabled; Chinese text is retained for reading support."
   ]
 }

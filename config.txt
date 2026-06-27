@@ -8,25 +8,25 @@ timezone=Europe/Berlin
 daily_run_time=07:00
 
 [news]
-topics=world,technology,business,science,health
-news_count=10
+topics=China-Europe trade,European social issues,shipbuilding and shipping markets,AI,geopolitical events,highly trending online topics
+news_count=8
 recency=latest
 prefer_publicly_accessible_articles=true
 avoid_paywalled_articles=true
 
 # International news sources.
 # Each source has a name, homepage, and optional RSS/feed URL when available.
-media_source_1_name=BBC News
-media_source_1_homepage=https://www.bbc.com/news
-media_source_1_feed=https://feeds.bbci.co.uk/news/world/rss.xml
+media_source_1_name=Reuters
+media_source_1_homepage=https://www.reuters.com/
+media_source_1_feed=
 
-media_source_2_name=Reuters
-media_source_2_homepage=https://www.reuters.com/world/
-media_source_2_feed=
+media_source_2_name=Associated Press
+media_source_2_homepage=https://apnews.com/
+media_source_2_feed=https://apnews.com/hub/ap-top-news?output=rss
 
-media_source_3_name=Associated Press
-media_source_3_homepage=https://apnews.com/
-media_source_3_feed=https://apnews.com/hub/ap-top-news?output=rss
+media_source_3_name=BBC News
+media_source_3_homepage=https://www.bbc.com/news
+media_source_3_feed=https://feeds.bbci.co.uk/news/world/rss.xml
 
 media_source_4_name=Deutsche Welle
 media_source_4_homepage=https://www.dw.com/en/top-stories/s-9097
@@ -39,6 +39,22 @@ media_source_5_feed=https://www.theguardian.com/world/rss
 media_source_6_name=Al Jazeera
 media_source_6_homepage=https://www.aljazeera.com/
 media_source_6_feed=https://www.aljazeera.com/xml/rss/all.xml
+
+media_source_7_name=Euronews
+media_source_7_homepage=https://www.euronews.com/
+media_source_7_feed=https://www.euronews.com/rss
+
+media_source_8_name=Politico Europe
+media_source_8_homepage=https://www.politico.eu/
+media_source_8_feed=https://www.politico.eu/feed/
+
+media_source_9_name=The Verge
+media_source_9_homepage=https://www.theverge.com/
+media_source_9_feed=https://www.theverge.com/rss/index.xml
+
+media_source_10_name=gCaptain
+media_source_10_homepage=https://gcaptain.com/
+media_source_10_feed=https://gcaptain.com/feed/
 
 [rewriting]
 english_cefr_level=B2
@@ -81,5 +97,5 @@ github_account=jianshenghao2023-creator
 github_repository=dailynews
 github_pages_url=https://jianshenghao2023-creator.github.io/dailynews/
 commit_message_prefix=DailyNews
-auto_commit=false
-auto_push=false
+auto_commit=true
+auto_push=true

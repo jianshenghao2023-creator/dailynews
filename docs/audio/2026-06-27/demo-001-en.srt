@@ -1,8 +1,0 @@
-1
-00:00:00,100 --> 00:00:09,094
-Recent oil shocks have strengthened Beijing's resolve as it tries to balance decarbonisation efforts with securing future energy demand.
-
-2
-00:00:09,044 --> 00:00:20,607
-China is charting an ambitious five-year plan to harness nuclear and other non-fossil sources in a bid to generate half of the country's electricity needs by 2030.
-

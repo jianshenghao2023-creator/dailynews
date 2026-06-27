@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:06,485
+Europe is facing a severe heatwave, and experts say the continent is still poorly prepared.
+
+2
+00:00:06,435 --> 00:00:12,536
+Schools, hospitals, transport and homes are under pressure as temperatures rise.
+
+3
+00:00:12,536 --> 00:00:16,775
+Scientists say climate change has made such heat far more likely.
+
+4
+00:00:16,775 --> 00:00:25,009
+The crisis is becoming a social issue because older people, children and low-income families face the greatest risks.
+
