@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:03,999
+A severe heatwave has broken records across Europe.
+
+2
+00:00:03,949 --> 00:00:13,800
+Germany reported 41.5C in Saxony-Anhalt, while Denmark recorded its hottest day since measurements began in 1874.
+
+3
+00:00:13,800 --> 00:00:20,824
+Roads and rail services in Germany were disrupted, and health warnings spread across eastern Europe.
+
+4
+00:00:20,824 --> 00:00:29,615
+Scientists say climate change is making such extreme heat far more likely and more dangerous for older people and outdoor workers.
+

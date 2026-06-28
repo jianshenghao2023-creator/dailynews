@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:12,083
+Apple is reportedly asking the US government for permission to buy memory chips from CXMT, a Chinese supplier blacklisted by the Pentagon over alleged military links.
+
+2
+00:00:12,033 --> 00:00:16,530
+Rising memory prices have increased pressure on Apple's supply chain.
+
+3
+00:00:16,530 --> 00:00:26,109
+Even if the purchase is legal, it could bring political and reputational risk as Washington tries to reduce dependence on Chinese technology.
+

@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:06,608
+The global merchant fleet is getting older, and insurers warn that safety risks are increasing.
+
+2
+00:00:06,558 --> 00:00:12,074
+Ships more than 20 years old are linked to a large share of reported incidents.
+
+3
+00:00:12,074 --> 00:00:18,867
+New vessels are difficult to obtain because shipyards are full and trade conditions remain uncertain.
+
+4
+00:00:18,867 --> 00:00:23,596
+The trend may raise costs for owners, charterers and cargo customers.
+

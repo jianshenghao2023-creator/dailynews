@@ -1,14 +1,28 @@
 {
   "appName": "DailyNews",
-  "generatedAt": "2026-06-27T15:08:20.597677+00:00",
-  "latestDate": "2026-06-27",
-  "latestDataUrl": "data/2026-06-27.json",
+  "generatedAt": "2026-06-28T06:16:13.440031+00:00",
+  "latestDate": "2026-06-28",
+  "latestDataUrl": "data/2026-06-28.json",
   "days": [
     {
       "date": "2026-06-27",
       "isDemo": false,
       "itemCount": 8,
       "dataUrl": "data/2026-06-27.json",
+      "topics": [
+        "China-Europe trade",
+        "European social issues",
+        "shipbuilding and shipping markets",
+        "AI",
+        "geopolitical events",
+        "highly trending online topics"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "isDemo": false,
+      "itemCount": 8,
+      "dataUrl": "data/2026-06-28.json",
       "topics": [
         "China-Europe trade",
         "European social issues",

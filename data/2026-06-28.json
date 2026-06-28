@@ -1,0 +1,366 @@
+{
+  "date": "2026-06-28",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-06-28T08:16:00+02:00",
+  "topics": [
+    "China-Europe trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 80,
+  "items": [
+    {
+      "id": "news-20260628-001",
+      "title": "UK and EU Tighten Steel Import Safeguards",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jun/25/uk-to-halve-tariff-free-steel-imports-to-counter-glut-of-cheap-chinese-metal"
+      },
+      "english": "The UK will cut its tariff-free steel import quota by more than half from July 1, while similar EU limits are also being introduced. The move aims to protect local steelmakers from cheap Chinese metal and global oversupply. Tariffs above the quota will double to 50 percent, but some manufacturers fear higher costs for products that are hard to source locally.",
+      "chinese": "英国将从7月1日起把免关税钢铁进口配额削减一半以上，欧盟也将推出类似限制。此举旨在保护本地钢铁企业，减少廉价中国钢铁和全球供过于求带来的压力。超过配额的进口关税将翻倍至50%，但一些制造商担心本地难以采购的产品成本会升高。",
+      "keywords": [
+        "steel",
+        "China",
+        "EU",
+        "tariffs"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.298,
+            "text": "The UK will cut its tariff-free steel import quota by more than half from July 1, while similar EU limits are also being introduced."
+          },
+          {
+            "start": 9.248,
+            "end": 15.525,
+            "text": "The move aims to protect local steelmakers from cheap Chinese metal and global oversupply."
+          },
+          {
+            "start": 15.525,
+            "end": 24.411,
+            "text": "Tariffs above the quota will double to 50 percent, but some manufacturers fear higher costs for products that are hard to source locally."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-002",
+      "title": "Europe Heatwave Breaks More Records",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/jun/27/europe-heatwave-germany-poland-france-uk-temperature-heat-latest-news-updates"
+      },
+      "english": "A severe heatwave has broken records across Europe. Germany reported 41.5C in Saxony-Anhalt, while Denmark recorded its hottest day since measurements began in 1874. Roads and rail services in Germany were disrupted, and health warnings spread across eastern Europe. Scientists say climate change is making such extreme heat far more likely and more dangerous for older people and outdoor workers.",
+      "chinese": "一场严重热浪正在打破欧洲多地纪录。德国萨克森-安哈尔特州录得41.5摄氏度，丹麦也出现自1874年有记录以来最热的一天。德国公路和铁路受到影响，东欧多国发布健康警报。科学家表示，气候变化让这类极端高温更容易发生，也让老人和户外工作者面临更大风险。",
+      "keywords": [
+        "Europe",
+        "heatwave",
+        "climate change",
+        "public health"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 3.999,
+            "text": "A severe heatwave has broken records across Europe."
+          },
+          {
+            "start": 3.949,
+            "end": 13.8,
+            "text": "Germany reported 41.5C in Saxony-Anhalt, while Denmark recorded its hottest day since measurements began in 1874."
+          },
+          {
+            "start": 13.8,
+            "end": 20.824,
+            "text": "Roads and rail services in Germany were disrupted, and health warnings spread across eastern Europe."
+          },
+          {
+            "start": 20.824,
+            "end": 29.615,
+            "text": "Scientists say climate change is making such extreme heat far more likely and more dangerous for older people and outdoor workers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-003",
+      "title": "Budapest Holds First Pride After Orban Era",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/hungary-budapest-pride-lgbtq-orban-magyar-march-aa2c22c461371fcaeb0c5c3e42123c58"
+      },
+      "english": "Tens of thousands of people marched in Budapest Pride, the first such event since Viktor Orban was voted out. The parade followed years of legal pressure on LGBTQ rights and public assembly in Hungary. Supporters saw the march as a sign of democratic recovery, while organizers warned that rebuilding trust and equal protection will take time.",
+      "chinese": "数万人参加了布达佩斯骄傲游行，这是维克托·欧尔班下台后的首次同类活动。此前多年，匈牙利的LGBTQ权利和公共集会自由一直承受法律压力。支持者认为这次游行象征民主恢复，但组织者提醒，重建信任和平等保护仍需要时间。",
+      "keywords": [
+        "Hungary",
+        "Budapest Pride",
+        "LGBTQ rights",
+        "democracy"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.396,
+            "text": "Tens of thousands of people marched in Budapest Pride, the first such event since Viktor Orban was voted out."
+          },
+          {
+            "start": 7.346,
+            "end": 14.397,
+            "text": "The parade followed years of legal pressure on LGBTQ rights and public assembly in Hungary."
+          },
+          {
+            "start": 14.397,
+            "end": 24.18,
+            "text": "Supporters saw the march as a sign of democratic recovery, while organizers warned that rebuilding trust and equal protection will take time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-004",
+      "title": "Anthropic AI Model Returns Under Limits",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations"
+      },
+      "english": "Anthropic's Mythos 5 AI model is back in limited use after negotiations with the US government. Approved cyber-defense groups and infrastructure providers can use it under special controls, while broader export restrictions remain. The case shows how advanced AI is becoming tied to national security, cybersecurity and competition with China, not only product development.",
+      "chinese": "在与美国政府谈判后，Anthropic的Mythos 5人工智能模型以有限方式恢复使用。获批准的网络防御机构和基础设施提供商可在特殊管控下使用该模型，但更广泛的出口限制仍然存在。此事显示，先进AI已不仅是产品开发问题，也与国家安全、网络安全和对华竞争紧密相关。",
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "export controls",
+        "cybersecurity"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.907,
+            "text": "Anthropic's Mythos 5 AI model is back in limited use after negotiations with the US government."
+          },
+          {
+            "start": 6.857,
+            "end": 15.661,
+            "text": "Approved cyber-defense groups and infrastructure providers can use it under special controls, while broader export restrictions remain."
+          },
+          {
+            "start": 15.661,
+            "end": 26.123,
+            "text": "The case shows how advanced AI is becoming tied to national security, cybersecurity and competition with China, not only product development."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-005",
+      "title": "Apple Seeks Chinese Memory Chip Exception",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt"
+      },
+      "english": "Apple is reportedly asking the US government for permission to buy memory chips from CXMT, a Chinese supplier blacklisted by the Pentagon over alleged military links. Rising memory prices have increased pressure on Apple's supply chain. Even if the purchase is legal, it could bring political and reputational risk as Washington tries to reduce dependence on Chinese technology.",
+      "chinese": "据报道，苹果正在请求美国政府允许其从中国供应商长鑫存储购买内存芯片。该公司因被指与军方有关而被美国国防部列入黑名单。内存价格上涨让苹果供应链承压。即使采购本身合法，在华盛顿试图减少对中国技术依赖的背景下，此举仍可能带来政治和声誉风险。",
+      "keywords": [
+        "Apple",
+        "China",
+        "memory chips",
+        "supply chain"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.083,
+            "text": "Apple is reportedly asking the US government for permission to buy memory chips from CXMT, a Chinese supplier blacklisted by the Pentagon over alleged military links."
+          },
+          {
+            "start": 12.033,
+            "end": 16.53,
+            "text": "Rising memory prices have increased pressure on Apple's supply chain."
+          },
+          {
+            "start": 16.53,
+            "end": 26.109,
+            "text": "Even if the purchase is legal, it could bring political and reputational risk as Washington tries to reduce dependence on Chinese technology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-006",
+      "title": "US Strikes Iran After Hormuz Tanker Attack",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities/"
+      },
+      "english": "US forces carried out fresh strikes on Iran after a Panama-flagged tanker was hit by an alleged Iranian drone near the Strait of Hormuz. The incident deepened fears for commercial shipping in one of the world's most important energy routes. Any longer disruption could raise insurance costs, delay cargoes and increase pressure on oil markets.",
+      "chinese": "一艘巴拿马籍油轮在霍尔木兹海峡附近遭疑似伊朗无人机袭击后，美军对伊朗发动新一轮打击。该事件加深了外界对全球重要能源通道商业航运安全的担忧。若中断持续更久，可能推高保险成本、延误货运，并给石油市场带来更大压力。",
+      "keywords": [
+        "Hormuz",
+        "shipping",
+        "Iran",
+        "oil markets"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.352,
+            "text": "US forces carried out fresh strikes on Iran after a Panama-flagged tanker was hit by an alleged Iranian drone near the Strait of Hormuz."
+          },
+          {
+            "start": 9.302,
+            "end": 15.511,
+            "text": "The incident deepened fears for commercial shipping in one of the world's most important energy routes."
+          },
+          {
+            "start": 15.511,
+            "end": 22.645,
+            "text": "Any longer disruption could raise insurance costs, delay cargoes and increase pressure on oil markets."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-007",
+      "title": "Aging Merchant Fleet Raises Safety Risks",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/shippings-aging-global-fleet-is-raising-safety-risks/"
+      },
+      "english": "The global merchant fleet is getting older, and insurers warn that safety risks are increasing. Ships more than 20 years old are linked to a large share of reported incidents. New vessels are difficult to obtain because shipyards are full and trade conditions remain uncertain. The trend may raise costs for owners, charterers and cargo customers.",
+      "chinese": "全球商船船队正在老化，保险机构警告安全风险正在上升。船龄超过20年的船舶与大量已报告事故有关。由于船厂订单饱满、贸易环境仍不稳定，新船并不容易获得。这一趋势可能提高船东、租船人和货主的成本。",
+      "keywords": [
+        "merchant fleet",
+        "ship safety",
+        "insurance",
+        "shipbuilding"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-007-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-007-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.608,
+            "text": "The global merchant fleet is getting older, and insurers warn that safety risks are increasing."
+          },
+          {
+            "start": 6.558,
+            "end": 12.074,
+            "text": "Ships more than 20 years old are linked to a large share of reported incidents."
+          },
+          {
+            "start": 12.074,
+            "end": 18.867,
+            "text": "New vessels are difficult to obtain because shipyards are full and trade conditions remain uncertain."
+          },
+          {
+            "start": 18.867,
+            "end": 23.596,
+            "text": "The trend may raise costs for owners, charterers and cargo customers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260628-008",
+      "title": "Venezuela Earthquake Toll Climbs Above 1,400",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez"
+      },
+      "english": "Venezuela's earthquake death toll has risen above 1,400 after two powerful quakes hit the country's northern coast. Thousands were injured, and many people remain missing as rescue teams search damaged buildings. International teams are arriving to support local workers. The disaster has become a major global story because the window for finding survivors is closing quickly.",
+      "chinese": "两次强震袭击委内瑞拉北部海岸后，该国地震死亡人数已升至1400人以上。数千人受伤，仍有许多人失踪，救援人员正在受损建筑中搜救。国际救援队陆续抵达支援当地人员。由于寻找幸存者的关键时间窗口正在迅速缩小，这场灾难成为全球关注焦点。",
+      "keywords": [
+        "Venezuela",
+        "earthquake",
+        "rescue",
+        "trending"
+      ],
+      "audio": {
+        "english": "audio/2026-06-28/news-20260628-008-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-28/news-20260628-008-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.148,
+            "text": "Venezuela's earthquake death toll has risen above 1,400 after two powerful quakes hit the country's northern coast."
+          },
+          {
+            "start": 9.098,
+            "end": 15.77,
+            "text": "Thousands were injured, and many people remain missing as rescue teams search damaged buildings."
+          },
+          {
+            "start": 15.77,
+            "end": 19.683,
+            "text": "International teams are arriving to support local workers."
+          },
+          {
+            "start": 19.683,
+            "end": 26.938,
+            "text": "The disaster has become a major global story because the window for finding survivors is closing quickly."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-06-28, using latest publicly accessible items from the configured source set.",
+    "Chinese MP3 generation remains disabled by config.txt; Simplified Chinese is included as text only.",
+    "AP's configured RSS endpoint returned HTML during this run, so AP was used through public article search instead."
+  ]
+}

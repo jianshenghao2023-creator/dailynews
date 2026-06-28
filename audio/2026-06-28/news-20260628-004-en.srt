@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,907
+Anthropic's Mythos 5 AI model is back in limited use after negotiations with the US government.
+
+2
+00:00:06,857 --> 00:00:15,661
+Approved cyber-defense groups and infrastructure providers can use it under special controls, while broader export restrictions remain.
+
+3
+00:00:15,661 --> 00:00:26,123
+The case shows how advanced AI is becoming tied to national security, cybersecurity and competition with China, not only product development.
+
