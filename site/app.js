@@ -1,6 +1,7 @@
 const state = {
   manifest: null,
   daily: null,
+  selectedDay: null,
   selectedIndex: 0,
   isPlaying: false,
 };
@@ -10,6 +11,7 @@ const els = {
   refreshButton: document.querySelector("#refreshButton"),
   runMeta: document.querySelector("#runMeta"),
   countMeta: document.querySelector("#countMeta"),
+  daySelect: document.querySelector("#daySelect"),
   emptyState: document.querySelector("#emptyState"),
   playerView: document.querySelector("#playerView"),
   listDate: document.querySelector("#listDate"),
@@ -39,20 +41,49 @@ async function fetchJson(url) {
   return response.json();
 }
 
+function availableDays() {
+  return [...(state.manifest?.days || [])].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function findDay(date) {
+  return (state.manifest?.days || []).find((day) => day.date === date) || null;
+}
+
 async function loadLatest() {
   setStatus("Fetching latest content...", "");
   try {
     state.manifest = await fetchJson("manifest.json");
+    renderDayOptions();
     if (!state.manifest.latestDataUrl) {
       renderEmpty();
       return;
     }
-    state.daily = await fetchJson(state.manifest.latestDataUrl);
-    state.selectedIndex = 0;
-    renderAll();
+    await loadDay(state.manifest.latestDate);
   } catch (error) {
     renderError(error);
   }
+}
+
+async function loadDay(date) {
+  const day = findDay(date);
+  const dataUrl = day?.dataUrl || state.manifest?.latestDataUrl;
+  if (!dataUrl) {
+    renderEmpty();
+    return;
+  }
+
+  setStatus(`Fetching ${day?.date || "selected day"}...`, "");
+  els.audioPlayer.pause();
+  state.daily = await fetchJson(dataUrl);
+  state.selectedDay = day || {
+    date: state.daily.date,
+    dataUrl,
+    itemCount: state.daily.items?.length || 0,
+  };
+  state.selectedIndex = 0;
+  state.isPlaying = false;
+  renderDayOptions();
+  renderAll();
 }
 
 function selectedItem() {
@@ -66,6 +97,7 @@ function setStatus(left, right) {
 
 function renderEmpty() {
   els.dateTitle.textContent = "DailyNews";
+  els.daySelect.disabled = true;
   els.emptyState.hidden = false;
   els.playerView.hidden = true;
   setStatus("No daily content has been built yet.", "");
@@ -78,6 +110,19 @@ function renderError(error) {
   setStatus(error.message, "");
 }
 
+function renderDayOptions() {
+  const days = availableDays();
+  els.daySelect.replaceChildren();
+  days.forEach((day) => {
+    const option = document.createElement("option");
+    option.value = day.date;
+    option.textContent = `${day.date} - ${day.itemCount || 0} stories`;
+    option.selected = day.date === (state.selectedDay?.date || state.manifest?.latestDate);
+    els.daySelect.append(option);
+  });
+  els.daySelect.disabled = days.length === 0;
+}
+
 function renderAll() {
   const daily = state.daily;
   els.emptyState.hidden = true;
@@ -85,9 +130,11 @@ function renderAll() {
   els.dateTitle.textContent = daily.is_demo ? `${daily.date} demo` : daily.date;
   els.listDate.textContent = daily.timezone || "";
   const itemCount = daily.items?.length ?? 0;
+  const dayCount = state.manifest?.days?.length || 0;
+  const historyDays = state.manifest?.settings?.historyDays || dayCount;
   setStatus(
     `${daily.timezone || state.manifest.settings?.timezone || "Local"} - ${daily.cefr_level || state.manifest.settings?.cefrLevel || "B2"}`,
-    `${itemCount} ${itemCount === 1 ? "story" : "stories"}`
+    `${itemCount} ${itemCount === 1 ? "story" : "stories"} - ${dayCount}/${historyDays} days`
   );
   renderList();
   renderStory();
@@ -243,6 +290,9 @@ function handleEnded() {
 }
 
 els.refreshButton.addEventListener("click", loadLatest);
+els.daySelect.addEventListener("change", () => {
+  loadDay(els.daySelect.value).catch((error) => renderError(error));
+});
 els.playButton.addEventListener("click", () => {
   togglePlay().catch((error) => setStatus(playbackErrorMessage(error), ""));
 });

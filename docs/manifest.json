@@ -1,6 +1,6 @@
 {
   "appName": "DailyNews",
-  "generatedAt": "2026-06-29T14:36:45.819856+00:00",
+  "generatedAt": "2026-06-29T15:19:55.437795+00:00",
   "latestDate": "2026-06-29",
   "latestDataUrl": "data/2026-06-29.json",
   "days": [
@@ -59,6 +59,7 @@
       "AI",
       "geopolitical events",
       "highly trending online topics"
-    ]
+    ],
+    "historyDays": 30
   }
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = "dailynews-shell-v3";
+const CACHE_NAME = "dailynews-shell-v4";
 const SHELL_FILES = [
   "./",
   "index.html",
@@ -23,13 +23,29 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
+  const { request } = event;
+  const url = new URL(request.url);
+
+  if (request.method !== "GET" || url.origin !== self.location.origin) {
+    return;
+  }
+
+  if (request.destination === "audio" || request.headers.has("range")) {
+    event.respondWith(fetch(request));
+    return;
+  }
+
+  url.search = "";
+  const cacheKey = url.toString();
   event.respondWith(
-    fetch(event.request)
+    fetch(request)
       .then((response) => {
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, clone));
+        }
         return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(() => caches.match(cacheKey))
   );
 });

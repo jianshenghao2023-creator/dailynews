@@ -138,6 +138,7 @@ def normalized_config(path: str | Path = "config.txt") -> dict[str, Any]:
             "audio_dir": get(config, "output", "audio_dir", "audio"),
             "site_source_dir": get(config, "output", "site_source_dir", "site"),
             "public_dir": get(config, "output", "public_dir", "public"),
+            "history_days": as_int(get(config, "output", "history_days"), 30),
         },
         "publishing": {
             "publish_target": get(config, "publishing", "publish_target", "github_pages"),
@@ -204,5 +205,8 @@ def validate_config(path: str | Path = "config.txt") -> list[ConfigError]:
 
     if "output" not in raw:
         errors.append(ConfigError("Missing output section.", "output", None))
+
+    if config["output"]["history_days"] < 1:
+        errors.append(ConfigError("history_days must be at least 1.", "output", "history_days"))
 
     return errors

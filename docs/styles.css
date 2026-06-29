@@ -95,6 +95,34 @@ h2 {
   padding-top: 12px;
 }
 
+.history-strip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+
+.date-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.date-picker select {
+  min-height: 44px;
+  min-width: min(280px, 72vw);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 0 38px 0 12px;
+  font: inherit;
+  font-weight: 700;
+}
+
 .status-line span + span::before {
   content: "";
   display: inline-block;
@@ -494,6 +522,15 @@ h2 {
 @media (max-width: 420px) {
   .topbar {
     align-items: flex-start;
+  }
+
+  .date-picker {
+    width: 100%;
+  }
+
+  .date-picker select {
+    min-width: 0;
+    width: 100%;
   }
 
   .control-strip {

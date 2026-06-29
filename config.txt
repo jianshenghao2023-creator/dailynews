@@ -90,6 +90,8 @@ public_dir=docs
 latest_manifest=docs/manifest.json
 daily_json_pattern=data/{date}.json
 daily_audio_dir_pattern=audio/{date}
+# Keep only the most recent generated days in the published site and repo.
+history_days=30
 
 [publishing]
 publish_target=github_pages

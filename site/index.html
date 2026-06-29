@@ -7,7 +7,7 @@
     <title>DailyNews</title>
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260627-source-label">
+    <link rel="stylesheet" href="styles.css?v=20260629-history">
   </head>
   <body>
     <main class="app-shell">
@@ -24,6 +24,13 @@
       <section class="status-line" aria-live="polite">
         <span id="runMeta">Fetching latest content...</span>
         <span id="countMeta"></span>
+      </section>
+
+      <section class="history-strip" aria-label="Archive">
+        <label class="date-picker">
+          <span>Date</span>
+          <select id="daySelect" disabled></select>
+        </label>
       </section>
 
       <section id="emptyState" class="empty-state" hidden>
@@ -78,6 +85,6 @@
         </section>
       </section>
     </main>
-    <script src="app.js?v=20260627-source-label" type="module"></script>
+    <script src="app.js?v=20260629-history" type="module"></script>
   </body>
 </html>
