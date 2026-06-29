@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,097
+OpenAI's chief economist said Europe should not expect one simple answer to how AI will affect jobs.
+
+2
+00:00:07,047 --> 00:00:13,242
+Some tasks may be automated, while other roles could become more productive or change slowly.
+
+3
+00:00:13,242 --> 00:00:22,060
+The message matters for governments trying to design training, labour rules and social protection without blocking useful technology.
+

@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,964
+Shares in major chipmakers have climbed strongly in the first half of 2026, helped by demand for hardware used in artificial intelligence.
+
+2
+00:00:09,914 --> 00:00:15,770
+Investors see data centres and advanced processors as central to the AI boom.
+
+3
+00:00:15,770 --> 00:00:24,655
+Analysts warn, however, that high expectations can make the sector sensitive to delays, regulation and weaker spending.
+

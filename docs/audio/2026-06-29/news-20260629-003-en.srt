@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,045
+More than 1,300 deaths have been linked to Europe's latest heatwave, as countries face dangerous temperatures and pressure on hospitals.
+
+2
+00:00:09,995 --> 00:00:17,101
+Public health experts are urging better warning systems, cooling centres and support for older people.
+
+3
+00:00:17,101 --> 00:00:23,446
+The crisis shows how extreme heat is becoming a social problem, not only a weather event.
+

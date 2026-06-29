@@ -1,0 +1,352 @@
+{
+  "date": "2026-06-29",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-06-29T16:40:00+02:00",
+  "topics": [
+    "China-Europe trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 80,
+  "items": [
+    {
+      "id": "news-20260629-001",
+      "title": "EU Plans Charge on Small Chinese Parcels",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jun/29/eu-introduces-customs-charge-on-small-parcels-to-curb-cheap-chinese-imports"
+      },
+      "english": "The EU is introducing a customs charge on low-value parcels, a move aimed at slowing a flood of cheap online imports from China. Officials say the measure should protect European retailers and improve product checks. However, shoppers may face higher prices, and delivery firms will need to handle more paperwork for millions of small packages.",
+      "chinese": "欧盟正对低价小包裹引入海关收费，目的是放缓来自中国的廉价网购商品大量涌入。官员表示，这项措施应能保护欧洲零售商，并加强产品检查。不过，消费者可能面临更高价格，物流企业也需要为数以百万计的小包裹处理更多文件。",
+      "keywords": [
+        "EU",
+        "China",
+        "parcels",
+        "customs"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.013,
+            "text": "The EU is introducing a customs charge on low-value parcels, a move aimed at slowing a flood of cheap online imports from China."
+          },
+          {
+            "start": 8.963,
+            "end": 14.492,
+            "text": "Officials say the measure should protect European retailers and improve product checks."
+          },
+          {
+            "start": 14.492,
+            "end": 23.039,
+            "text": "However, shoppers may face higher prices, and delivery firms will need to handle more paperwork for millions of small packages."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-002",
+      "title": "Five Killed at German Youth Centre",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo"
+      },
+      "english": "Five people were killed in a shooting at a youth welfare centre in Stade, northern Germany. Police said the suspected attacker was arrested after a search, while investigators continued to examine the motive. The incident has shocked the local community and reopened discussion about security at social care facilities that support vulnerable young people.",
+      "chinese": "德国北部施塔德一家青少年福利中心发生枪击，造成五人死亡。警方表示，嫌疑人在搜捕后被逮捕，调查人员仍在查明动机。此事震惊当地社区，也重新引发人们对照护弱势青少年的社会服务机构安全问题的讨论。",
+      "keywords": [
+        "Germany",
+        "shooting",
+        "youth welfare",
+        "public safety"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.322,
+            "text": "Five people were killed in a shooting at a youth welfare centre in Stade, northern Germany."
+          },
+          {
+            "start": 6.272,
+            "end": 14.003,
+            "text": "Police said the suspected attacker was arrested after a search, while investigators continued to examine the motive."
+          },
+          {
+            "start": 14.003,
+            "end": 23.392,
+            "text": "The incident has shocked the local community and reopened discussion about security at social care facilities that support vulnerable young people."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-003",
+      "title": "Europe Heatwave Deaths Pass 1,300",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/6/29/more-than-1300-deaths-in-europe-amid-heatwave-what-can-countries-do"
+      },
+      "english": "More than 1,300 deaths have been linked to Europe's latest heatwave, as countries face dangerous temperatures and pressure on hospitals. Public health experts are urging better warning systems, cooling centres and support for older people. The crisis shows how extreme heat is becoming a social problem, not only a weather event.",
+      "chinese": "欧洲最新热浪已造成一千三百多人死亡，多国面临危险高温和医院压力。公共卫生专家敦促建立更好的预警系统、避暑中心，并加强对老年人的支持。这场危机表明，极端高温已不只是天气事件，也成为社会问题。",
+      "keywords": [
+        "Europe",
+        "heatwave",
+        "public health",
+        "climate"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.045,
+            "text": "More than 1,300 deaths have been linked to Europe's latest heatwave, as countries face dangerous temperatures and pressure on hospitals."
+          },
+          {
+            "start": 9.995,
+            "end": 17.101,
+            "text": "Public health experts are urging better warning systems, cooling centres and support for older people."
+          },
+          {
+            "start": 17.101,
+            "end": 23.446,
+            "text": "The crisis shows how extreme heat is becoming a social problem, not only a weather event."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-004",
+      "title": "US Says Iran Strikes Will Stand Down",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo"
+      },
+      "english": "The United States said it had agreed to stand down after a new exchange of strikes with Iran. The announcement followed a tense weekend and efforts to restart talks. Markets and governments are watching closely because any renewed fighting could affect Gulf security, energy supplies and shipping through key regional routes.",
+      "chinese": "美国表示，在与伊朗新一轮相互打击后，双方已同意暂停升级。该声明发布前，周末局势紧张，重启谈判的努力也在进行。市场和各国政府正密切关注，因为任何重新爆发的冲突都可能影响海湾安全、能源供应以及关键区域航线。",
+      "keywords": [
+        "US",
+        "Iran",
+        "Gulf",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 5.996,
+            "text": "The United States said it had agreed to stand down after a new exchange of strikes with Iran."
+          },
+          {
+            "start": 5.946,
+            "end": 10.783,
+            "text": "The announcement followed a tense weekend and efforts to restart talks."
+          },
+          {
+            "start": 10.783,
+            "end": 20.797,
+            "text": "Markets and governments are watching closely because any renewed fighting could affect Gulf security, energy supplies and shipping through key regional routes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-005",
+      "title": "Russian Attacks Kill Civilians in Ukraine",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/6/29/russian-missile-and-drone-attacks-kill-at-least-eight-in-ukraine"
+      },
+      "english": "Russian missile and drone attacks killed at least eight people in Ukraine, according to local officials. Several regions reported damage to homes and infrastructure as rescue teams worked through the debris. The strikes underline the continuing danger to civilians and the difficulty of protecting cities from repeated long-range attacks.",
+      "chinese": "乌克兰地方官员表示，俄罗斯导弹和无人机袭击造成至少八人死亡。多个地区报告民宅和基础设施受损，救援人员在废墟中展开工作。这些袭击凸显平民持续面临危险，也显示城市防范反复远程打击的难度。",
+      "keywords": [
+        "Ukraine",
+        "Russia",
+        "drones",
+        "missiles"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.097,
+            "text": "Russian missile and drone attacks killed at least eight people in Ukraine, according to local officials."
+          },
+          {
+            "start": 7.047,
+            "end": 13.704,
+            "text": "Several regions reported damage to homes and infrastructure as rescue teams worked through the debris."
+          },
+          {
+            "start": 13.704,
+            "end": 21.884,
+            "text": "The strikes underline the continuing danger to civilians and the difficulty of protecting cities from repeated long-range attacks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-006",
+      "title": "AI Chip Shares Surge in 2026",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026"
+      },
+      "english": "Shares in major chipmakers have climbed strongly in the first half of 2026, helped by demand for hardware used in artificial intelligence. Investors see data centres and advanced processors as central to the AI boom. Analysts warn, however, that high expectations can make the sector sensitive to delays, regulation and weaker spending.",
+      "chinese": "受人工智能硬件需求推动，主要芯片制造商的股价在2026年上半年大幅上涨。投资者认为，数据中心和先进处理器是AI热潮的核心。不过，分析人士警告，过高预期会让该行业对延期、监管和支出放缓更加敏感。",
+      "keywords": [
+        "AI",
+        "chips",
+        "markets",
+        "data centres"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.964,
+            "text": "Shares in major chipmakers have climbed strongly in the first half of 2026, helped by demand for hardware used in artificial intelligence."
+          },
+          {
+            "start": 9.914,
+            "end": 15.77,
+            "text": "Investors see data centres and advanced processors as central to the AI boom."
+          },
+          {
+            "start": 15.77,
+            "end": 24.655,
+            "text": "Analysts warn, however, that high expectations can make the sector sensitive to delays, regulation and weaker spending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-007",
+      "title": "OpenAI Economist Warns on AI Jobs",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/no-one-size-fits-all-answer-ai-europe-openai-economist/"
+      },
+      "english": "OpenAI's chief economist said Europe should not expect one simple answer to how AI will affect jobs. Some tasks may be automated, while other roles could become more productive or change slowly. The message matters for governments trying to design training, labour rules and social protection without blocking useful technology.",
+      "chinese": "OpenAI首席经济学家表示，欧洲不应期待一个简单答案来解释AI将如何影响就业。有些任务可能被自动化，另一些岗位则可能提高效率或缓慢变化。对于正在设计培训、劳动规则和社会保障，同时又不想阻碍有益技术的政府来说，这一信息很重要。",
+      "keywords": [
+        "AI",
+        "jobs",
+        "Europe",
+        "OpenAI"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-007-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-007-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.097,
+            "text": "OpenAI's chief economist said Europe should not expect one simple answer to how AI will affect jobs."
+          },
+          {
+            "start": 7.047,
+            "end": 13.242,
+            "text": "Some tasks may be automated, while other roles could become more productive or change slowly."
+          },
+          {
+            "start": 13.242,
+            "end": 22.06,
+            "text": "The message matters for governments trying to design training, labour rules and social protection without blocking useful technology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260629-008",
+      "title": "Middle East Energy Cargoes Keep Moving",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/middle-east-producers-push-on-with-oil-and-lng-loadings-despite-ship-attacks/"
+      },
+      "english": "Middle East oil and LNG producers are continuing loadings despite recent attacks on ships and rising tension near key sea routes. Traders are watching insurance costs, vessel availability and possible delays. For energy buyers, the main risk is not only price volatility but also whether shipping confidence can hold if threats continue.",
+      "chinese": "尽管近期船舶遇袭，关键海上通道附近局势紧张，中东石油和液化天然气生产商仍在继续装货。交易员正关注保险成本、船舶可用性和可能的延误。对能源买家来说，主要风险不仅是价格波动，还包括如果威胁持续，航运信心能否维持。",
+      "keywords": [
+        "shipping",
+        "LNG",
+        "oil",
+        "Middle East"
+      ],
+      "audio": {
+        "english": "audio/2026-06-29/news-20260629-008-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-29/news-20260629-008-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.461,
+            "text": "Middle East oil and LNG producers are continuing loadings despite recent attacks on ships and rising tension near key sea routes."
+          },
+          {
+            "start": 9.411,
+            "end": 15.145,
+            "text": "Traders are watching insurance costs, vessel availability and possible delays."
+          },
+          {
+            "start": 15.145,
+            "end": 24.261,
+            "text": "For energy buyers, the main risk is not only price volatility but also whether shipping confidence can hold if threats continue."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-06-29, using latest publicly accessible items from the configured source set.",
+    "Selected 8 non-duplicate items to match config.txt news_count=8.",
+    "Chinese MP3 generation remains disabled by config.txt; Simplified Chinese is included as text only.",
+    "AP's configured RSS endpoint returned HTML during this run, so the final set used other configured public sources."
+  ]
+}
