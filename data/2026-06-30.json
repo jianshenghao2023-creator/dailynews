@@ -1,0 +1,481 @@
+{
+  "date": "2026-06-30",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-06-30T08:14:21+02:00",
+  "topics": [
+    "China-Europe trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260630-001",
+      "title": "Europe Weighs Its China Trade Leverage",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/06/29/europe-depends-on-china-china-depends-on-europe-more-than-you-think"
+      },
+      "english": "Europe is often described as dependent on China, especially for batteries, rare earth materials, solar equipment and many consumer goods. A new Euronews analysis argues that the relationship is more complicated. China also still needs European technology in several strategic sectors, including advanced semiconductor tools, aviation, pharmaceuticals, robotics and some automotive chips. For the EU, this matters because trade tensions with Beijing are rising, while European governments are debating how to reduce risk without starting a damaging trade war. Brussels wants more secure supply chains, but it also knows that European companies earn money from selling equipment, expertise and maintenance services to China. The difficult question is whether these strengths can give Europe real bargaining power. Experts quoted by Euronews are cautious. They say China's control over rare earths remains a much stronger pressure point, while European leverage is spread across private companies and complex supply chains. The story shows why EU-China trade policy is becoming less about cheap goods and more about strategic dependence. For learners, the key phrase is strategic dependence: countries may trade freely, yet still fear losing access to essential technology.",
+      "chinese": "欧洲常被描述为依赖中国，尤其是在电池、稀土材料、太阳能设备和大量消费品方面。但 Euronews 的一篇分析认为，这种关系比表面看起来更复杂。中国在一些战略领域仍然需要欧洲技术，包括先进半导体设备、航空、制药、机器人以及部分汽车芯片。对欧盟来说，这一点很重要，因为与北京的贸易紧张正在上升，而欧洲政府正讨论如何降低风险，同时避免引发代价高昂的贸易战。布鲁塞尔希望建立更安全的供应链，但也知道欧洲企业仍从向中国出售设备、专业技术和维护服务中获利。难题在于，这些优势能否真正转化为欧洲的谈判筹码。Euronews 引述的专家态度谨慎。他们认为，中国对稀土的控制仍是更强的压力点，而欧洲的优势分散在私营企业和复杂供应链中。这条新闻说明，欧中贸易政策正在从廉价商品问题转向战略依赖问题。对学习者来说，关键词是“战略依赖”：国家可以自由贸易，但仍担心失去关键技术的获取渠道。",
+      "keywords": [
+        "EU",
+        "China",
+        "trade",
+        "supply chains"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.247,
+            "text": "Europe is often described as dependent on China, especially for batteries, rare earth materials, solar equipment and many consumer goods."
+          },
+          {
+            "start": 11.197,
+            "end": 16.579,
+            "text": "A new Euronews analysis argues that the relationship is more complicated."
+          },
+          {
+            "start": 16.579,
+            "end": 30.697,
+            "text": "China also still needs European technology in several strategic sectors, including advanced semiconductor tools, aviation, pharmaceuticals, robotics and some automotive chips."
+          },
+          {
+            "start": 30.697,
+            "end": 42.755,
+            "text": "For the EU, this matters because trade tensions with Beijing are rising, while European governments are debating how to reduce risk without starting a damaging trade war."
+          },
+          {
+            "start": 42.755,
+            "end": 54.432,
+            "text": "Brussels wants more secure supply chains, but it also knows that European companies earn money from selling equipment, expertise and maintenance services to China."
+          },
+          {
+            "start": 54.432,
+            "end": 60.211,
+            "text": "The difficult question is whether these strengths can give Europe real bargaining power."
+          },
+          {
+            "start": 60.211,
+            "end": 63.491,
+            "text": "Experts quoted by Euronews are cautious."
+          },
+          {
+            "start": 63.491,
+            "end": 75.667,
+            "text": "They say China's control over rare earths remains a much stronger pressure point, while European leverage is spread across private companies and complex supply chains."
+          },
+          {
+            "start": 75.667,
+            "end": 83.535,
+            "text": "The story shows why EU-China trade policy is becoming less about cheap goods and more about strategic dependence."
+          },
+          {
+            "start": 83.535,
+            "end": 94.417,
+            "text": "For learners, the key phrase is strategic dependence: countries may trade freely, yet still fear losing access to essential technology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260630-002",
+      "title": "Heatwave Exposes Europe's Social Weak Points",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/europe-heat-temperature-records-france-deaths-germany-61f444317600cf1bd9af5af84cb582bd"
+      },
+      "english": "Europe's record heatwave is becoming a public health and social care crisis, not only a weather story. The Associated Press reported that France recorded around 1,000 additional deaths during the worst days of extreme heat. Older people were hit hardest, and many deaths happened at home. The heat also strained hospitals, ambulance services and mortuaries, while several countries reported damage to transport systems, fires and dangerous conditions for outdoor workers. Scientists say climate change has made this kind of heat far more likely, but the social problem is uneven protection. Many European homes, schools and care facilities were designed for a cooler climate and still have little air conditioning. Cities are also full of stone, asphalt and narrow streets that hold heat overnight. Governments have warning systems, cooling rooms and advice campaigns, but the latest deaths suggest that these measures are not enough for isolated older people, homeless residents and workers who cannot avoid the sun. The lesson is clear: adaptation is now a basic public service. The next test is whether local governments can reach vulnerable residents before hospitals are already overloaded.",
+      "chinese": "欧洲创纪录的热浪正在变成公共健康和社会照护危机，而不仅仅是天气新闻。美联社报道称，在极端高温最严重的几天里，法国记录了约一千例额外死亡。老年人受影响最严重，许多死亡发生在家中。高温还给医院、急救服务和停尸设施造成压力，同时多个国家报告交通系统受损、火灾以及户外劳动者面临危险环境。科学家表示，气候变化让这类高温发生的可能性大幅增加，但真正的社会问题是保护能力不均。许多欧洲住宅、学校和护理机构是按照较凉爽气候设计的，仍然很少安装空调。城市中大量石材、沥青和狭窄街道也会在夜间持续蓄热。政府已经有预警系统、避暑空间和宣传建议，但最新死亡数据说明，这些措施对独居老人、无家可归者和无法避开阳光的劳动者来说仍然不够。这里的教训很清楚：适应高温已经成为基本公共服务。接下来的考验是，地方政府能否在医院已经超负荷之前找到并帮助脆弱居民。",
+      "keywords": [
+        "Europe",
+        "heatwave",
+        "public health",
+        "social care"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.232,
+            "text": "Europe's record heatwave is becoming a public health and social care crisis, not only a weather story."
+          },
+          {
+            "start": 8.182,
+            "end": 16.873,
+            "text": "The Associated Press reported that France recorded around 1,000 additional deaths during the worst days of extreme heat."
+          },
+          {
+            "start": 16.873,
+            "end": 21.799,
+            "text": "Older people were hit hardest, and many deaths happened at home."
+          },
+          {
+            "start": 21.799,
+            "end": 35.594,
+            "text": "The heat also strained hospitals, ambulance services and mortuaries, while several countries reported damage to transport systems, fires and dangerous conditions for outdoor workers."
+          },
+          {
+            "start": 35.594,
+            "end": 44.138,
+            "text": "Scientists say climate change has made this kind of heat far more likely, but the social problem is uneven protection."
+          },
+          {
+            "start": 44.138,
+            "end": 52.873,
+            "text": "Many European homes, schools and care facilities were designed for a cooler climate and still have little air conditioning."
+          },
+          {
+            "start": 52.873,
+            "end": 59.094,
+            "text": "Cities are also full of stone, asphalt and narrow streets that hold heat overnight."
+          },
+          {
+            "start": 59.094,
+            "end": 75.314,
+            "text": "Governments have warning systems, cooling rooms and advice campaigns, but the latest deaths suggest that these measures are not enough for isolated older people, homeless residents and workers who cannot avoid the sun."
+          },
+          {
+            "start": 75.314,
+            "end": 80.726,
+            "text": "The lesson is clear: adaptation is now a basic public service."
+          },
+          {
+            "start": 80.726,
+            "end": 88.638,
+            "text": "The next test is whether local governments can reach vulnerable residents before hospitals are already overloaded."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260630-003",
+      "title": "Maersk Raises Outlook as Freight Rates Hold",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/maersk-raises-2026-earnings-outlook-as-container-market-strength-continues/"
+      },
+      "english": "Maersk has sharply raised its 2026 earnings outlook, giving the shipping market a fresh sign that container demand and freight rates remain stronger than expected. According to gCaptain, the Danish group now expects underlying EBITDA of 8 billion to 10 billion dollars, well above its previous forecast. It also raised its estimate for global container volume growth to about 4 percent this year. The upgrade reflects resilient demand, higher spot rates and continuing disruption on major east-west trade lanes. For shipping companies, disruption can be painful because schedules become harder to manage and fuel costs can rise. But it can also reduce available vessel capacity when ships take longer routes or wait outside risky areas. That supports freight rates. For cargo owners, the message is mixed. Stronger rates may show that global trade is not collapsing, but they also mean higher logistics costs and less certainty. The Maersk update is important for shipbuilders, carriers and ports because it suggests the market is still being shaped by both demand and geopolitics. It may also influence new vessel orders, because shipowners watch profits before committing to expensive capacity.",
+      "chinese": "马士基大幅上调 2026 年盈利预期，为航运市场提供了一个新信号：集装箱需求和运价仍然强于此前预期。据 gCaptain 报道，这家丹麦集团目前预计基础 EBITDA 将达到 80 亿至 100 亿美元，明显高于之前的预测。公司还把今年全球集装箱运输量增长预期上调至约 4%。这一调整反映出需求具有韧性、即期运价上升，以及主要东西向贸易航线仍受扰动影响。对航运公司来说，扰动会带来痛苦，因为船期更难管理，燃油成本也可能上升。但如果船舶需要绕行或在风险地区外等待，可用运力就会减少，从而支撑运价。对货主来说，这一信息喜忧参半。更强的运价说明全球贸易并未崩溃，但也意味着物流成本更高、不确定性更强。马士基的更新对造船企业、班轮公司和港口都很重要，因为它说明市场仍同时受到需求和地缘政治影响。它还可能影响新船订单，因为船东在投入昂贵运力之前会先观察利润情况。",
+      "keywords": [
+        "Maersk",
+        "container shipping",
+        "freight rates",
+        "shipping market"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.041,
+            "text": "Maersk has sharply raised its 2026 earnings outlook, giving the shipping market a fresh sign that container demand and freight rates remain stronger than expected."
+          },
+          {
+            "start": 11.991,
+            "end": 23.682,
+            "text": "According to gCaptain, the Danish group now expects underlying EBITDA of 8 billion to 10 billion dollars, well above its previous forecast."
+          },
+          {
+            "start": 23.682,
+            "end": 29.947,
+            "text": "It also raised its estimate for global container volume growth to about 4 percent this year."
+          },
+          {
+            "start": 29.947,
+            "end": 38.814,
+            "text": "The upgrade reflects resilient demand, higher spot rates and continuing disruption on major east-west trade lanes."
+          },
+          {
+            "start": 38.814,
+            "end": 47.873,
+            "text": "For shipping companies, disruption can be painful because schedules become harder to manage and fuel costs can rise."
+          },
+          {
+            "start": 47.873,
+            "end": 55.505,
+            "text": "But it can also reduce available vessel capacity when ships take longer routes or wait outside risky areas."
+          },
+          {
+            "start": 55.505,
+            "end": 57.652,
+            "text": "That supports freight rates."
+          },
+          {
+            "start": 57.652,
+            "end": 61.211,
+            "text": "For cargo owners, the message is mixed."
+          },
+          {
+            "start": 61.211,
+            "end": 70.049,
+            "text": "Stronger rates may show that global trade is not collapsing, but they also mean higher logistics costs and less certainty."
+          },
+          {
+            "start": 70.049,
+            "end": 81.182,
+            "text": "The Maersk update is important for shipbuilders, carriers and ports because it suggests the market is still being shaped by both demand and geopolitics."
+          },
+          {
+            "start": 81.182,
+            "end": 89.152,
+            "text": "It may also influence new vessel orders, because shipowners watch profits before committing to expensive capacity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260630-004",
+      "title": "US Lawmakers Target AI Health Data Sales",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon"
+      },
+      "english": "US lawmakers are trying to close a privacy gap created by the rapid spread of AI health tools. The Verge reported that Senator Elizabeth Warren and Representative Mary Gay Scanlon are introducing a new version of the Health and Location Data Protection Act. The bill would ban AI companies and other firms from selling sensitive health and location data to data brokers. The proposal is partly aimed at information people type into AI chatbots, including symptoms, medical records, fertility questions or mental health concerns. This is important because many users treat AI systems like private assistants, while US federal privacy law is still limited and often depends on whether a company is part of the traditional healthcare system. The bill would expand earlier protections beyond data brokers and would give the Federal Trade Commission a role in writing rules and enforcing them. Supporters say people should not have to choose between using helpful AI tools and protecting intimate information. The debate shows how AI is pushing privacy law into new territory. For developers, clearer rules could become a business advantage if users start choosing tools by trust.",
+      "chinese": "美国议员正试图填补 AI 健康工具快速普及带来的隐私空白。The Verge 报道，参议员伊丽莎白·沃伦和众议员玛丽·盖伊·斯坎伦将提出新版《健康和位置数据保护法案》。该法案将禁止 AI 公司和其他企业把敏感健康数据和位置数据出售给数据经纪商。该提案部分针对人们输入 AI 聊天机器人的信息，包括症状、病历、生育问题或心理健康困扰。这一点很重要，因为许多用户把 AI 系统当作私人助手，而美国联邦隐私法律仍然有限，并且往往取决于公司是否属于传统医疗体系。该法案将把早期保护范围扩大到数据经纪商之外，并赋予联邦贸易委员会制定规则和执法的职责。支持者认为，人们不应该在使用有用的 AI 工具和保护私密信息之间二选一。这场辩论说明，AI 正在把隐私法律推向新的领域。对开发者来说，如果用户开始根据信任来选择工具，更清晰的规则也可能成为商业优势。",
+      "keywords": [
+        "AI",
+        "privacy",
+        "health data",
+        "regulation"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.114,
+            "text": "US lawmakers are trying to close a privacy gap created by the rapid spread of AI health tools."
+          },
+          {
+            "start": 7.064,
+            "end": 18.388,
+            "text": "The Verge reported that Senator Elizabeth Warren and Representative Mary Gay Scanlon are introducing a new version of the Health and Location Data Protection Act."
+          },
+          {
+            "start": 18.388,
+            "end": 26.285,
+            "text": "The bill would ban AI companies and other firms from selling sensitive health and location data to data brokers."
+          },
+          {
+            "start": 26.285,
+            "end": 38.197,
+            "text": "The proposal is partly aimed at information people type into AI chatbots, including symptoms, medical records, fertility questions or mental health concerns."
+          },
+          {
+            "start": 38.197,
+            "end": 53.123,
+            "text": "This is important because many users treat AI systems like private assistants, while US federal privacy law is still limited and often depends on whether a company is part of the traditional healthcare system."
+          },
+          {
+            "start": 53.123,
+            "end": 63.197,
+            "text": "The bill would expand earlier protections beyond data brokers and would give the Federal Trade Commission a role in writing rules and enforcing them."
+          },
+          {
+            "start": 63.197,
+            "end": 70.917,
+            "text": "Supporters say people should not have to choose between using helpful AI tools and protecting intimate information."
+          },
+          {
+            "start": 70.917,
+            "end": 76.035,
+            "text": "The debate shows how AI is pushing privacy law into new territory."
+          },
+          {
+            "start": 76.035,
+            "end": 83.197,
+            "text": "For developers, clearer rules could become a business advantage if users start choosing tools by trust."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260630-005",
+      "title": "Venezuela Quakes Leave Deportees Missing",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit"
+      },
+      "english": "A human drama is unfolding in Venezuela after two powerful earthquakes struck shortly after a deportation flight arrived from the United States. Al Jazeera, citing AP and Reuters reporting, said more than 140 people had been deported to Venezuela on the same day. Some were taken to a hotel in La Guaira, one of the hardest-hit areas, and rescue workers are now searching the rubble for survivors. Venezuela says the earthquakes killed more than 1,700 people across the country. Survivors described escaping collapsed buildings, walking through damaged streets and trying to contact relatives after communications failed. The story has become highly visible online because it combines natural disaster, migration policy and personal survival. It also raises difficult questions about how governments manage deportations during unstable conditions. The United States has increased removals to many countries, while humanitarian groups warn that deported people can be especially vulnerable when they arrive without support. In this case, the timing turned a routine deportation flight into a tragedy. The victims are not only statistics; many were caught between two governments and a collapsing local emergency.",
+      "chinese": "两次强震袭击委内瑞拉后，一场人道危机正在展开，而震前不久，一架来自美国的驱逐出境航班刚刚抵达。Al Jazeera 援引美联社和路透社报道称，当天有 140 多人被美国遣返回委内瑞拉。其中一些人被带到拉瓜伊拉的一家酒店，而那里是受灾最严重的地区之一，救援人员目前仍在废墟中寻找幸存者。委内瑞拉方面表示，全国已有 1700 多人死于地震。幸存者描述了他们从倒塌建筑中逃出、穿过受损街道，并在通信中断后试图联系亲人的经历。这条新闻在网上受到高度关注，因为它同时涉及自然灾害、移民政策和个人求生。它也提出了一个困难问题：政府在不稳定环境下如何处理驱逐出境。美国已增加向多国遣返人员，而人道组织警告，被驱逐者抵达时往往缺少支持，特别脆弱。在这起事件中，时间点让一次普通遣返航班变成了悲剧。受害者不只是统计数字；许多人夹在两个政府和崩溃的地方应急体系之间。",
+      "keywords": [
+        "Venezuela",
+        "earthquake",
+        "deportations",
+        "migration"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.482,
+            "text": "A human drama is unfolding in Venezuela after two powerful earthquakes struck shortly after a deportation flight arrived from the United States."
+          },
+          {
+            "start": 11.432,
+            "end": 21.814,
+            "text": "Al Jazeera, citing AP and Reuters reporting, said more than 140 people had been deported to Venezuela on the same day."
+          },
+          {
+            "start": 21.814,
+            "end": 31.285,
+            "text": "Some were taken to a hotel in La Guaira, one of the hardest-hit areas, and rescue workers are now searching the rubble for survivors."
+          },
+          {
+            "start": 31.285,
+            "end": 38.608,
+            "text": "Venezuela says the earthquakes killed more than 1,700 people across the country."
+          },
+          {
+            "start": 38.608,
+            "end": 49.108,
+            "text": "Survivors described escaping collapsed buildings, walking through damaged streets and trying to contact relatives after communications failed."
+          },
+          {
+            "start": 49.108,
+            "end": 58.182,
+            "text": "The story has become highly visible online because it combines natural disaster, migration policy and personal survival."
+          },
+          {
+            "start": 58.182,
+            "end": 65.858,
+            "text": "It also raises difficult questions about how governments manage deportations during unstable conditions."
+          },
+          {
+            "start": 65.858,
+            "end": 78.049,
+            "text": "The United States has increased removals to many countries, while humanitarian groups warn that deported people can be especially vulnerable when they arrive without support."
+          },
+          {
+            "start": 78.049,
+            "end": 84.211,
+            "text": "In this case, the timing turned a routine deportation flight into a tragedy."
+          },
+          {
+            "start": 84.211,
+            "end": 92.27,
+            "text": "The victims are not only statistics; many were caught between two governments and a collapsing local emergency."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260630-006",
+      "title": "Peru Vote Count Leaves Fujimori Ahead",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/6/30/keiko-fujimori-leads-in-peruvian-presidential-race-as-vote-count-concludes"
+      },
+      "english": "Peru is waiting for a formal election result after a long and disputed presidential count. Al Jazeera reported that right-wing candidate Keiko Fujimori is ahead after electoral authorities finished reviewing contested ballots. The final tally gave her a very narrow lead over leftist rival Roberto Sanchez, who has refused to recognise the result. Peru's National Jury of Elections is expected to make an official announcement on July 3. Fujimori is one of the country's best-known and most divisive politicians. She is the daughter of former President Alberto Fujimori, whose rule still divides Peru because supporters credit him with restoring order, while critics point to corruption and human rights abuses. Her latest campaign promised unity and stronger security, but a close vote means the next government could begin under heavy pressure. The situation matters beyond Peru because Latin America has seen repeated elections where economic frustration, crime and distrust of institutions produce very tight results. Even after votes are counted, legitimacy can remain uncertain. Neighbouring governments will watch whether the next president can govern without deepening the country's split.",
+      "chinese": "秘鲁正在等待正式选举结果，此前总统选举计票过程漫长且充满争议。Al Jazeera 报道，右翼候选人藤森庆子在选举机构完成争议选票复核后处于领先。最终计票显示，她以极小优势领先左翼对手罗伯托·桑切斯，而后者拒绝承认结果。秘鲁国家选举评审团预计将在 7 月 3 日正式宣布结果。藤森庆子是秘鲁最知名、也最具争议的政治人物之一。她是前总统阿尔韦托·藤森的女儿，而后者的执政经历至今仍让秘鲁社会分裂：支持者认为他恢复了秩序，批评者则指出腐败和侵犯人权问题。她最新的竞选承诺包括团结国家和加强安全，但如此接近的票数意味着下一届政府可能从一开始就承受巨大压力。此事的重要性不只限于秘鲁，因为拉美近年多次出现由经济不满、犯罪问题和制度不信任推动的极其接近的选举。即使选票已经数完，合法性争议仍可能继续。周边国家将关注下一任总统能否在不加深国家分裂的情况下执政。",
+      "keywords": [
+        "Peru",
+        "election",
+        "geopolitics",
+        "Latin America"
+      ],
+      "audio": {
+        "english": "audio/2026-06-30/news-20260630-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-06-30/news-20260630-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.82,
+            "text": "Peru is waiting for a formal election result after a long and disputed presidential count."
+          },
+          {
+            "start": 6.77,
+            "end": 16.755,
+            "text": "Al Jazeera reported that right-wing candidate Keiko Fujimori is ahead after electoral authorities finished reviewing contested ballots."
+          },
+          {
+            "start": 16.755,
+            "end": 25.873,
+            "text": "The final tally gave her a very narrow lead over leftist rival Roberto Sanchez, who has refused to recognise the result."
+          },
+          {
+            "start": 25.873,
+            "end": 32.152,
+            "text": "Peru's National Jury of Elections is expected to make an official announcement on July 3."
+          },
+          {
+            "start": 32.152,
+            "end": 37.873,
+            "text": "Fujimori is one of the country's best-known and most divisive politicians."
+          },
+          {
+            "start": 37.873,
+            "end": 52.991,
+            "text": "She is the daughter of former President Alberto Fujimori, whose rule still divides Peru because supporters credit him with restoring order, while critics point to corruption and human rights abuses."
+          },
+          {
+            "start": 52.991,
+            "end": 62.799,
+            "text": "Her latest campaign promised unity and stronger security, but a close vote means the next government could begin under heavy pressure."
+          },
+          {
+            "start": 62.799,
+            "end": 76.167,
+            "text": "The situation matters beyond Peru because Latin America has seen repeated elections where economic frustration, crime and distrust of institutions produce very tight results."
+          },
+          {
+            "start": 76.167,
+            "end": 81.491,
+            "text": "Even after votes are counted, legitimacy can remain uncertain."
+          },
+          {
+            "start": 81.491,
+            "end": 88.285,
+            "text": "Neighbouring governments will watch whether the next president can govern without deepening the country's split."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-06-30, after reading config.txt.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites target CEFR B2 and remain under config.txt max_english_words=200.",
+    "Chinese MP3 generation remains disabled by config.txt; Simplified Chinese is included as text only.",
+    "Sources were selected from the configured source set and current publicly accessible search results."
+  ]
+}

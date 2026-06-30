@@ -272,6 +272,7 @@ h2 {
 
 .primary-control,
 .icon-button,
+.loop-control,
 .segmented-control button {
   min-width: 44px;
   min-height: 44px;
@@ -284,6 +285,7 @@ h2 {
 
 .primary-control:active,
 .icon-button:active,
+.loop-control:active,
 .segmented-control button:active,
 .story-button:active {
   transform: scale(0.98);
@@ -299,6 +301,7 @@ h2 {
 
 .play-symbol,
 .replay-symbol,
+.loop-symbol,
 .refresh-symbol {
   position: relative;
   display: inline-block;
@@ -358,6 +361,35 @@ h2 {
   transform: rotate(-20deg);
 }
 
+.loop-symbol {
+  width: 24px;
+  height: 18px;
+}
+
+.loop-symbol::before,
+.loop-symbol::after {
+  content: "";
+  position: absolute;
+}
+
+.loop-symbol::before {
+  inset: 2px 1px 3px;
+  border: 3px solid currentColor;
+  border-left-color: transparent;
+  border-radius: 999px;
+}
+
+.loop-symbol::after {
+  right: -1px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 7px solid currentColor;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  transform: rotate(16deg);
+}
+
 .refresh-symbol {
   width: 22px;
   height: 22px;
@@ -384,6 +416,23 @@ h2 {
   border: 1px solid var(--line);
   color: var(--ink);
   font-weight: 800;
+}
+
+.loop-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 0 12px;
+  font-weight: 800;
+}
+
+.loop-control.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
 }
 
 .segmented-control {

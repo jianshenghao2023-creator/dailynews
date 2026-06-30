@@ -4,6 +4,7 @@ const state = {
   selectedDay: null,
   selectedIndex: 0,
   isPlaying: false,
+  isLooping: false,
 };
 
 const els = {
@@ -23,6 +24,7 @@ const els = {
   playIcon: document.querySelector("#playIcon"),
   replayButton: document.querySelector("#replayButton"),
   autoAdvance: document.querySelector("#autoAdvance"),
+  loopButton: document.querySelector("#loopButton"),
   audioPlayer: document.querySelector("#audioPlayer"),
   subtitleLines: document.querySelector("#subtitleLines"),
   chineseText: document.querySelector("#chineseText"),
@@ -281,11 +283,42 @@ function updateSubtitleHighlight() {
 }
 
 function handleEnded() {
-  if (els.autoAdvance.checked && state.daily.items[state.selectedIndex + 1]) {
-    state.selectedIndex += 1;
+  const items = state.daily?.items || [];
+  const nextIndex = state.selectedIndex + 1;
+  if (items[nextIndex]) {
+    if (!els.autoAdvance.checked && !state.isLooping) {
+      return;
+    }
+    state.selectedIndex = nextIndex;
     renderList();
     renderStory();
     els.audioPlayer.play().catch((error) => setStatus(playbackErrorMessage(error), ""));
+    return;
+  }
+
+  if (state.isLooping && items.length > 0) {
+    state.selectedIndex = 0;
+    els.autoAdvance.checked = true;
+    renderList();
+    renderStory();
+    els.audioPlayer.play().catch((error) => setStatus(playbackErrorMessage(error), ""));
+  }
+}
+
+function toggleLoop() {
+  state.isLooping = !state.isLooping;
+  els.loopButton.classList.toggle("active", state.isLooping);
+  els.loopButton.setAttribute("aria-pressed", String(state.isLooping));
+  if (state.isLooping) {
+    els.autoAdvance.checked = true;
+  }
+}
+
+function handleAutoAdvanceChange() {
+  if (state.isLooping && !els.autoAdvance.checked) {
+    state.isLooping = false;
+    els.loopButton.classList.remove("active");
+    els.loopButton.setAttribute("aria-pressed", "false");
   }
 }
 
@@ -297,6 +330,8 @@ els.playButton.addEventListener("click", () => {
   togglePlay().catch((error) => setStatus(playbackErrorMessage(error), ""));
 });
 els.replayButton.addEventListener("click", replayCurrent);
+els.loopButton.addEventListener("click", toggleLoop);
+els.autoAdvance.addEventListener("change", handleAutoAdvanceChange);
 els.audioPlayer.addEventListener("play", () => {
   state.isPlaying = true;
   els.playIcon.className = "play-symbol icon-pause";

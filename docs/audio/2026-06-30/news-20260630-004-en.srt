@@ -1,0 +1,36 @@
+1
+00:00:00,100 --> 00:00:07,114
+US lawmakers are trying to close a privacy gap created by the rapid spread of AI health tools.
+
+2
+00:00:07,064 --> 00:00:18,388
+The Verge reported that Senator Elizabeth Warren and Representative Mary Gay Scanlon are introducing a new version of the Health and Location Data Protection Act.
+
+3
+00:00:18,388 --> 00:00:26,285
+The bill would ban AI companies and other firms from selling sensitive health and location data to data brokers.
+
+4
+00:00:26,285 --> 00:00:38,197
+The proposal is partly aimed at information people type into AI chatbots, including symptoms, medical records, fertility questions or mental health concerns.
+
+5
+00:00:38,197 --> 00:00:53,123
+This is important because many users treat AI systems like private assistants, while US federal privacy law is still limited and often depends on whether a company is part of the traditional healthcare system.
+
+6
+00:00:53,123 --> 00:01:03,197
+The bill would expand earlier protections beyond data brokers and would give the Federal Trade Commission a role in writing rules and enforcing them.
+
+7
+00:01:03,197 --> 00:01:10,917
+Supporters say people should not have to choose between using helpful AI tools and protecting intimate information.
+
+8
+00:01:10,917 --> 00:01:16,035
+The debate shows how AI is pushing privacy law into new territory.
+
+9
+00:01:16,035 --> 00:01:23,197
+For developers, clearer rules could become a business advantage if users start choosing tools by trust.
+

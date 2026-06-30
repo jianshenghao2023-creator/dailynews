@@ -7,7 +7,7 @@
     <title>DailyNews</title>
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260629-history">
+    <link rel="stylesheet" href="styles.css?v=20260630-loop">
   </head>
   <body>
     <main class="app-shell">
@@ -65,6 +65,10 @@
               <input id="autoAdvance" type="checkbox" checked>
               <span>Auto</span>
             </label>
+            <button id="loopButton" class="loop-control" type="button" aria-pressed="false" aria-label="Loop today's stories" title="Loop today's stories">
+              <span class="loop-symbol" aria-hidden="true"></span>
+              <span>Loop</span>
+            </button>
           </div>
 
           <audio id="audioPlayer" preload="metadata"></audio>
@@ -85,6 +89,6 @@
         </section>
       </section>
     </main>
-    <script src="app.js?v=20260629-history" type="module"></script>
+    <script src="app.js?v=20260630-loop" type="module"></script>
   </body>
 </html>

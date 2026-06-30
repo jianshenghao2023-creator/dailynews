@@ -1,0 +1,40 @@
+1
+00:00:00,100 --> 00:00:08,232
+Europe's record heatwave is becoming a public health and social care crisis, not only a weather story.
+
+2
+00:00:08,182 --> 00:00:16,873
+The Associated Press reported that France recorded around 1,000 additional deaths during the worst days of extreme heat.
+
+3
+00:00:16,873 --> 00:00:21,799
+Older people were hit hardest, and many deaths happened at home.
+
+4
+00:00:21,799 --> 00:00:35,594
+The heat also strained hospitals, ambulance services and mortuaries, while several countries reported damage to transport systems, fires and dangerous conditions for outdoor workers.
+
+5
+00:00:35,594 --> 00:00:44,138
+Scientists say climate change has made this kind of heat far more likely, but the social problem is uneven protection.
+
+6
+00:00:44,138 --> 00:00:52,873
+Many European homes, schools and care facilities were designed for a cooler climate and still have little air conditioning.
+
+7
+00:00:52,873 --> 00:00:59,094
+Cities are also full of stone, asphalt and narrow streets that hold heat overnight.
+
+8
+00:00:59,094 --> 00:01:15,314
+Governments have warning systems, cooling rooms and advice campaigns, but the latest deaths suggest that these measures are not enough for isolated older people, homeless residents and workers who cannot avoid the sun.
+
+9
+00:01:15,314 --> 00:01:20,726
+The lesson is clear: adaptation is now a basic public service.
+
+10
+00:01:20,726 --> 00:01:28,638
+The next test is whether local governments can reach vulnerable residents before hospitals are already overloaded.
+
