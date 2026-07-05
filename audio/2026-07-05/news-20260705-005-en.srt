@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,938
+The EU is trying to prevent long airport queues linked to its new biometric border system.
+
+2
+00:00:06,888 --> 00:00:17,505
+Politico Europe says the photo and fingerprint checks are meant to catch criminals and visa overstayers, but early use has left many travelers waiting.
+
+3
+00:00:17,505 --> 00:00:30,167
+The issue shows a familiar policy problem: security technology can be useful, but public trust falls quickly when systems are slow, confusing, or poorly prepared.
+

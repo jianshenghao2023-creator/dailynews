@@ -8,7 +8,7 @@ timezone=Europe/Berlin
 daily_run_time=07:00
 
 [news]
-topics=China-Europe trade,European social issues,shipbuilding and shipping markets,AI,geopolitical events,highly trending online topics
+topics=China-Europe-US trade,European social issues,shipbuilding and shipping markets,AI,geopolitical events,highly trending online topics
 news_count=6
 recency=latest
 prefer_publicly_accessible_articles=true

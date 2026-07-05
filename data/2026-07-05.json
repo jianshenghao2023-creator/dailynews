@@ -1,0 +1,296 @@
+{
+  "date": "2026-07-05",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-05T20:05:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260705-001",
+      "title": "China and EU Plan Regular Trade Talks",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/eu-china-trade-meeting-0b2afb981360117cb617052a2987ac98"
+      },
+      "english": "China and the European Union plan to hold regular ministerial trade talks as Europe tries to narrow its large deficit with China. AP says the gap reached about 360 billion euros last year, driven partly by Chinese cars and batteries. Beijing wants fewer export controls on high-tech goods, while Brussels says it must protect European industry and critical supply chains.",
+      "chinese": "中国和欧盟计划定期举行部长级贸易谈判，因为欧洲正试图缩小对华巨额贸易逆差。美联社称，去年这一逆差约为3600亿欧元，部分原因是中国汽车和电池出口增加。北京希望欧洲减少对高科技产品的出口管制，而布鲁塞尔表示必须保护欧洲产业和关键供应链。",
+      "keywords": [
+        "China",
+        "EU",
+        "trade talks",
+        "supply chains"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.835,
+            "text": "China and the European Union plan to hold regular ministerial trade talks as Europe tries to narrow its large deficit with China."
+          },
+          {
+            "start": 9.785,
+            "end": 18.638,
+            "text": "AP says the gap reached about 360 billion euros last year, driven partly by Chinese cars and batteries."
+          },
+          {
+            "start": 18.638,
+            "end": 28.726,
+            "text": "Beijing wants fewer export controls on high-tech goods, while Brussels says it must protect European industry and critical supply chains."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260705-002",
+      "title": "Spain Braces for Severe Heat",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/07/05/spain-braces-for-heatwave-up-to-44c-before-tuesday-ends"
+      },
+      "english": "Spain is facing another dangerous heatwave, with temperatures expected to reach 42 to 44 degrees Celsius in several regions. Euronews says weather authorities issued orange alerts across much of the country. The risk is not only discomfort. Extreme heat can strain hospitals, threaten older people, and make outdoor work unsafe. It also shows how climate adaptation is becoming a basic social service.",
+      "chinese": "西班牙正面临又一轮危险热浪，多个地区气温预计将达到42至44摄氏度。Euronews报道称，气象部门已在该国大部分地区发布橙色预警。风险并不只是炎热难受。极端高温可能加重医院压力，威胁老年人，并使户外工作变得不安全。这也说明，适应气候变化正在成为一项基本社会服务。",
+      "keywords": [
+        "Spain",
+        "heatwave",
+        "public health",
+        "climate adaptation"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.864,
+            "text": "Spain is facing another dangerous heatwave, with temperatures expected to reach 42 to 44 degrees Celsius in several regions."
+          },
+          {
+            "start": 10.814,
+            "end": 16.417,
+            "text": "Euronews says weather authorities issued orange alerts across much of the country."
+          },
+          {
+            "start": 16.417,
+            "end": 19.211,
+            "text": "The risk is not only discomfort."
+          },
+          {
+            "start": 19.211,
+            "end": 26.138,
+            "text": "Extreme heat can strain hospitals, threaten older people, and make outdoor work unsafe."
+          },
+          {
+            "start": 26.138,
+            "end": 31.652,
+            "text": "It also shows how climate adaptation is becoming a basic social service."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260705-003",
+      "title": "Hormuz Shipping Fees Raise Trade Concerns",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/china-urges-unimpeded-passage-of-hormuz-as-fee-chatter-mounts/"
+      },
+      "english": "China is calling for safe and unimpeded shipping through the Strait of Hormuz as talk grows about possible transit fees. gCaptain, citing Bloomberg, says some European powers may accept that vessels will have to pay Iran and Oman. The United States and Gulf states oppose that idea. For energy importers, any new fee or delay could raise costs and deepen uncertainty in global shipping.",
+      "chinese": "在有关霍尔木兹海峡可能收取通行费的讨论升温之际，中国呼吁保障该海峡航运安全畅通。gCaptain援引彭博社报道称，一些欧洲大国可能会接受船舶向伊朗和阿曼付费的现实。美国和海湾国家反对这一想法。对能源进口国来说，任何新的费用或延误都可能推高成本，并加大全球航运的不确定性。",
+      "keywords": [
+        "Hormuz",
+        "shipping",
+        "China",
+        "energy trade"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.702,
+            "text": "China is calling for safe and unimpeded shipping through the Strait of Hormuz as talk grows about possible transit fees."
+          },
+          {
+            "start": 8.652,
+            "end": 17.608,
+            "text": "gCaptain, citing Bloomberg, says some European powers may accept that vessels will have to pay Iran and Oman."
+          },
+          {
+            "start": 17.608,
+            "end": 21.505,
+            "text": "The United States and Gulf states oppose that idea."
+          },
+          {
+            "start": 21.505,
+            "end": 30.094,
+            "text": "For energy importers, any new fee or delay could raise costs and deepen uncertainty in global shipping."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260705-004",
+      "title": "Google AI Ad Sparks Online Backlash",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence"
+      },
+      "english": "A new Google advertisement has become a heated online topic because it imagines America's founders welcoming AI during the writing of the Declaration of Independence. The Verge criticized the message as clumsy and irritating. The reaction matters because AI companies are trying to make their tools feel normal and helpful. But when history is used too casually, audiences may see the campaign as disrespectful or forced.",
+      "chinese": "谷歌一则新广告在网上引发热议，因为它想象美国开国者在撰写《独立宣言》时欢迎人工智能。The Verge批评这条广告表达笨拙且令人反感。公众反应很重要，因为AI公司正试图让自己的工具显得日常、有用。但如果历史被过于随意地使用，观众可能会认为这种宣传不尊重历史，或者显得刻意。",
+      "keywords": [
+        "Google",
+        "AI",
+        "advertising",
+        "online reaction"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.202,
+            "text": "A new Google advertisement has become a heated online topic because it imagines America's founders welcoming AI during the writing of the Declaration of Independence."
+          },
+          {
+            "start": 12.152,
+            "end": 17.049,
+            "text": "The Verge criticized the message as clumsy and irritating."
+          },
+          {
+            "start": 17.05,
+            "end": 23.77,
+            "text": "The reaction matters because AI companies are trying to make their tools feel normal and helpful."
+          },
+          {
+            "start": 23.77,
+            "end": 31.667,
+            "text": "But when history is used too casually, audiences may see the campaign as disrespectful or forced."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260705-005",
+      "title": "EU Tries to Reduce Airport Queues",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/eu-launches-push-to-beat-airport-queue-backlog-caused-by-new-biometric-system/"
+      },
+      "english": "The EU is trying to prevent long airport queues linked to its new biometric border system. Politico Europe says the photo and fingerprint checks are meant to catch criminals and visa overstayers, but early use has left many travelers waiting. The issue shows a familiar policy problem: security technology can be useful, but public trust falls quickly when systems are slow, confusing, or poorly prepared.",
+      "chinese": "欧盟正试图避免新的生物识别边境系统造成机场长队。Politico Europe报道称，照片和指纹检查旨在发现犯罪人员和签证逾期滞留者，但早期使用已让许多旅客等待过久。这个问题显示出一种常见的政策难题：安全技术可能有用，但如果系统缓慢、复杂或准备不足，公众信任会迅速下降。",
+      "keywords": [
+        "EU",
+        "airports",
+        "biometrics",
+        "border control"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.938,
+            "text": "The EU is trying to prevent long airport queues linked to its new biometric border system."
+          },
+          {
+            "start": 6.888,
+            "end": 17.505,
+            "text": "Politico Europe says the photo and fingerprint checks are meant to catch criminals and visa overstayers, but early use has left many travelers waiting."
+          },
+          {
+            "start": 17.505,
+            "end": 30.167,
+            "text": "The issue shows a familiar policy problem: security technology can be useful, but public trust falls quickly when systems are slow, confusing, or poorly prepared."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260705-006",
+      "title": "Syria Delays Transitional Parliament",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/5/syria-delays-first-session-of-transitional-parliament-without-explanation"
+      },
+      "english": "Syria has delayed the first session of its transitional parliament without giving a clear explanation. Al Jazeera reports that the delay adds uncertainty to a fragile political process after years of conflict. A transitional assembly is supposed to give different groups a path into public decision-making. When its opening is postponed, citizens and foreign governments may question whether promised reforms are moving forward.",
+      "chinese": "叙利亚推迟了过渡议会的首次会议，但没有给出明确解释。半岛电视台报道称，在多年冲突之后，这一延期给脆弱的政治进程增加了不确定性。过渡议会本应为不同群体参与公共决策提供渠道。会议开幕被推迟时，民众和外国政府可能会质疑承诺中的改革是否仍在推进。",
+      "keywords": [
+        "Syria",
+        "transition",
+        "parliament",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-07-05/news-20260705-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-05/news-20260705-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.188,
+            "text": "Syria has delayed the first session of its transitional parliament without giving a clear explanation."
+          },
+          {
+            "start": 7.138,
+            "end": 15.226,
+            "text": "Al Jazeera reports that the delay adds uncertainty to a fragile political process after years of conflict."
+          },
+          {
+            "start": 15.226,
+            "end": 21.549,
+            "text": "A transitional assembly is supposed to give different groups a path into public decision-making."
+          },
+          {
+            "start": 21.549,
+            "end": 30.005,
+            "text": "When its opening is postponed, citizens and foreign governments may question whether promised reforms are moving forward."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-07-05, after reading config.txt.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites target CEFR B2 and are kept under the stricter user-requested 80-word limit, while config.txt allows up to 200 words.",
+    "Chinese MP3 generation remains disabled by config.txt; Simplified Chinese is included as text only.",
+    "Sources were selected from the configured media list using current RSS feeds, accessible article pages, and public search snippets."
+  ]
+}

@@ -1,0 +1,20 @@
+1
+00:00:00,100 --> 00:00:10,864
+Spain is facing another dangerous heatwave, with temperatures expected to reach 42 to 44 degrees Celsius in several regions.
+
+2
+00:00:10,814 --> 00:00:16,417
+Euronews says weather authorities issued orange alerts across much of the country.
+
+3
+00:00:16,417 --> 00:00:19,211
+The risk is not only discomfort.
+
+4
+00:00:19,211 --> 00:00:26,138
+Extreme heat can strain hospitals, threaten older people, and make outdoor work unsafe.
+
+5
+00:00:26,138 --> 00:00:31,652
+It also shows how climate adaptation is becoming a basic social service.
+

@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:12,202
+A new Google advertisement has become a heated online topic because it imagines America's founders welcoming AI during the writing of the Declaration of Independence.
+
+2
+00:00:12,152 --> 00:00:17,049
+The Verge criticized the message as clumsy and irritating.
+
+3
+00:00:17,050 --> 00:00:23,770
+The reaction matters because AI companies are trying to make their tools feel normal and helpful.
+
+4
+00:00:23,770 --> 00:00:31,667
+But when history is used too casually, audiences may see the campaign as disrespectful or forced.
+
