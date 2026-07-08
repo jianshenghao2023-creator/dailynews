@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,217
+A Wood Mackenzie analysis reported by gCaptain says the record expansion of global LNG supply could be slowed by shipbuilding limits.
+
+2
+00:00:10,167 --> 00:00:18,255
+Most LNG carriers are built in a small group of Asian yards, while demand for new ships is rising.
+
+3
+00:00:18,255 --> 00:00:28,991
+The bottleneck matters for energy markets because gas projects need vessels before they can reliably serve Europe, Asia, and other importers.
+

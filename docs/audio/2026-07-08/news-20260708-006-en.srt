@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:10,188
+Deutsche Welle reports that drug-related deaths in Germany remain near record levels, with a worrying rise among people under 30.
+
+2
+00:00:10,138 --> 00:00:14,902
+Officials link many cases to new and stronger substances.
+
+3
+00:00:14,902 --> 00:00:20,564
+The problem is becoming a broader social issue, not only a policing issue.
+
+4
+00:00:20,564 --> 00:00:28,358
+Health services, prevention programs, and faster warnings about dangerous drugs may all become more urgent.
+

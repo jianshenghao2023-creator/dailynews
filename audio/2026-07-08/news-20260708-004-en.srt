@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:13,644
+The Verge reports that OpenAI is upgrading ChatGPT's voice mode with GPT-Live-1, a model designed to interrupt users less and handle pauses more naturally.
+
+2
+00:00:13,594 --> 00:00:22,255
+It can listen and speak at the same time, support real-time translation, and move harder questions to stronger text models.
+
+3
+00:00:22,255 --> 00:00:30,814
+The update shows how AI assistants are becoming more conversational, while safety rules remain under close attention.
+

@@ -1,0 +1,281 @@
+{
+  "date": "2026-07-08",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-08T21:23:11+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260708-001",
+      "title": "US Weighs Trade Pressure on Spain",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.com/news/2026/07/08/trump-spanish-exports-trade-embargo-00990123?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      "english": "US officials are reportedly preparing a list of Spanish goods that could face trade restrictions, after President Trump again threatened an embargo during the NATO summit in Turkey. Politico says the dispute is linked to wider tensions with Madrid. For Europe, the warning shows how security arguments can quickly become trade pressure, even between long-standing allies.",
+      "chinese": "据报道，美国官员正在准备一份可能受到贸易限制的西班牙商品清单，此前特朗普总统在土耳其北约峰会期间再次威胁对西班牙实施禁运。Politico称，这一争端与美国和马德里之间更广泛的紧张关系有关。对欧洲来说，这一警告显示，安全分歧即使发生在长期盟友之间，也可能迅速转化为贸易压力。",
+      "keywords": [
+        "United States",
+        "Spain",
+        "trade pressure",
+        "NATO"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.041,
+            "text": "US officials are reportedly preparing a list of Spanish goods that could face trade restrictions, after President Trump again threatened an embargo during the NATO summit in Turkey."
+          },
+          {
+            "start": 11.991,
+            "end": 16.726,
+            "text": "Politico says the dispute is linked to wider tensions with Madrid."
+          },
+          {
+            "start": 16.726,
+            "end": 25.858,
+            "text": "For Europe, the warning shows how security arguments can quickly become trade pressure, even between long-standing allies."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260708-002",
+      "title": "Barcelona Sets New Heat Record",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/07/08/barcelona-sets-new-heat-record-of-405c-weather-agencies-say"
+      },
+      "english": "Barcelona recorded 40.5 degrees Celsius on Wednesday, the highest temperature in 112 years of local records, Euronews reports. Spain issued severe heat warnings in parts of Catalonia and Valencia as the heatwave continued. The story is not only about weather. Extreme heat is becoming a public-health and housing problem, especially for people who cannot keep their homes cool.",
+      "chinese": "Euronews报道，巴塞罗那周三录得40.5摄氏度高温，创下当地112年记录中的最高值。随着热浪持续，西班牙在加泰罗尼亚和瓦伦西亚部分地区发布严重高温预警。这条新闻不只是天气问题。极端高温正成为公共卫生和住房问题，尤其影响无法让住所保持凉爽的人群。",
+      "keywords": [
+        "Barcelona",
+        "heatwave",
+        "public health",
+        "climate change"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.188,
+            "text": "Barcelona recorded 40.5 degrees Celsius on Wednesday, the highest temperature in 112 years of local records, Euronews reports."
+          },
+          {
+            "start": 11.138,
+            "end": 18.505,
+            "text": "Spain issued severe heat warnings in parts of Catalonia and Valencia as the heatwave continued."
+          },
+          {
+            "start": 18.505,
+            "end": 21.447,
+            "text": "The story is not only about weather."
+          },
+          {
+            "start": 21.447,
+            "end": 29.594,
+            "text": "Extreme heat is becoming a public-health and housing problem, especially for people who cannot keep their homes cool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260708-003",
+      "title": "Asian Shipyards Shape LNG Expansion",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/asian-shipbuilding-dominance-could-thwart-lng-expansion-wood-mackenzie-says/"
+      },
+      "english": "A Wood Mackenzie analysis reported by gCaptain says the record expansion of global LNG supply could be slowed by shipbuilding limits. Most LNG carriers are built in a small group of Asian yards, while demand for new ships is rising. The bottleneck matters for energy markets because gas projects need vessels before they can reliably serve Europe, Asia, and other importers.",
+      "chinese": "gCaptain援引伍德麦肯兹的分析称，全球液化天然气供应的创纪录扩张可能受到造船能力限制而放慢。大多数液化天然气运输船由少数亚洲船厂建造，而新船需求正在上升。这一瓶颈对能源市场很重要，因为天然气项目需要船舶，才能稳定服务欧洲、亚洲和其他进口方。",
+      "keywords": [
+        "LNG",
+        "shipbuilding",
+        "Asian yards",
+        "energy markets"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.217,
+            "text": "A Wood Mackenzie analysis reported by gCaptain says the record expansion of global LNG supply could be slowed by shipbuilding limits."
+          },
+          {
+            "start": 10.167,
+            "end": 18.255,
+            "text": "Most LNG carriers are built in a small group of Asian yards, while demand for new ships is rising."
+          },
+          {
+            "start": 18.255,
+            "end": 28.991,
+            "text": "The bottleneck matters for energy markets because gas projects need vessels before they can reliably serve Europe, Asia, and other importers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260708-004",
+      "title": "ChatGPT Voice Gets More Natural",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
+      },
+      "english": "The Verge reports that OpenAI is upgrading ChatGPT's voice mode with GPT-Live-1, a model designed to interrupt users less and handle pauses more naturally. It can listen and speak at the same time, support real-time translation, and move harder questions to stronger text models. The update shows how AI assistants are becoming more conversational, while safety rules remain under close attention.",
+      "chinese": "The Verge报道，OpenAI正在用GPT-Live-1升级ChatGPT语音模式。该模型旨在减少打断用户，并更自然地处理停顿。它可以同时听和说，支持实时翻译，并把更复杂的问题交给更强的文本模型处理。这次更新显示，AI助手正变得更像自然对话，同时安全规则仍受到密切关注。",
+      "keywords": [
+        "ChatGPT",
+        "voice mode",
+        "AI assistants",
+        "real-time translation"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 13.644,
+            "text": "The Verge reports that OpenAI is upgrading ChatGPT's voice mode with GPT-Live-1, a model designed to interrupt users less and handle pauses more naturally."
+          },
+          {
+            "start": 13.594,
+            "end": 22.255,
+            "text": "It can listen and speak at the same time, support real-time translation, and move harder questions to stronger text models."
+          },
+          {
+            "start": 22.255,
+            "end": 30.814,
+            "text": "The update shows how AI assistants are becoming more conversational, while safety rules remain under close attention."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260708-005",
+      "title": "NATO Summit Highlights Ukraine and Iran",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara?traffic_source=rss"
+      },
+      "english": "Al Jazeera says the NATO summit in Ankara was dominated by President Trump's sharp criticism of Europe, new defence-spending pledges, Ukraine support, and rising tension with Iran. Alliance members promised larger budgets, but political unity remains difficult. The summit shows that NATO is trying to strengthen its military position while managing disputes inside the alliance and crises outside it.",
+      "chinese": "半岛电视台称，安卡拉北约峰会的主要议题包括特朗普总统对欧洲的强烈批评、新的防务支出承诺、对乌克兰的支持以及与伊朗日益加剧的紧张局势。成员国承诺增加预算，但政治团结仍然困难。这次峰会显示，北约正试图加强军事地位，同时处理联盟内部争议和外部危机。",
+      "keywords": [
+        "NATO",
+        "Ukraine",
+        "Iran",
+        "defence spending"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 13.923,
+            "text": "Al Jazeera says the NATO summit in Ankara was dominated by President Trump's sharp criticism of Europe, new defence-spending pledges, Ukraine support, and rising tension with Iran."
+          },
+          {
+            "start": 13.873,
+            "end": 20.417,
+            "text": "Alliance members promised larger budgets, but political unity remains difficult."
+          },
+          {
+            "start": 20.417,
+            "end": 30.77,
+            "text": "The summit shows that NATO is trying to strengthen its military position while managing disputes inside the alliance and crises outside it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260708-006",
+      "title": "Germany Faces Younger Drug Deaths",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germany-reports-shock-rise-in-drug-deaths-among-under-30s/a-77877173?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      "english": "Deutsche Welle reports that drug-related deaths in Germany remain near record levels, with a worrying rise among people under 30. Officials link many cases to new and stronger substances. The problem is becoming a broader social issue, not only a policing issue. Health services, prevention programs, and faster warnings about dangerous drugs may all become more urgent.",
+      "chinese": "德国之声报道，德国与毒品相关的死亡人数仍接近纪录高位，30岁以下人群的死亡增加尤其令人担忧。官员把许多案例与新型、更强效的物质联系起来。这个问题正在成为更广泛的社会问题，而不只是执法问题。医疗服务、预防项目以及对危险毒品的快速预警都可能变得更加紧迫。",
+      "keywords": [
+        "Germany",
+        "drug deaths",
+        "public health",
+        "young people"
+      ],
+      "audio": {
+        "english": "audio/2026-07-08/news-20260708-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-08/news-20260708-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.188,
+            "text": "Deutsche Welle reports that drug-related deaths in Germany remain near record levels, with a worrying rise among people under 30."
+          },
+          {
+            "start": 10.138,
+            "end": 14.902,
+            "text": "Officials link many cases to new and stronger substances."
+          },
+          {
+            "start": 14.902,
+            "end": 20.564,
+            "text": "The problem is becoming a broader social issue, not only a policing issue."
+          },
+          {
+            "start": 20.564,
+            "end": 28.358,
+            "text": "Health services, prevention programs, and faster warnings about dangerous drugs may all become more urgent."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-07-08, after reading config.txt.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites target CEFR B2 and are kept under the stricter user-requested 80-word limit, while config.txt allows up to 200 words.",
+    "Chinese MP3 generation remains disabled by config.txt; Simplified Chinese is included as text only.",
+    "Sources were selected from the configured media list using current RSS feeds, public article pages, and web search results."
+  ]
+}
