@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,850
+Germany's Bundestag has passed a disputed healthcare reform package aimed at cutting costs.
+
+2
+00:00:06,800 --> 00:00:16,476
+Deutsche Welle says protests are expected because critics fear the changes could reduce services or shift pressure onto patients and workers.
+
+3
+00:00:16,476 --> 00:00:26,358
+The debate shows how aging populations and tight budgets are forcing European governments to defend public care while controlling spending.
+

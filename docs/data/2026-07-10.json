@@ -1,0 +1,271 @@
+{
+  "date": "2026-07-10",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-10T13:04:06+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260710-001",
+      "title": "EU Tightens Rules on China-Linked Imports",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/e181c15226f44d6a2f782d4800fa837e"
+      },
+      "english": "The European Union has introduced new steel and e-commerce rules as concern grows over its trade imbalance with China. AP reports that small online parcels will face a customs charge, while steel imports above a quota will face higher duties. Brussels says the steps protect fair competition, but they may add pressure to EU-China relations.",
+      "chinese": "欧盟在对华贸易逆差扩大之际推出新的钢铁和电子商务规则。美联社报道称，小额网购包裹将被征收关税，超过配额的钢铁进口也将面临更高税率。布鲁塞尔表示，这些措施是为了保护公平竞争，但它们可能进一步加大欧中关系压力。",
+      "keywords": [
+        "European Union",
+        "China trade",
+        "steel tariffs",
+        "e-commerce"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.276,
+            "text": "The European Union has introduced new steel and e-commerce rules as concern grows over its trade imbalance with China."
+          },
+          {
+            "start": 9.226,
+            "end": 18.682,
+            "text": "AP reports that small online parcels will face a customs charge, while steel imports above a quota will face higher duties."
+          },
+          {
+            "start": 18.682,
+            "end": 25.579,
+            "text": "Brussels says the steps protect fair competition, but they may add pressure to EU-China relations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260710-002",
+      "title": "Germany Passes Controversial Healthcare Reform",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germany-bundestag-passes-controversial-healthcare-reform/live-77899497?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      "english": "Germany's Bundestag has passed a disputed healthcare reform package aimed at cutting costs. Deutsche Welle says protests are expected because critics fear the changes could reduce services or shift pressure onto patients and workers. The debate shows how aging populations and tight budgets are forcing European governments to defend public care while controlling spending.",
+      "chinese": "德国联邦议院通过了一项有争议的医疗改革方案，目标是削减成本。德国之声称，预计会出现抗议，因为批评者担心改革可能减少服务，或把压力转嫁给患者和医护人员。这场争论显示，人口老龄化和预算紧张正迫使欧洲政府在控制开支的同时维护公共医疗。",
+      "keywords": [
+        "Germany",
+        "healthcare reform",
+        "public services",
+        "Bundestag"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.85,
+            "text": "Germany's Bundestag has passed a disputed healthcare reform package aimed at cutting costs."
+          },
+          {
+            "start": 6.8,
+            "end": 16.476,
+            "text": "Deutsche Welle says protests are expected because critics fear the changes could reduce services or shift pressure onto patients and workers."
+          },
+          {
+            "start": 16.476,
+            "end": 26.358,
+            "text": "The debate shows how aging populations and tight budgets are forcing European governments to defend public care while controlling spending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260710-003",
+      "title": "Hormuz Tanker Traffic Nearly Stops",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/oil-tanker-traffic-through-hormuz-at-near-standstill-as-attacks-strain-mou/"
+      },
+      "english": "Oil tanker traffic through the Strait of Hormuz has nearly stopped after renewed US strikes on Iran and attacks on commercial vessels, gCaptain reports from Reuters. The disruption matters because the strait normally carries a large share of global oil. Higher war-risk insurance and delayed voyages could raise costs for energy buyers and shipping companies.",
+      "chinese": "gCaptain援引路透社报道称，在美国再次打击伊朗以及商船遭袭后，霍尔木兹海峡的油轮通行几乎停滞。该海峡通常承担全球相当大比例的石油运输，因此这一中断影响重大。战争风险保险上升和航程延误，可能推高能源买家和航运公司的成本。",
+      "keywords": [
+        "Strait of Hormuz",
+        "oil tankers",
+        "shipping risk",
+        "Iran"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.908,
+            "text": "Oil tanker traffic through the Strait of Hormuz has nearly stopped after renewed US strikes on Iran and attacks on commercial vessels, gCaptain reports from Reuters."
+          },
+          {
+            "start": 11.858,
+            "end": 18.285,
+            "text": "The disruption matters because the strait normally carries a large share of global oil."
+          },
+          {
+            "start": 18.285,
+            "end": 26.035,
+            "text": "Higher war-risk insurance and delayed voyages could raise costs for energy buyers and shipping companies."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260710-004",
+      "title": "EU Challenges Meta's Addictive Design",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa"
+      },
+      "english": "EU regulators say Meta may have broken the Digital Services Act because Facebook and Instagram use designs that keep people scrolling for too long. The Verge reports that autoplay, infinite scroll and recommendation systems are under scrutiny. Meta can respond, but the case could force app changes and strengthen Europe's wider push to protect young users online.",
+      "chinese": "欧盟监管机构表示，Meta可能违反《数字服务法》，因为Facebook和Instagram的设计会让用户长时间不断滑动页面。The Verge报道称，自动播放、无限滚动和推荐系统都受到审查。Meta可以作出回应，但此案可能迫使应用改变设计，并加强欧洲保护青少年上网的整体行动。",
+      "keywords": [
+        "Meta",
+        "Digital Services Act",
+        "social media",
+        "online safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.644,
+            "text": "EU regulators say Meta may have broken the Digital Services Act because Facebook and Instagram use designs that keep people scrolling for too long."
+          },
+          {
+            "start": 10.594,
+            "end": 18.035,
+            "text": "The Verge reports that autoplay, infinite scroll and recommendation systems are under scrutiny."
+          },
+          {
+            "start": 18.035,
+            "end": 26.623,
+            "text": "Meta can respond, but the case could force app changes and strengthen Europe's wider push to protect young users online."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260710-005",
+      "title": "Zelenskyy Says China Warned Russia",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/volodymyr-zelenskyy-china-urged-vladimir-putin-not-use-nuclear-weapons-in-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      },
+      "english": "Ukrainian President Volodymyr Zelenskyy says China urged Russia not to use nuclear weapons in Ukraine, according to Politico Europe. He said European leaders told him about Beijing's message at the NATO summit in Ankara. If confirmed, the report would show China trying to limit escalation while still keeping influence with Moscow.",
+      "chinese": "Politico Europe报道称，乌克兰总统泽连斯基表示，中国曾敦促俄罗斯不要在乌克兰使用核武器。他说，欧洲领导人在安卡拉北约峰会上向他转述了北京的信息。如果消息属实，这将显示中国在保持对莫斯科影响力的同时，也试图限制局势升级。",
+      "keywords": [
+        "Ukraine",
+        "China",
+        "Russia",
+        "nuclear risk"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.379,
+            "text": "Ukrainian President Volodymyr Zelenskyy says China urged Russia not to use nuclear weapons in Ukraine, according to Politico Europe."
+          },
+          {
+            "start": 10.329,
+            "end": 16.711,
+            "text": "He said European leaders told him about Beijing's message at the NATO summit in Ankara."
+          },
+          {
+            "start": 16.711,
+            "end": 24.652,
+            "text": "If confirmed, the report would show China trying to limit escalation while still keeping influence with Moscow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260710-006",
+      "title": "Google Labels AI-Made Ads",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label"
+      },
+      "english": "Google will show whether some ads were created or edited with AI, The Verge reports. Users can find the label in My Ad Center on Search, Discover and YouTube. The change is small but important for media trust, because AI tools can make advertising cheaper, faster and harder to judge without clear disclosure.",
+      "chinese": "The Verge报道称，Google将显示部分广告是否由人工智能生成或编辑。用户可以在搜索、Discover和YouTube的“我的广告中心”中查看这一标签。这个变化不大，但对媒体信任很重要，因为AI工具能让广告更便宜、更快速，也更难在没有明确说明的情况下判断。",
+      "keywords": [
+        "Google",
+        "AI ads",
+        "transparency",
+        "YouTube"
+      ],
+      "audio": {
+        "english": "audio/2026-07-10/news-20260710-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-10/news-20260710-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.364,
+            "text": "Google will show whether some ads were created or edited with AI, The Verge reports."
+          },
+          {
+            "start": 6.314,
+            "end": 11.476,
+            "text": "Users can find the label in My Ad Center on Search, Discover and YouTube."
+          },
+          {
+            "start": 11.476,
+            "end": 22.799,
+            "text": "The change is small but important for media trust, because AI tools can make advertising cheaper, faster and harder to judge without clear disclosure."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated for the current Europe/Berlin date, 2026-07-10, after reading config.txt.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is text only because generate_chinese_mp3=false.",
+    "AP's configured RSS endpoint returned homepage HTML during this run, so the AP item was selected through current web search instead of feed parsing."
+  ]
+}

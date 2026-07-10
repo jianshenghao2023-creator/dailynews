@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,364
+Google will show whether some ads were created or edited with AI, The Verge reports.
+
+2
+00:00:06,314 --> 00:00:11,476
+Users can find the label in My Ad Center on Search, Discover and YouTube.
+
+3
+00:00:11,476 --> 00:00:22,799
+The change is small but important for media trust, because AI tools can make advertising cheaper, faster and harder to judge without clear disclosure.
+

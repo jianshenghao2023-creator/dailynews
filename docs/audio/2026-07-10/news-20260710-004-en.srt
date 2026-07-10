@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,644
+EU regulators say Meta may have broken the Digital Services Act because Facebook and Instagram use designs that keep people scrolling for too long.
+
+2
+00:00:10,594 --> 00:00:18,035
+The Verge reports that autoplay, infinite scroll and recommendation systems are under scrutiny.
+
+3
+00:00:18,035 --> 00:00:26,623
+Meta can respond, but the case could force app changes and strengthen Europe's wider push to protect young users online.
+
