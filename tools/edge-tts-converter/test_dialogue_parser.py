@@ -3,11 +3,16 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from edge_tts_converter import (
+    FOLLOW_ALONG_PAUSE_MULTIPLIER,
     MODE_AUTO,
     MODE_DIALOGUE,
     NARRATOR_KEY,
     analyze_text,
+    create_silence_mp3,
+    expand_segments_to_sentences,
+    probe_audio_duration_ms,
     safe_output_path,
+    split_sentences,
 )
 
 
@@ -20,12 +25,21 @@ class DialogueParserTests(unittest.TestCase):
         self.assertEqual(analysis.speakers, ())
         self.assertEqual(len(analysis.segments), 1)
 
-    def test_intro_becomes_narration_and_roles_are_detected(self) -> None:
-        text = """The train was nearly empty when Anna entered.
+    def test_only_strict_tags_are_dialogue(self) -> None:
+        nonstandard_text = """Anna: Is this seat free?
+小明：你准备好了吗？
+David - Yes, please sit down.
+[Narrator] The train was nearly empty."""
+        analysis = analyze_text(nonstandard_text, MODE_AUTO)
 
-Anna: Is this seat free?
-David: Yes, please sit down.
-Anna: Thank you."""
+        self.assertFalse(analysis.is_dialogue)
+        self.assertEqual(analysis.tagged_turns, 0)
+
+    def test_named_speakers_and_narration_are_detected(self) -> None:
+        text = """[narration]: The train was nearly empty.
+[speaker: Anna]: Is this seat free?
+[speaker: David]: Yes, please sit down.
+[speaker: Anna]: Thank you."""
         analysis = analyze_text(text, MODE_AUTO)
 
         self.assertTrue(analysis.is_dialogue)
@@ -36,44 +50,66 @@ Anna: Thank you."""
             ["Narrator", "Anna", "David", "Anna"],
         )
 
-    def test_chinese_full_width_labels(self) -> None:
-        analysis = analyze_text("小明：你准备好了吗？\n小红：准备好了。", MODE_AUTO)
+    def test_generic_speaker_tag_is_supported(self) -> None:
+        analysis = analyze_text("[speaker]: Welcome to the programme.", MODE_AUTO)
 
         self.assertTrue(analysis.is_dialogue)
-        self.assertEqual(analysis.speakers, ("小明", "小红"))
+        self.assertEqual(analysis.speakers, ("Speaker",))
+        self.assertEqual(analysis.segments[0].speaker_key, "speaker")
 
-    def test_standalone_labels_and_stage_directions(self) -> None:
-        text = """ALICE:
-(quietly) We should go now.
-
-BOB:
-Not yet."""
-        analysis = analyze_text(text, MODE_AUTO)
-
-        self.assertTrue(analysis.is_dialogue)
-        self.assertEqual(analysis.segments[0].text, "We should go now.")
-        self.assertEqual(analysis.segments[1].text, "Not yet.")
-
-    def test_force_dialogue_allows_one_labelled_speaker(self) -> None:
-        text = "An opening note.\nHost: Welcome to the programme."
-
-        self.assertFalse(analyze_text(text, MODE_AUTO).is_dialogue)
-        self.assertTrue(analyze_text(text, MODE_DIALOGUE).is_dialogue)
-
-    def test_metadata_labels_do_not_trigger_dialogue(self) -> None:
-        text = "Title: Weekly Briefing\nAuthor: Morgan Lee\nA normal article follows."
-        analysis = analyze_text(text, MODE_AUTO)
-
-        self.assertFalse(analysis.is_dialogue)
-        self.assertEqual(analysis.tagged_turns, 0)
-
-    def test_explicit_narrator_and_one_role_are_dialogue(self) -> None:
-        text = "Narrator: The room grows quiet.\nAnna: I think we can begin."
+    def test_tags_are_case_insensitive(self) -> None:
+        text = "[NARRATION]: The room grows quiet.\n[SPEAKER: Anna]: We can begin."
         analysis = analyze_text(text, MODE_AUTO)
 
         self.assertTrue(analysis.is_dialogue)
         self.assertEqual(analysis.speakers, ("Anna",))
-        self.assertTrue(analysis.segments[0].is_narrator)
+
+    def test_unmarked_lines_are_skipped_in_dialogue(self) -> None:
+        text = "Heading to skip\n[speaker: Anna]: Hello.\nAnother note to skip"
+        analysis = analyze_text(text, MODE_AUTO)
+
+        self.assertTrue(analysis.is_dialogue)
+        self.assertEqual(len(analysis.segments), 1)
+        self.assertEqual(analysis.ignored_lines, 2)
+
+    def test_forced_dialogue_rejects_text_without_tags(self) -> None:
+        analysis = analyze_text("Anna: This is not a strict tag.", MODE_DIALOGUE)
+
+        self.assertTrue(analysis.is_dialogue)
+        self.assertEqual(analysis.segments, ())
+        self.assertEqual(analysis.ignored_lines, 1)
+
+    def test_sentence_splitter_handles_english_and_chinese(self) -> None:
+        sentences = split_sentences("Are you ready? I am ready! 我们出发吧。好的！")
+
+        self.assertEqual(
+            sentences,
+            ["Are you ready?", "I am ready!", "我们出发吧。", "好的！"],
+        )
+
+    def test_sentence_splitter_keeps_common_abbreviations(self) -> None:
+        sentences = split_sentences("Dr. Smith is here. The U.S. team arrived.")
+
+        self.assertEqual(sentences, ["Dr. Smith is here.", "The U.S. team arrived."])
+
+    def test_dialogue_turns_expand_to_sentences(self) -> None:
+        analysis = analyze_text(
+            "[speaker: Anna]: First sentence. Second sentence?",
+            MODE_AUTO,
+        )
+        expanded = expand_segments_to_sentences(analysis.segments)
+
+        self.assertEqual(len(expanded), 2)
+        self.assertTrue(all(segment.speaker == "Anna" for segment in expanded))
+
+    def test_generated_silence_duration_can_be_measured(self) -> None:
+        with TemporaryDirectory() as tmp:
+            silence_path = Path(tmp) / "silence.mp3"
+            expected_ms = round(500 * FOLLOW_ALONG_PAUSE_MULTIPLIER)
+            create_silence_mp3(silence_path, expected_ms)
+            measured_ms = probe_audio_duration_ms(silence_path)
+
+            self.assertLessEqual(abs(measured_ms - expected_ms), 80)
 
     def test_batch_outputs_with_same_filename_are_unique(self) -> None:
         with TemporaryDirectory() as tmp:

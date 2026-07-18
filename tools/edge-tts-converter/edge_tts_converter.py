@@ -19,6 +19,7 @@ from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QAction
 from PySide6.QtWidgets import (
     QApplication,
+    QCheckBox,
     QComboBox,
     QFileDialog,
     QGridLayout,
@@ -49,6 +50,7 @@ MODE_AUTO = "auto"
 MODE_READING = "reading"
 MODE_DIALOGUE = "dialogue"
 NARRATOR_KEY = "__narrator__"
+FOLLOW_ALONG_PAUSE_MULTIPLIER = 1.2
 
 PRESET_VOICES = [
     "en-US-AvaNeural",
@@ -84,57 +86,27 @@ CHINESE_DIALOGUE_VOICES = [
     "zh-CN-XiaoyiNeural",
 ]
 
-NARRATOR_ALIASES = {
-    "narrator",
-    "narration",
-    "voice over",
-    "voiceover",
-    "旁白",
-    "画外音",
-    "解说",
+SPEAKER_TAG_PATTERN = re.compile(
+    r"^\s*\[speaker(?:\s*:\s*(?P<label>[^\]\r\n]{1,40}))?\]\s*:\s*(?P<text>.+?)\s*$",
+    re.IGNORECASE,
+)
+NARRATION_TAG_PATTERN = re.compile(
+    r"^\s*\[narration\]\s*:\s*(?P<text>.+?)\s*$",
+    re.IGNORECASE,
+)
+SENTENCE_ENDINGS = ".!?。！？"
+SENTENCE_CLOSERS = "\"'”’）)]】"
+NON_ENDING_ABBREVIATIONS = {
+    "dr.",
+    "jr.",
+    "mr.",
+    "mrs.",
+    "ms.",
+    "prof.",
+    "sr.",
+    "st.",
+    "vs.",
 }
-
-NON_SPEAKER_LABELS = {
-    "act",
-    "author",
-    "chapter",
-    "category",
-    "date",
-    "description",
-    "duration",
-    "heading",
-    "http",
-    "https",
-    "introduction",
-    "keywords",
-    "language",
-    "location",
-    "note",
-    "scene",
-    "source",
-    "subject",
-    "summary",
-    "title",
-    "time",
-    "topic",
-    "url",
-    "作者",
-    "日期",
-    "场景",
-    "标题",
-    "来源",
-    "章节",
-    "主题",
-    "说明",
-}
-
-SPEAKER_PATTERNS = [
-    re.compile(r"^\s*\*\*(?P<label>[^\n:*：]{1,40})\s*[:：]\*\*\s*(?P<text>.*)\s*$"),
-    re.compile(r"^\s*[\[【](?P<label>[^\]】\n]{1,40})[\]】]\s*[:：]?\s*(?P<text>.*)\s*$"),
-    re.compile(r"^\s*(?P<label>[^\n:：|]{1,40})\s*[:：]\s*(?P<text>.*)\s*$"),
-    re.compile(r"^\s*(?P<label>[^\n|]{1,40})\s*\|\s*(?P<text>.+)\s*$"),
-    re.compile(r"^\s*(?P<label>[^\n—–-]{1,40})\s+[—–-]\s+(?P<text>.+)\s*$"),
-]
 
 
 @dataclass(frozen=True)
@@ -147,6 +119,7 @@ class ConvertJob:
     role_voices: tuple[tuple[str, str], ...]
     rate: int
     dialogue_pause_ms: int
+    follow_along: bool
 
 
 @dataclass(frozen=True)
@@ -163,44 +136,23 @@ class TextAnalysis:
     segments: tuple[SpeechSegment, ...]
     speakers: tuple[str, ...]
     tagged_turns: int
+    ignored_lines: int
 
 
 def normalize_speaker_key(label: str) -> str:
     return " ".join(label.split()).casefold()
 
 
-def is_narrator_label(label: str) -> bool:
-    return normalize_speaker_key(label) in NARRATOR_ALIASES
+def match_tagged_line(line: str) -> tuple[str, str, bool] | None:
+    narration_match = NARRATION_TAG_PATTERN.match(line)
+    if narration_match:
+        return "Narrator", narration_match.group("text").strip(), True
 
-
-def is_valid_speaker_label(label: str) -> bool:
-    label = " ".join(label.strip().strip("*_#").split())
-    if not label or len(label) > 40:
-        return False
-    if not re.search(r"[A-Za-z\u3400-\u9fff]", label):
-        return False
-    if re.search(r"[.!?。！？;,；，/]", label):
-        return False
-    if len(label.split()) > 5:
-        return False
-    first_word = normalize_speaker_key(label).split(maxsplit=1)[0]
-    return first_word not in NON_SPEAKER_LABELS
-
-
-def match_speaker_line(line: str) -> tuple[str, str] | None:
-    candidate = re.sub(r"^\s*[-*]\s+(?=[^:：]{1,40}[:：])", "", line)
-    for pattern in SPEAKER_PATTERNS:
-        match = pattern.match(candidate)
-        if not match:
-            continue
-        label = " ".join(match.group("label").strip().strip("*_#").split())
-        if is_narrator_label(label) or is_valid_speaker_label(label):
-            return label, match.group("text").strip()
-    return None
-
-
-def strip_leading_stage_direction(text: str) -> str:
-    return re.sub(r"^\s*[\[(（【][^\])）】]{1,60}[\])）】]\s*", "", text).strip()
+    speaker_match = SPEAKER_TAG_PATTERN.match(line)
+    if not speaker_match:
+        return None
+    label = " ".join((speaker_match.group("label") or "Speaker").split())
+    return label, speaker_match.group("text").strip(), False
 
 
 def append_segment(
@@ -210,17 +162,8 @@ def append_segment(
     text: str,
     is_narrator: bool,
 ) -> None:
-    text = clean_text(strip_leading_stage_direction(text) if not is_narrator else text)
+    text = clean_text(text)
     if not text:
-        return
-    if segments and segments[-1].speaker_key == speaker_key:
-        previous = segments[-1]
-        segments[-1] = SpeechSegment(
-            speaker=previous.speaker,
-            speaker_key=previous.speaker_key,
-            text=f"{previous.text} {text}",
-            is_narrator=previous.is_narrator,
-        )
         return
     segments.append(
         SpeechSegment(
@@ -238,67 +181,39 @@ def analyze_text(text: str, mode: str = MODE_AUTO) -> TextAnalysis:
         segments = (
             SpeechSegment("Narrator", NARRATOR_KEY, cleaned, True),
         ) if cleaned else ()
-        return TextAnalysis(False, segments, (), 0)
+        return TextAnalysis(False, segments, (), 0, 0)
 
     lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
-    markers: list[tuple[int, str, str]] = []
+    segments_list: list[SpeechSegment] = []
     speaker_names: dict[str, str] = {}
-    narrator_was_tagged = False
+    ignored_lines = 0
 
-    for index, line in enumerate(lines):
-        matched = match_speaker_line(line)
-        if not matched:
+    for line in lines:
+        if not line.strip():
             continue
-        label, spoken_text = matched
-        key = normalize_speaker_key(label)
-        markers.append((index, label, spoken_text))
-        if is_narrator_label(label):
-            narrator_was_tagged = True
+        matched = match_tagged_line(line)
+        if not matched:
+            ignored_lines += 1
+            continue
+        label, spoken_text, is_narrator = matched
+        if is_narrator:
+            key = NARRATOR_KEY
+            display_name = "Narrator"
         else:
+            key = normalize_speaker_key(label)
             speaker_names.setdefault(key, label)
+            display_name = speaker_names[key]
+        append_segment(segments_list, display_name, key, spoken_text, is_narrator)
 
-    tagged_turns = len(markers)
-    auto_dialogue = tagged_turns >= 2 and (
-        len(speaker_names) >= 2 or (len(speaker_names) >= 1 and narrator_was_tagged)
-    )
-    is_dialogue = tagged_turns >= 1 if mode == MODE_DIALOGUE else auto_dialogue
+    tagged_turns = len(segments_list)
+    is_dialogue = tagged_turns > 0 or mode == MODE_DIALOGUE
 
     if not is_dialogue:
         cleaned = clean_text(text)
         segments = (
             SpeechSegment("Narrator", NARRATOR_KEY, cleaned, True),
         ) if cleaned else ()
-        return TextAnalysis(False, segments, (), tagged_turns)
-
-    recognized_keys = set(speaker_names)
-    segments_list: list[SpeechSegment] = []
-    block_speaker: tuple[str, str, bool] | None = None
-
-    for line in lines:
-        if not line.strip():
-            block_speaker = None
-            continue
-
-        matched = match_speaker_line(line)
-        if matched:
-            label, spoken_text = matched
-            is_narrator = is_narrator_label(label)
-            key = NARRATOR_KEY if is_narrator else normalize_speaker_key(label)
-            if is_narrator or key in recognized_keys:
-                display_name = "Narrator" if is_narrator else speaker_names[key]
-                spoken_text = strip_leading_stage_direction(spoken_text)
-                if spoken_text:
-                    append_segment(segments_list, display_name, key, spoken_text, is_narrator)
-                    block_speaker = None
-                else:
-                    block_speaker = (display_name, key, is_narrator)
-                continue
-
-        if block_speaker:
-            display_name, key, is_narrator = block_speaker
-            append_segment(segments_list, display_name, key, line, is_narrator)
-        else:
-            append_segment(segments_list, "Narrator", NARRATOR_KEY, line, True)
+        return TextAnalysis(False, segments, (), 0, 0)
 
     ordered_speakers: list[str] = []
     seen_speakers: set[str] = set()
@@ -308,7 +223,81 @@ def analyze_text(text: str, mode: str = MODE_AUTO) -> TextAnalysis:
         seen_speakers.add(segment.speaker_key)
         ordered_speakers.append(segment.speaker)
 
-    return TextAnalysis(True, tuple(segments_list), tuple(ordered_speakers), tagged_turns)
+    return TextAnalysis(
+        True,
+        tuple(segments_list),
+        tuple(ordered_speakers),
+        tagged_turns,
+        ignored_lines,
+    )
+
+
+def split_sentences(text: str) -> list[str]:
+    cleaned = clean_text(text)
+    if not cleaned:
+        return []
+
+    sentences: list[str] = []
+    start = 0
+    index = 0
+    while index < len(cleaned):
+        ending = cleaned[index]
+        if ending not in SENTENCE_ENDINGS:
+            index += 1
+            continue
+
+        boundary_end = index + 1
+        while boundary_end < len(cleaned) and cleaned[boundary_end] in SENTENCE_ENDINGS:
+            boundary_end += 1
+        while boundary_end < len(cleaned) and cleaned[boundary_end] in SENTENCE_CLOSERS:
+            boundary_end += 1
+
+        is_ascii_ending = ending in ".!?"
+        has_following_text = boundary_end < len(cleaned)
+        if is_ascii_ending and has_following_text and not cleaned[boundary_end].isspace():
+            index = boundary_end
+            continue
+
+        fragment = cleaned[start : index + 1]
+        word_match = re.search(r"([A-Za-z.]+)$", fragment)
+        word = word_match.group(1).casefold() if word_match else ""
+        is_initialism = bool(re.fullmatch(r"(?:[a-z]\.){2,}", word))
+        is_abbreviation = ending == "." and has_following_text and (
+            word in NON_ENDING_ABBREVIATIONS or is_initialism
+        )
+        if is_abbreviation:
+            index = boundary_end
+            continue
+
+        sentence = clean_text(cleaned[start:boundary_end])
+        if sentence:
+            sentences.append(sentence)
+        start = boundary_end
+        while start < len(cleaned) and cleaned[start].isspace():
+            start += 1
+        index = start
+
+    remainder = clean_text(cleaned[start:])
+    if remainder:
+        sentences.append(remainder)
+    return sentences
+
+
+def expand_segments_to_sentences(
+    segments: tuple[SpeechSegment, ...],
+) -> tuple[SpeechSegment, ...]:
+    expanded: list[SpeechSegment] = []
+    for segment in segments:
+        for sentence in split_sentences(segment.text):
+            expanded.append(
+                SpeechSegment(
+                    speaker=segment.speaker,
+                    speaker_key=segment.speaker_key,
+                    text=sentence,
+                    is_narrator=segment.is_narrator,
+                )
+            )
+    return tuple(expanded)
 
 
 def clean_text(text: str) -> str:
@@ -401,6 +390,25 @@ def run_ffmpeg(arguments: list[str]) -> None:
         raise RuntimeError(f"Could not combine dialogue audio: {message}")
 
 
+def probe_audio_duration_ms(path: Path) -> int:
+    creation_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
+    result = subprocess.run(
+        [imageio_ffmpeg.get_ffmpeg_exe(), "-hide_banner", "-i", str(path)],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        creationflags=creation_flags,
+        check=False,
+    )
+    match = re.search(r"Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)", result.stderr)
+    if not match:
+        raise RuntimeError(f"Could not measure sentence duration: {path.name}")
+    hours, minutes, seconds = match.groups()
+    total_seconds = int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+    return max(1, round(total_seconds * 1000))
+
+
 def create_silence_mp3(output: Path, duration_ms: int) -> None:
     run_ffmpeg(
         [
@@ -414,6 +422,38 @@ def create_silence_mp3(output: Path, duration_ms: int) -> None:
             "anullsrc=r=24000:cl=mono",
             "-t",
             f"{duration_ms / 1000:.3f}",
+            "-ar",
+            "24000",
+            "-ac",
+            "1",
+            "-c:a",
+            "libmp3lame",
+            "-b:a",
+            "48k",
+            str(output),
+        ]
+    )
+
+
+def encode_concat_list(sequence: list[Path], list_name: str, output: Path) -> None:
+    work_dir = sequence[0].parent
+    concat_file = work_dir / list_name
+    concat_file.write_text(
+        "\n".join(f"file '{path.name}'" for path in sequence),
+        encoding="utf-8",
+    )
+    run_ffmpeg(
+        [
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            str(concat_file),
             "-ar",
             "24000",
             "-ac",
@@ -444,40 +484,35 @@ def combine_dialogue_mp3(
         create_silence_mp3(standard_pause, pause_ms)
         create_silence_mp3(narrator_pause, min(2500, pause_ms + 250))
 
-    concat_lines: list[str] = []
+    sequence: list[Path] = []
     for index, segment_file in enumerate(segment_files):
-        concat_lines.append(f"file '{segment_file.name}'")
+        sequence.append(segment_file)
         if pause_ms <= 0 or index == len(segment_files) - 1:
             continue
         transition_uses_narrator = segments[index].is_narrator or segments[index + 1].is_narrator
         pause_file = narrator_pause if transition_uses_narrator else standard_pause
-        concat_lines.append(f"file '{pause_file.name}'")
+        sequence.append(pause_file)
 
-    concat_file = work_dir / "dialogue-concat.txt"
-    concat_file.write_text("\n".join(concat_lines), encoding="utf-8")
-    run_ffmpeg(
-        [
-            "-hide_banner",
-            "-loglevel",
-            "error",
-            "-y",
-            "-f",
-            "concat",
-            "-safe",
-            "0",
-            "-i",
-            str(concat_file),
-            "-ar",
-            "24000",
-            "-ac",
-            "1",
-            "-c:a",
-            "libmp3lame",
-            "-b:a",
-            "48k",
-            str(output),
-        ]
-    )
+    encode_concat_list(sequence, "dialogue-concat.txt", output)
+
+
+def combine_follow_along_mp3(
+    segment_files: list[Path],
+    pause_durations_ms: list[int],
+    output: Path,
+) -> None:
+    if len(segment_files) != len(pause_durations_ms):
+        raise ValueError("Sentence audio and pause counts do not match")
+    sequence: list[Path] = []
+    work_dir = segment_files[0].parent
+    for index, (segment_file, duration_ms) in enumerate(
+        zip(segment_files, pause_durations_ms),
+        start=1,
+    ):
+        pause_file = work_dir / f"follow-pause-{index:04d}.mp3"
+        create_silence_mp3(pause_file, duration_ms)
+        sequence.extend([segment_file, pause_file])
+    encode_concat_list(sequence, "follow-along-concat.txt", output)
 
 
 async def synthesize_dialogue_segments(
@@ -537,25 +572,60 @@ def synthesize_dialogue_to_mp3(
         shutil.copyfile(combined_output, output)
 
 
+def synthesize_follow_along_to_mp3(
+    segments: tuple[SpeechSegment, ...],
+    role_voices: dict[str, str],
+    narrator_voice: str,
+    fallback_voice: str,
+    rate: int,
+    output: Path,
+    progress_callback: Callable[[int, int, SpeechSegment], None] | None = None,
+) -> None:
+    sentence_segments = expand_segments_to_sentences(segments)
+    if not sentence_segments:
+        raise ValueError("No speakable sentences found")
+
+    with tempfile.TemporaryDirectory(prefix="edge-tts-follow-along-") as tmp:
+        work_dir = Path(tmp)
+        segment_files = asyncio.run(
+            synthesize_dialogue_segments(
+                sentence_segments,
+                role_voices,
+                narrator_voice,
+                fallback_voice,
+                rate,
+                work_dir,
+                progress_callback,
+            )
+        )
+        pause_durations_ms = [
+            round(probe_audio_duration_ms(segment_file) * FOLLOW_ALONG_PAUSE_MULTIPLIER)
+            for segment_file in segment_files
+        ]
+        combined_output = work_dir / "combined.mp3"
+        combine_follow_along_mp3(segment_files, pause_durations_ms, combined_output)
+        shutil.copyfile(combined_output, output)
+
+
 def run_self_test() -> int:
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
         source = tmpdir / "self-test.txt"
         source.write_text(
-            "Ava: This is a short dialogue self test.\nRyan: The audio tools are working.",
+            "[speaker: Ava]: This is a short dialogue self test.\n"
+            "[speaker: Ryan]: The audio tools are working.",
             encoding="utf-8",
         )
         output = tmpdir / "self-test.mp3"
         analysis = analyze_text(read_input_file(source), MODE_AUTO)
         if not analysis.is_dialogue:
             return 1
-        synthesize_dialogue_to_mp3(
-            analysis=analysis,
+        synthesize_follow_along_to_mp3(
+            segments=analysis.segments,
             role_voices={"ava": "en-US-AvaNeural", "ryan": "en-GB-RyanNeural"},
             narrator_voice="en-US-AvaNeural",
             fallback_voice="en-US-AvaNeural",
             rate=-8,
-            pause_ms=250,
             output=output,
         )
         if not output.exists() or output.stat().st_size == 0:
@@ -588,12 +658,49 @@ class ConvertWorker(QThread):
                 analysis = analyze_text(source_text, job.mode)
                 if analysis.is_dialogue:
                     if not analysis.segments:
-                        raise ValueError("No speakable dialogue text found")
-                    role_voices = dict(job.role_voices)
+                        raise ValueError(
+                            "No valid [speaker]: or [narration]: lines were found"
+                        )
                     self.log.emit(
                         f"Dialogue detected: {job.source.name} - "
                         f"{len(analysis.speakers)} speaker(s), {len(analysis.segments)} turn(s)"
                     )
+                    if analysis.ignored_lines:
+                        self.log.emit(
+                            f"Skipped {analysis.ignored_lines} unmarked line(s) in "
+                            f"{job.source.name}"
+                        )
+
+                role_voices = dict(job.role_voices)
+                if job.follow_along:
+                    sentence_segments = expand_segments_to_sentences(analysis.segments)
+
+                    def report_sentence(
+                        done: int,
+                        sentence_total: int,
+                        segment: SpeechSegment,
+                    ) -> None:
+                        self.status.emit(
+                            f"{job.source.name}: sentence {done}/{sentence_total} "
+                            f"({segment.speaker})"
+                        )
+
+                    self.log.emit(
+                        f"Follow-along mode: {job.source.name} - "
+                        f"{len(sentence_segments)} sentence(s), 1.2x pauses"
+                    )
+                    synthesize_follow_along_to_mp3(
+                        segments=analysis.segments,
+                        role_voices=role_voices,
+                        narrator_voice=(
+                            job.narrator_voice if analysis.is_dialogue else job.reading_voice
+                        ),
+                        fallback_voice=job.reading_voice,
+                        rate=job.rate,
+                        output=job.output,
+                        progress_callback=report_sentence,
+                    )
+                elif analysis.is_dialogue:
 
                     def report_turn(done: int, turn_total: int, segment: SpeechSegment) -> None:
                         self.status.emit(
@@ -664,6 +771,9 @@ class EdgeTTSConverterWindow(QMainWindow):
 
     def _build_menu(self) -> None:
         help_menu = self.menuBar().addMenu("Help")
+        open_prompt = QAction("Open Dialogue Prompt", self)
+        open_prompt.triggered.connect(self.open_dialogue_prompt)
+        help_menu.addAction(open_prompt)
         about = QAction("About", self)
         about.triggered.connect(self.show_about)
         help_menu.addAction(about)
@@ -731,9 +841,13 @@ class EdgeTTSConverterWindow(QMainWindow):
         self.pause_slider.setValue(550)
         self.pause_label = QLabel("550 ms")
         self.pause_label.setMinimumWidth(60)
-        settings_layout.addWidget(QLabel("Turn pause"), 5, 0)
+        self.turn_pause_title = QLabel("Turn pause")
+        settings_layout.addWidget(self.turn_pause_title, 5, 0)
         settings_layout.addWidget(self.pause_slider, 5, 1)
         settings_layout.addWidget(self.pause_label, 5, 2)
+
+        self.follow_along_checkbox = QCheckBox("Follow-along mode (1.2x sentence pause)")
+        settings_layout.addWidget(self.follow_along_checkbox, 6, 1, 1, 2)
 
         self.file_list = QListWidget()
         self.file_list.setSelectionMode(QListWidget.SelectionMode.ExtendedSelection)
@@ -781,6 +895,7 @@ class EdgeTTSConverterWindow(QMainWindow):
         self.mode_combo.currentIndexChanged.connect(self.refresh_detected_speakers)
         self.speed_slider.valueChanged.connect(self.update_speed_label)
         self.pause_slider.valueChanged.connect(self.update_pause_label)
+        self.follow_along_checkbox.toggled.connect(self.update_follow_along_state)
         self.start_button.clicked.connect(self.start_conversion)
         self.open_output_button.clicked.connect(self.open_output_folder)
 
@@ -789,9 +904,19 @@ class EdgeTTSConverterWindow(QMainWindow):
             self,
             APP_TITLE,
             "Convert TXT and Word DOCX files to MP3 with Microsoft Edge TTS.\n"
-            "Dialogue text can use a different voice for each speaker and narrator.\n\n"
+            "Dialogue lines must use [speaker]: or [speaker: Name]: tags.\n"
+            "Narration lines must use [narration]: tags.\n"
+            "Follow-along mode adds a 1.2x sentence-duration pause.\n\n"
             "Internet access is required. Old .doc files should be saved as .docx first.",
         )
+
+    def open_dialogue_prompt(self) -> None:
+        app_dir = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).parent
+        prompt_path = app_dir / "dialogue_prompt.txt"
+        if prompt_path.exists():
+            os.startfile(str(prompt_path))
+            return
+        QMessageBox.warning(self, APP_TITLE, f"Prompt file not found: {prompt_path}")
 
     def add_files(self) -> None:
         paths, _ = QFileDialog.getOpenFileNames(
@@ -957,6 +1082,11 @@ class EdgeTTSConverterWindow(QMainWindow):
     def update_pause_label(self, value: int) -> None:
         self.pause_label.setText(f"{value} ms")
 
+    def update_follow_along_state(self, checked: bool) -> None:
+        self.turn_pause_title.setEnabled(not checked)
+        self.pause_slider.setEnabled(not checked)
+        self.pause_label.setEnabled(not checked)
+
     def start_conversion(self) -> None:
         if self.convert_worker and self.convert_worker.isRunning():
             return
@@ -1005,6 +1135,7 @@ class EdgeTTSConverterWindow(QMainWindow):
                     role_voices=role_voices,
                     rate=rate,
                     dialogue_pause_ms=self.pause_slider.value(),
+                    follow_along=self.follow_along_checkbox.isChecked(),
                 )
             )
 
@@ -1014,7 +1145,7 @@ class EdgeTTSConverterWindow(QMainWindow):
         self._update_progress_label(0, len(jobs))
         self.log(
             f"Starting {len(jobs)} job(s), mode {mode}, speed {rate_to_edge_value(rate)}, "
-            f"turn pause {self.pause_slider.value()} ms"
+            f"follow-along {'on' if self.follow_along_checkbox.isChecked() else 'off'}"
         )
         self.statusBar().showMessage("Converting...")
 
@@ -1036,11 +1167,14 @@ class EdgeTTSConverterWindow(QMainWindow):
             self.voice_combo,
             self.narrator_voice_combo,
             self.speed_slider,
-            self.pause_slider,
+            self.follow_along_checkbox,
             self.role_table,
             self.start_button,
         ]:
             widget.setEnabled(enabled)
+        self.turn_pause_title.setEnabled(enabled and not self.follow_along_checkbox.isChecked())
+        self.pause_slider.setEnabled(enabled and not self.follow_along_checkbox.isChecked())
+        self.pause_label.setEnabled(enabled and not self.follow_along_checkbox.isChecked())
 
     def on_progress(self, done: int, total: int) -> None:
         self.progress_bar.setMaximum(total)

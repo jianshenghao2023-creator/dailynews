@@ -1,0 +1,16 @@
+Create a natural dialogue about: [TOPIC]
+
+Return only the dialogue script and follow this exact format:
+
+[narration]: A short narration sentence.
+[speaker: Anna]: The first spoken sentence.
+[speaker: David]: The reply sentence.
+
+Rules:
+1. Use [narration]: for every narrator line.
+2. Use [speaker: Character Name]: for every spoken line.
+3. Keep each character name exactly the same throughout the script.
+4. Put one complete sentence on each line, with the tag and text on the same line.
+5. Do not use dashes, bullets, headings, stage directions, or any other speaker format.
+6. Do not add explanations before or after the script.
+7. If the script has only one unnamed speaker, [speaker]: may be used.
