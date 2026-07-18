@@ -22,7 +22,10 @@ if (-not (Test-Path -LiteralPath $Python)) {
 
 $PackageDir = Join-Path $AppDir "dist\EdgeTTSConverter"
 Copy-Item -LiteralPath (Join-Path $AppDir "README.md") -Destination $PackageDir -Force
+$ZipPath = Join-Path $AppDir "EdgeTTSConverter-portable.zip"
+Compress-Archive -Path (Join-Path $PackageDir "*") -DestinationPath $ZipPath -Force
 
 Write-Host ""
 Write-Host "Built portable package:"
 Write-Host $PackageDir
+Write-Host $ZipPath
