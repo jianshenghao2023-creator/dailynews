@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:11,232
+Air quality warnings remain across parts of the United States as smoke from Canadian wildfires spreads over major cities, The Guardian reports.
+
+2
+00:00:11,182 --> 00:00:16,932
+Officials have urged vulnerable people to stay indoors or use protective masks.
+
+3
+00:00:16,932 --> 00:00:28,005
+The smoke has disrupted daily life, sports and public events, turning a climate-linked disaster into a highly visible public health problem.
+

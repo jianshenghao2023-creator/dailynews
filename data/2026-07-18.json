@@ -1,0 +1,272 @@
+{
+  "date": "2026-07-18",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-18T17:31:19+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260718-001",
+      "title": "China Criticizes UK Steel Takeover",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/17/china-rebukes-uk-over-nationalisation-of-british-steel"
+      },
+      "english": "China has criticized the United Kingdom's nationalisation of British Steel, saying the move damaged Chinese investors' confidence. Al Jazeera reports that London says public ownership was needed to protect national interests and steel jobs. The dispute shows how industrial policy, foreign investment and security concerns are becoming harder to separate in Europe-China trade relations.",
+      "chinese": "中国批评英国将英国钢铁公司国有化，称这一做法损害了中国投资者的信心。半岛电视台报道，伦敦方面表示，公有化是为了保护国家利益和钢铁行业就业。此事显示，在中欧贸易关系中，产业政策、外国投资和安全关切正变得越来越难以分开。",
+      "keywords": [
+        "British Steel",
+        "China",
+        "United Kingdom",
+        "trade"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.82,
+            "text": "China has criticized the United Kingdom's nationalisation of British Steel, saying the move damaged Chinese investors' confidence."
+          },
+          {
+            "start": 9.77,
+            "end": 18.167,
+            "text": "Al Jazeera reports that London says public ownership was needed to protect national interests and steel jobs."
+          },
+          {
+            "start": 18.167,
+            "end": 28.432,
+            "text": "The dispute shows how industrial policy, foreign investment and security concerns are becoming harder to separate in Europe-China trade relations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260718-002",
+      "title": "German CDU Leader Quits Over Surrogacy",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germany-cdu-s-jens-spahn-resigns-amid-surrogacy-controversy/a-78019238"
+      },
+      "english": "German conservative lawmaker Jens Spahn has resigned from a senior CDU role after controversy over becoming a parent through surrogacy in the United States. Deutsche Welle notes that surrogacy is not allowed in Germany, and Spahn's party opposes legalisation. The case has opened a wider public debate about family law, personal choice and political credibility.",
+      "chinese": "德国保守派议员延斯·施潘因在美国通过代孕成为父亲引发争议，已辞去基民盟高级职务。德国之声指出，代孕在德国并不合法，而施潘所在政党也反对将其合法化。此事引发了关于家庭法律、个人选择和政治可信度的更广泛讨论。",
+      "keywords": [
+        "Germany",
+        "Jens Spahn",
+        "surrogacy",
+        "CDU"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.452,
+            "text": "German conservative lawmaker Jens Spahn has resigned from a senior CDU role after controversy over becoming a parent through surrogacy in the United States."
+          },
+          {
+            "start": 11.402,
+            "end": 19.52,
+            "text": "Deutsche Welle notes that surrogacy is not allowed in Germany, and Spahn's party opposes legalisation."
+          },
+          {
+            "start": 19.52,
+            "end": 27.373,
+            "text": "The case has opened a wider public debate about family law, personal choice and political credibility."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260718-003",
+      "title": "Iran Strike Highlights Gulf Water Risk",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/25e6d5c8d8a027897b3fb80fad57b7d2"
+      },
+      "english": "An Iranian strike damaged a Kuwaiti power and desalination plant, exposing how vulnerable Gulf water systems are during conflict, according to AP. Kuwait and other dry countries depend heavily on desalination for drinking water. The attack shows that regional escalation can threaten civilian life even when the immediate target appears to be strategic infrastructure.",
+      "chinese": "美联社报道，一次伊朗袭击破坏了科威特的一座发电和海水淡化厂，暴露出海湾地区供水系统在冲突中的脆弱性。科威特和其他干旱国家高度依赖海水淡化来获得饮用水。这次袭击表明，即使目标看似是战略基础设施，地区冲突升级也会威胁平民生活。",
+      "keywords": [
+        "Iran",
+        "Kuwait",
+        "desalination",
+        "Gulf security"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.32,
+            "text": "An Iranian strike damaged a Kuwaiti power and desalination plant, exposing how vulnerable Gulf water systems are during conflict, according to AP."
+          },
+          {
+            "start": 12.27,
+            "end": 18.594,
+            "text": "Kuwait and other dry countries depend heavily on desalination for drinking water."
+          },
+          {
+            "start": 18.594,
+            "end": 28.197,
+            "text": "The attack shows that regional escalation can threaten civilian life even when the immediate target appears to be strategic infrastructure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260718-004",
+      "title": "Hormuz Shipping Risks Spread Across Gulf",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/intertanko-warns-threat-to-shipping-now-extends-across-gulf-region-as-hormuz-transits-continue-to-fall/"
+      },
+      "english": "Tanker group INTERTANKO says threats to commercial shipping now stretch beyond the Strait of Hormuz across the wider Gulf region, gCaptain reports. Vessel crossings through Hormuz have fallen sharply after attacks and military operations. For energy buyers and shipowners, the danger means higher insurance costs, slower routes and more pressure on global oil transport.",
+      "chinese": "gCaptain报道，油轮行业组织INTERTANKO表示，商业航运面临的威胁已从霍尔木兹海峡扩大到更广泛的海湾地区。袭击和军事行动发生后，穿越霍尔木兹海峡的船舶数量明显下降。对能源买家和船东来说，这意味着保险成本上升、航线变慢，并给全球石油运输带来更大压力。",
+      "keywords": [
+        "Strait of Hormuz",
+        "shipping",
+        "tankers",
+        "oil transport"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.894,
+            "text": "Tanker group INTERTANKO says threats to commercial shipping now stretch beyond the Strait of Hormuz across the wider Gulf region, gCaptain reports."
+          },
+          {
+            "start": 10.844,
+            "end": 17.991,
+            "text": "Vessel crossings through Hormuz have fallen sharply after attacks and military operations."
+          },
+          {
+            "start": 17.991,
+            "end": 28.402,
+            "text": "For energy buyers and shipowners, the danger means higher insurance costs, slower routes and more pressure on global oil transport."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260718-005",
+      "title": "Google DeepMind Chief Urges AI Watchdog",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
+      },
+      "english": "Google DeepMind chief Demis Hassabis says the world needs a US-led watchdog for the most advanced AI systems, The Verge reports. His proposal would let experts review frontier models and slow releases if risks become too high. The idea reflects growing pressure to balance AI competition with public safety, especially as systems become more powerful.",
+      "chinese": "The Verge报道，Google DeepMind负责人德米斯·哈萨比斯表示，世界需要一个由美国主导的监管机构来监督最先进的人工智能系统。他的方案将让专家审查前沿模型，并在风险过高时放慢发布速度。这个想法反映出，随着AI系统更加强大，社会越来越希望在技术竞争和公共安全之间取得平衡。",
+      "keywords": [
+        "Google DeepMind",
+        "AI safety",
+        "regulation",
+        "frontier models"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.32,
+            "text": "Google DeepMind chief Demis Hassabis says the world needs a US-led watchdog for the most advanced AI systems, The Verge reports."
+          },
+          {
+            "start": 10.27,
+            "end": 17.917,
+            "text": "His proposal would let experts review frontier models and slow releases if risks become too high."
+          },
+          {
+            "start": 17.917,
+            "end": 27.638,
+            "text": "The idea reflects growing pressure to balance AI competition with public safety, especially as systems become more powerful."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260718-006",
+      "title": "Wildfire Smoke Keeps US Air Warnings",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "english": "Air quality warnings remain across parts of the United States as smoke from Canadian wildfires spreads over major cities, The Guardian reports. Officials have urged vulnerable people to stay indoors or use protective masks. The smoke has disrupted daily life, sports and public events, turning a climate-linked disaster into a highly visible public health problem.",
+      "chinese": "《卫报》报道，加拿大野火产生的烟雾继续扩散到美国多个大城市，美国部分地区仍发布空气质量警告。官员建议脆弱人群待在室内，或外出时佩戴防护口罩。烟雾已经影响日常生活、体育赛事和公共活动，使一场与气候有关的灾害变成了高度可见的公共健康问题。",
+      "keywords": [
+        "wildfire smoke",
+        "air quality",
+        "Canada",
+        "public health"
+      ],
+      "audio": {
+        "english": "audio/2026-07-18/news-20260718-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-18/news-20260718-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.232,
+            "text": "Air quality warnings remain across parts of the United States as smoke from Canadian wildfires spreads over major cities, The Guardian reports."
+          },
+          {
+            "start": 11.182,
+            "end": 16.932,
+            "text": "Officials have urged vulnerable people to stay indoors or use protective masks."
+          },
+          {
+            "start": 16.932,
+            "end": 28.005,
+            "text": "The smoke has disrupted daily life, sports and public events, turning a climate-linked disaster into a highly visible public health problem."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-18.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "AP's configured RSS endpoint returned homepage HTML during this run, so the AP item was selected through current web search instead of feed parsing.",
+    "Reuters has no feed configured; this run used other configured public sources that returned current accessible items."
+  ]
+}

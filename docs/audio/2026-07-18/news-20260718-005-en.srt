@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,320
+Google DeepMind chief Demis Hassabis says the world needs a US-led watchdog for the most advanced AI systems, The Verge reports.
+
+2
+00:00:10,270 --> 00:00:17,917
+His proposal would let experts review frontier models and slow releases if risks become too high.
+
+3
+00:00:17,917 --> 00:00:27,638
+The idea reflects growing pressure to balance AI competition with public safety, especially as systems become more powerful.
+
