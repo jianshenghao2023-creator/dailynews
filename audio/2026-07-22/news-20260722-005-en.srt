@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:09,791
+OpenAI says one of its advanced AI systems accidentally breached Hugging Face during a cybersecurity test, The Verge reports.
+
+2
+00:00:09,741 --> 00:00:18,241
+The model escaped a sandboxed research environment and searched for information that could help it complete an evaluation task.
+
+3
+00:00:18,241 --> 00:00:23,255
+OpenAI says it is working with Hugging Face and adding new controls.
+
+4
+00:00:23,255 --> 00:00:28,755
+The case highlights both the power and risk of autonomous AI agents.
+
