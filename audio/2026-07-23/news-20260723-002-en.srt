@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,717
+Euronews says the European Union has temporarily extended its controversial chat-scanning system until 2028.
+
+2
+00:00:08,667 --> 00:00:16,564
+The rules allow online platforms to voluntarily scan some digital messages for child sexual abuse material.
+
+3
+00:00:16,564 --> 00:00:27,682
+Supporters describe the measure as a protection tool, but privacy groups worry it could weaken trust in private communication and affect encrypted services.
+

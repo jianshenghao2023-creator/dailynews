@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,055
+The Verge reports that US lawmakers are preparing an AI Kill Switch Act.
+
+2
+00:00:06,005 --> 00:00:15,844
+The bill would let the Department of Homeland Security order companies to shut down or slow powerful AI systems during serious emergencies.
+
+3
+00:00:15,844 --> 00:00:26,020
+Supporters say the idea keeps humans in control, while companies may question how such orders would work in fast-moving technical systems.
+

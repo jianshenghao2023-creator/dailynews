@@ -1,0 +1,271 @@
+{
+  "date": "2026-07-23",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-23T18:30:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260723-001",
+      "title": "US Envoy Warns UK Over Big Tech Taxes",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/donald-trumps-tariffs-burnham-big-tech/"
+      },
+      "english": "Politico reports that US ambassador Warren Stephens warned Britain could face tariffs if Prime Minister Andy Burnham raises taxes on major tech companies. The comments show how digital taxes are becoming a trade dispute, not only a budget issue. For Europe, the case matters because governments want more revenue from Big Tech while trying to avoid a new clash with Washington.",
+      "chinese": "Politico Europe 报道称，美国大使沃伦·斯蒂芬斯警告，如果英国首相安迪·伯纳姆提高大型科技公司的税负，英国可能面临关税。这番话显示，数字税正在从预算问题变成贸易争端。对欧洲来说，关键在于各国政府希望从大型科技公司获得更多收入，同时又要避免与华盛顿发生新的冲突。",
+      "keywords": [
+        "US-UK trade",
+        "tariffs",
+        "Big Tech",
+        "digital tax"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.408,
+            "text": "Politico reports that US ambassador Warren Stephens warned Britain could face tariffs if Prime Minister Andy Burnham raises taxes on major tech companies."
+          },
+          {
+            "start": 11.358,
+            "end": 17.77,
+            "text": "The comments show how digital taxes are becoming a trade dispute, not only a budget issue."
+          },
+          {
+            "start": 17.77,
+            "end": 26.961,
+            "text": "For Europe, the case matters because governments want more revenue from Big Tech while trying to avoid a new clash with Washington."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260723-002",
+      "title": "EU Extends Chat-Scanning Rules",
+      "source": {
+        "name": "Euronews",
+        "url": "http://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028"
+      },
+      "english": "Euronews says the European Union has temporarily extended its controversial chat-scanning system until 2028. The rules allow online platforms to voluntarily scan some digital messages for child sexual abuse material. Supporters describe the measure as a protection tool, but privacy groups worry it could weaken trust in private communication and affect encrypted services.",
+      "chinese": "Euronews 称，欧盟已将有争议的聊天扫描制度临时延长至 2028 年。这些规则允许网络平台自愿扫描部分数字信息，以发现儿童性虐待材料。支持者认为这是保护工具，但隐私组织担心它会削弱人们对私人通信的信任，并影响加密服务。",
+      "keywords": [
+        "European Union",
+        "chat scanning",
+        "privacy",
+        "online safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.717,
+            "text": "Euronews says the European Union has temporarily extended its controversial chat-scanning system until 2028."
+          },
+          {
+            "start": 8.667,
+            "end": 16.564,
+            "text": "The rules allow online platforms to voluntarily scan some digital messages for child sexual abuse material."
+          },
+          {
+            "start": 16.564,
+            "end": 27.682,
+            "text": "Supporters describe the measure as a protection tool, but privacy groups worry it could weaken trust in private communication and affect encrypted services."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260723-003",
+      "title": "Container Spot Rates Keep Falling",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/container-spot-rates-fall-as-capacity-growth-pressures-freight-rates/"
+      },
+      "english": "gCaptain reports that container spot freight rates fell again as extra vessel capacity and softer demand put pressure on major east-west routes. The trend suggests shipping lines may face a weaker market after months of disruption and high costs. For importers, lower rates can reduce transport costs, but unstable routes still make planning difficult.",
+      "chinese": "gCaptain 报道称，由于新增船舶运力和需求走弱，主要东西向航线的集装箱现货运价再次下跌。这一趋势表明，在经历数月的中断和高成本之后，班轮公司可能面对更疲弱的市场。对进口商来说，较低运价可以降低运输成本，但航线不稳定仍然让计划安排变得困难。",
+      "keywords": [
+        "container shipping",
+        "freight rates",
+        "capacity",
+        "trade lanes"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.026,
+            "text": "gCaptain reports that container spot freight rates fell again as extra vessel capacity and softer demand put pressure on major east-west routes."
+          },
+          {
+            "start": 10.976,
+            "end": 18.094,
+            "text": "The trend suggests shipping lines may face a weaker market after months of disruption and high costs."
+          },
+          {
+            "start": 18.094,
+            "end": 26.285,
+            "text": "For importers, lower rates can reduce transport costs, but unstable routes still make planning difficult."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260723-004",
+      "title": "Lawmakers Prepare AI Kill Switch Bill",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal"
+      },
+      "english": "The Verge reports that US lawmakers are preparing an AI Kill Switch Act. The bill would let the Department of Homeland Security order companies to shut down or slow powerful AI systems during serious emergencies. Supporters say the idea keeps humans in control, while companies may question how such orders would work in fast-moving technical systems.",
+      "chinese": "The Verge 报道称，美国议员正准备提出《AI Kill Switch Act》。该法案将允许国土安全部在严重紧急情况下命令企业关闭或限制强大 AI 系统。支持者认为这能确保人类保持控制权，而企业可能会质疑此类命令如何在快速变化的技术系统中执行。",
+      "keywords": [
+        "AI regulation",
+        "kill switch",
+        "DHS",
+        "AI safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.055,
+            "text": "The Verge reports that US lawmakers are preparing an AI Kill Switch Act."
+          },
+          {
+            "start": 6.005,
+            "end": 15.844,
+            "text": "The bill would let the Department of Homeland Security order companies to shut down or slow powerful AI systems during serious emergencies."
+          },
+          {
+            "start": 15.844,
+            "end": 26.02,
+            "text": "Supporters say the idea keeps humans in control, while companies may question how such orders would work in fast-moving technical systems."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260723-005",
+      "title": "Houthis Attack Saudi Tanker",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko"
+      },
+      "english": "BBC News reports that Yemen's Houthis attacked a Saudi tanker while the United States launched more strikes on Iran. The group had earlier announced a maritime embargo against Saudi Arabia and also claimed another vessel was hit. The incident raises new concern for Red Sea shipping, energy exports and the wider Middle East conflict.",
+      "chinese": "BBC News 报道称，也门胡塞武装袭击了一艘沙特油轮，与此同时美国对伊朗发动了更多打击。该组织此前宣布对沙特实施海上禁运，并声称还击中了另一艘船。这一事件加剧了外界对红海航运、能源出口和中东更广泛冲突的担忧。",
+      "keywords": [
+        "Houthis",
+        "Saudi tanker",
+        "Red Sea",
+        "Iran"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.688,
+            "text": "BBC News reports that Yemen's Houthis attacked a Saudi tanker while the United States launched more strikes on Iran."
+          },
+          {
+            "start": 8.638,
+            "end": 16.638,
+            "text": "The group had earlier announced a maritime embargo against Saudi Arabia and also claimed another vessel was hit."
+          },
+          {
+            "start": 16.638,
+            "end": 24.491,
+            "text": "The incident raises new concern for Red Sea shipping, energy exports and the wider Middle East conflict."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260723-006",
+      "title": "Russia Pressures Ukraine's Black Sea Corridor",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/russia-chokes-ukraine-lifeline-black-sea-export-corridor/"
+      },
+      "english": "Politico Europe reports that Russian attacks are choking Ukraine's Black Sea export corridor. For the first time since the route was created in 2023, no ships entered the three Odesa-region ports on Wednesday. Ukraine says Moscow is putting global food security at risk, because the corridor is vital for grain and other exports.",
+      "chinese": "Politico Europe 报道称，俄罗斯的袭击正在压制乌克兰黑海出口通道。自 2023 年该通道建立以来，周三首次没有船只进入敖德萨地区的三个港口。乌克兰表示，莫斯科正在威胁全球粮食安全，因为这条通道对谷物和其他出口至关重要。",
+      "keywords": [
+        "Ukraine",
+        "Black Sea",
+        "grain exports",
+        "Russia"
+      ],
+      "audio": {
+        "english": "audio/2026-07-23/news-20260723-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-23/news-20260723-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.85,
+            "text": "Politico Europe reports that Russian attacks are choking Ukraine's Black Sea export corridor."
+          },
+          {
+            "start": 6.8,
+            "end": 15.594,
+            "text": "For the first time since the route was created in 2023, no ships entered the three Odesa-region ports on Wednesday."
+          },
+          {
+            "start": 15.594,
+            "end": 24.726,
+            "text": "Ukraine says Moscow is putting global food security at risk, because the corridor is vital for grain and other exports."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-23; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Reuters has no feed configured in config.txt, so this run used the configured public feeds and public webpages that were accessible during retrieval."
+  ]
+}
