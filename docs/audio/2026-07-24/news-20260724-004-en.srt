@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,217
+The Verge reports that Meta is updating its AI chatbot to work more like a personal assistant.
+
+2
+00:00:07,167 --> 00:00:14,873
+The tool can connect to calendars, prepare daily briefings, research topics and automate repeated tasks.
+
+3
+00:00:14,873 --> 00:00:27,314
+Meta says the update is a step toward personal superintelligence, while the wider market is watching how AI assistants compete with ChatGPT, Gemini and Claude.
+

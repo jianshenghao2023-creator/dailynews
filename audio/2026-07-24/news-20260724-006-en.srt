@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,585
+Euronews reports that France has approved a law banning children under 15 from using social media.
+
+2
+00:00:07,535 --> 00:00:17,079
+Supporters say the measure protects young people from harmful online content, while critics question age checks and privacy risks.
+
+3
+00:00:17,079 --> 00:00:26,123
+Other European countries are considering similar limits, making children's access to digital platforms a major policy debate.
+

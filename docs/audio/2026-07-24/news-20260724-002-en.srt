@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:11,423
+BBC News reports that the United States has imposed new tariffs on 60 trading partners, including China, the European Union and the United Kingdom.
+
+2
+00:00:11,373 --> 00:00:19,667
+The duties range from 10% to 12.5% and replace a temporary tariff that expired on Friday.
+
+3
+00:00:19,667 --> 00:00:28,094
+Washington links the measure to forced-labour concerns, but critics expect higher costs for importers and consumers.
+

@@ -1,0 +1,271 @@
+{
+  "date": "2026-07-24",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-24T21:05:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260724-001",
+      "title": "China Restricts Exports to EU Firms",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/china-eu-sanctions-russia-export-control-war-cfb75918077b268eb76b0f19c1673511"
+      },
+      "english": "Associated Press reports that China has added 14 European organizations to an export control list. Beijing says the move answers EU sanctions on Chinese and Hong Kong firms linked to Russia's war. The affected European entities will lose access to some Chinese dual-use goods, raising another source of tension between China and the European Union.",
+      "chinese": "美联社报道，中国已将14个欧洲组织加入出口管制名单。北京表示，此举是对欧盟制裁与俄罗斯战争相关的中国内地和香港企业作出的回应。受影响的欧洲实体将无法获得部分中国两用物项，这给中国与欧盟关系增加了新的紧张因素。",
+      "keywords": [
+        "China-EU trade",
+        "export controls",
+        "Russia sanctions",
+        "dual-use goods"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.188,
+            "text": "Associated Press reports that China has added 14 European organizations to an export control list."
+          },
+          {
+            "start": 8.138,
+            "end": 15.432,
+            "text": "Beijing says the move answers EU sanctions on Chinese and Hong Kong firms linked to Russia's war."
+          },
+          {
+            "start": 15.432,
+            "end": 26.211,
+            "text": "The affected European entities will lose access to some Chinese dual-use goods, raising another source of tension between China and the European Union."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260724-002",
+      "title": "US Tariffs Hit Major Trade Partners",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o"
+      },
+      "english": "BBC News reports that the United States has imposed new tariffs on 60 trading partners, including China, the European Union and the United Kingdom. The duties range from 10% to 12.5% and replace a temporary tariff that expired on Friday. Washington links the measure to forced-labour concerns, but critics expect higher costs for importers and consumers.",
+      "chinese": "BBC新闻报道，美国已对60个贸易伙伴征收新关税，其中包括中国、欧盟和英国。关税税率为10%至12.5%，取代了周五到期的临时关税。华盛顿将这一措施与强迫劳动问题联系起来，但批评者预计进口商和消费者成本会上升。",
+      "keywords": [
+        "US tariffs",
+        "European Union",
+        "China trade",
+        "forced labour"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.423,
+            "text": "BBC News reports that the United States has imposed new tariffs on 60 trading partners, including China, the European Union and the United Kingdom."
+          },
+          {
+            "start": 11.373,
+            "end": 19.667,
+            "text": "The duties range from 10% to 12.5% and replace a temporary tariff that expired on Friday."
+          },
+          {
+            "start": 19.667,
+            "end": 28.094,
+            "text": "Washington links the measure to forced-labour concerns, but critics expect higher costs for importers and consumers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260724-003",
+      "title": "Importers Front-Loaded Cargo Before Tariffs",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/tariff-driven-frontloading-pays-off-as-trump-reinstates-global-import-duties/"
+      },
+      "english": "gCaptain reports that months of tariff-driven front-loading helped some US importers avoid the first impact of new global duties. Retailers and logistics teams moved goods earlier than usual before the tariff deadline. The rush supported strong container volumes, but it may also leave a weaker shipping market later if demand has been pulled forward.",
+      "chinese": "gCaptain报道，数月来因关税压力而提前进口的做法，帮助一些美国进口商避开了新一轮全球关税的第一波影响。零售商和物流团队在关税期限前提前运输货物。这推动了集装箱货量增长，但如果需求被提前释放，后续航运市场可能走弱。",
+      "keywords": [
+        "shipping market",
+        "container trade",
+        "front-loading",
+        "tariffs"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.247,
+            "text": "gCaptain reports that months of tariff-driven front-loading helped some US importers avoid the first impact of new global duties."
+          },
+          {
+            "start": 10.197,
+            "end": 16.697,
+            "text": "Retailers and logistics teams moved goods earlier than usual before the tariff deadline."
+          },
+          {
+            "start": 16.697,
+            "end": 25.491,
+            "text": "The rush supported strong container volumes, but it may also leave a weaker shipping market later if demand has been pulled forward."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260724-004",
+      "title": "Meta Expands Its AI Assistant",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update"
+      },
+      "english": "The Verge reports that Meta is updating its AI chatbot to work more like a personal assistant. The tool can connect to calendars, prepare daily briefings, research topics and automate repeated tasks. Meta says the update is a step toward personal superintelligence, while the wider market is watching how AI assistants compete with ChatGPT, Gemini and Claude.",
+      "chinese": "The Verge报道，Meta正在升级其AI聊天机器人，使其更像个人助理。该工具可以连接日历、生成每日简报、研究主题并自动处理重复任务。Meta称这是迈向个人超级智能的一步，而市场也在关注AI助理如何与ChatGPT、Gemini和Claude竞争。",
+      "keywords": [
+        "Meta AI",
+        "AI assistant",
+        "productivity",
+        "chatbots"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.217,
+            "text": "The Verge reports that Meta is updating its AI chatbot to work more like a personal assistant."
+          },
+          {
+            "start": 7.167,
+            "end": 14.873,
+            "text": "The tool can connect to calendars, prepare daily briefings, research topics and automate repeated tasks."
+          },
+          {
+            "start": 14.873,
+            "end": 27.314,
+            "text": "Meta says the update is a step toward personal superintelligence, while the wider market is watching how AI assistants compete with ChatGPT, Gemini and Claude."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260724-005",
+      "title": "Russia Strikes Drone Event Near Kyiv",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko"
+      },
+      "english": "BBC News reports that a Russian missile attack killed 10 people at a drone exhibition near Kyiv. Ukrainian officials said the event included people from the country's defence industry and was hit in the middle of the day. The strike shows how drones and air defence remain central to the war, both on the battlefield and in industry.",
+      "chinese": "BBC新闻报道，俄罗斯导弹袭击了基辅附近一个无人机展览，造成10人死亡。乌克兰官员表示，该活动有该国国防工业人士参加，并在白天遭到袭击。这次打击显示，无人机和防空仍是战争中的核心问题，既影响战场，也影响产业。",
+      "keywords": [
+        "Ukraine war",
+        "Russia",
+        "drones",
+        "Kyiv"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.467,
+            "text": "BBC News reports that a Russian missile attack killed 10 people at a drone exhibition near Kyiv."
+          },
+          {
+            "start": 7.417,
+            "end": 15.667,
+            "text": "Ukrainian officials said the event included people from the country's defence industry and was hit in the middle of the day."
+          },
+          {
+            "start": 15.667,
+            "end": 23.417,
+            "text": "The strike shows how drones and air defence remain central to the war, both on the battlefield and in industry."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260724-006",
+      "title": "France Bans Social Media for Under-15s",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/07/21/france-to-be-the-first-eu-country-to-ban-social-media-for-under-15s"
+      },
+      "english": "Euronews reports that France has approved a law banning children under 15 from using social media. Supporters say the measure protects young people from harmful online content, while critics question age checks and privacy risks. Other European countries are considering similar limits, making children's access to digital platforms a major policy debate.",
+      "chinese": "Euronews报道，法国已通过法律，禁止15岁以下儿童使用社交媒体。支持者认为该措施可以保护年轻人免受有害网络内容影响，而批评者质疑年龄验证和隐私风险。其他欧洲国家也在考虑类似限制，儿童使用数字平台已成为重要政策议题。",
+      "keywords": [
+        "France",
+        "social media",
+        "children online",
+        "European policy"
+      ],
+      "audio": {
+        "english": "audio/2026-07-24/news-20260724-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-24/news-20260724-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.585,
+            "text": "Euronews reports that France has approved a law banning children under 15 from using social media."
+          },
+          {
+            "start": 7.535,
+            "end": 17.079,
+            "text": "Supporters say the measure protects young people from harmful online content, while critics question age checks and privacy risks."
+          },
+          {
+            "start": 17.079,
+            "end": 26.123,
+            "text": "Other European countries are considering similar limits, making children's access to digital platforms a major policy debate."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-24; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Reuters has no feed configured in config.txt and no usable same-day public Reuters article was found during this run, so accessible configured sources were used."
+  ]
+}

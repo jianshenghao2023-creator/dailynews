@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,467
+BBC News reports that a Russian missile attack killed 10 people at a drone exhibition near Kyiv.
+
+2
+00:00:07,417 --> 00:00:15,667
+Ukrainian officials said the event included people from the country's defence industry and was hit in the middle of the day.
+
+3
+00:00:15,667 --> 00:00:23,417
+The strike shows how drones and air defence remain central to the war, both on the battlefield and in industry.
+
