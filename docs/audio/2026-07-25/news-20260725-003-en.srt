@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,379
+Deutsche Welle reports that wildfires across parts of Europe have forced about 200,000 people from their homes.
+
+2
+00:00:08,329 --> 00:00:16,182
+Hot, dry weather and strong winds are feeding fires in countries including France, Spain and Italy.
+
+3
+00:00:16,182 --> 00:00:27,005
+Authorities have declared emergencies in some areas, while residents face travel disruption, damaged land and continuing health risks from smoke.
+

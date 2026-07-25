@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,408
+BBC News reports that the United States has imposed new tariffs on dozens of trading partners, including China and the European Union.
+
+2
+00:00:10,358 --> 00:00:18,064
+Washington says the duties answer forced-labour concerns and replace an earlier temporary global tariff.
+
+3
+00:00:18,064 --> 00:00:27,520
+Businesses warn that the measure may raise costs for importers and shoppers, while other governments are likely to study possible responses.
+

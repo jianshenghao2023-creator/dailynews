@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,864
+The Verge reports that AI image company Midjourney has bought the astrology app Co-Star.
+
+2
+00:00:06,814 --> 00:00:12,991
+Co-Star's founder is joining Midjourney to help build the company's first consumer apps.
+
+3
+00:00:12,991 --> 00:00:25,182
+The deal suggests that AI firms are looking beyond model demos and trying to create products with stronger daily habits, communities and mobile experiences.
+

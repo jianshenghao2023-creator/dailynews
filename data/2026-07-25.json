@@ -1,0 +1,271 @@
+{
+  "date": "2026-07-25",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-25T15:01:41+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260725-001",
+      "title": "US Adds New Tariffs on Trade Partners",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o"
+      },
+      "english": "BBC News reports that the United States has imposed new tariffs on dozens of trading partners, including China and the European Union. Washington says the duties answer forced-labour concerns and replace an earlier temporary global tariff. Businesses warn that the measure may raise costs for importers and shoppers, while other governments are likely to study possible responses.",
+      "chinese": "BBC新闻报道，美国已对包括中国和欧盟在内的数十个贸易伙伴征收新关税。华盛顿表示，这些关税是为了回应强迫劳动方面的担忧，并取代此前的临时全球关税。企业警告说，这一措施可能推高进口商和消费者的成本，其他政府也可能研究可能的回应。",
+      "keywords": [
+        "US tariffs",
+        "China-EU trade",
+        "forced labour",
+        "import costs"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.408,
+            "text": "BBC News reports that the United States has imposed new tariffs on dozens of trading partners, including China and the European Union."
+          },
+          {
+            "start": 10.358,
+            "end": 18.064,
+            "text": "Washington says the duties answer forced-labour concerns and replace an earlier temporary global tariff."
+          },
+          {
+            "start": 18.064,
+            "end": 27.52,
+            "text": "Businesses warn that the measure may raise costs for importers and shoppers, while other governments are likely to study possible responses."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260725-002",
+      "title": "German Industry Loses Jobs Quickly",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germany-news-industry-hemorrhaging-15000-jobs-a-month/live-78101249"
+      },
+      "english": "Deutsche Welle reports that German industry is losing about 15,000 jobs each month, according to business leaders. They describe the situation as serious but say it could push companies and policymakers to modernise faster. The pressure shows how high energy costs, weak demand and global competition are still weighing on Europe's largest economy.",
+      "chinese": "德国之声报道，商界领袖表示，德国工业每月约流失1.5万个工作岗位。他们认为形势严峻，但也可能推动企业和政策制定者更快实现现代化。这一压力显示，高能源成本、需求疲软和全球竞争仍在拖累欧洲最大经济体。",
+      "keywords": [
+        "Germany",
+        "industrial jobs",
+        "European economy",
+        "manufacturing"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.82,
+            "text": "Deutsche Welle reports that German industry is losing about 15,000 jobs each month, according to business leaders."
+          },
+          {
+            "start": 8.77,
+            "end": 16.814,
+            "text": "They describe the situation as serious but say it could push companies and policymakers to modernise faster."
+          },
+          {
+            "start": 16.814,
+            "end": 26.255,
+            "text": "The pressure shows how high energy costs, weak demand and global competition are still weighing on Europe's largest economy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260725-003",
+      "title": "Wildfires Force Mass Evacuations in Europe",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/europe-wildfires-rage-on-forcing-200-000-from-homes/a-78109406"
+      },
+      "english": "Deutsche Welle reports that wildfires across parts of Europe have forced about 200,000 people from their homes. Hot, dry weather and strong winds are feeding fires in countries including France, Spain and Italy. Authorities have declared emergencies in some areas, while residents face travel disruption, damaged land and continuing health risks from smoke.",
+      "chinese": "德国之声报道，欧洲部分地区的野火已迫使约20万人离开家园。炎热干燥的天气和强风助长了法国、西班牙和意大利等国的火势。一些地区已宣布进入紧急状态，居民面临出行受阻、土地受损以及烟雾带来的持续健康风险。",
+      "keywords": [
+        "Europe wildfires",
+        "evacuations",
+        "climate risk",
+        "public safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.379,
+            "text": "Deutsche Welle reports that wildfires across parts of Europe have forced about 200,000 people from their homes."
+          },
+          {
+            "start": 8.329,
+            "end": 16.182,
+            "text": "Hot, dry weather and strong winds are feeding fires in countries including France, Spain and Italy."
+          },
+          {
+            "start": 16.182,
+            "end": 27.005,
+            "text": "Authorities have declared emergencies in some areas, while residents face travel disruption, damaged land and continuing health risks from smoke."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260725-004",
+      "title": "Panama Canal Moves Energy Corridor Plan",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/panama-canal-advances-energy-corridor-bid-process-as-prequalification-phase-moves-forward/"
+      },
+      "english": "gCaptain reports that the Panama Canal Authority has finished receiving documents from companies seeking to prequalify for its proposed Energy Corridor. The project would support fuel and energy transport near one of the world's key shipping routes. The next stage matters for carriers because canal capacity, energy logistics and trade reliability remain closely linked.",
+      "chinese": "gCaptain报道，巴拿马运河管理局已完成接收企业预审文件的阶段，这些企业希望参与拟议中的能源走廊项目。该项目将支持世界关键航运通道附近的燃料和能源运输。下一阶段对承运人很重要，因为运河运力、能源物流和贸易可靠性密切相关。",
+      "keywords": [
+        "Panama Canal",
+        "shipping market",
+        "energy corridor",
+        "logistics"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.129,
+            "text": "gCaptain reports that the Panama Canal Authority has finished receiving documents from companies seeking to prequalify for its proposed Energy Corridor."
+          },
+          {
+            "start": 11.079,
+            "end": 17.682,
+            "text": "The project would support fuel and energy transport near one of the world's key shipping routes."
+          },
+          {
+            "start": 17.682,
+            "end": 27.77,
+            "text": "The next stage matters for carriers because canal capacity, energy logistics and trade reliability remain closely linked."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260725-005",
+      "title": "Midjourney Buys Astrology App Co-Star",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
+      },
+      "english": "The Verge reports that AI image company Midjourney has bought the astrology app Co-Star. Co-Star's founder is joining Midjourney to help build the company's first consumer apps. The deal suggests that AI firms are looking beyond model demos and trying to create products with stronger daily habits, communities and mobile experiences.",
+      "chinese": "The Verge报道，AI图像公司Midjourney已收购占星应用Co-Star。Co-Star的创始人将加入Midjourney，帮助打造该公司的首批消费者应用。这笔交易表明，AI公司正超越模型演示，尝试创造更具日常使用习惯、社区属性和移动体验的产品。",
+      "keywords": [
+        "Midjourney",
+        "AI apps",
+        "Co-Star",
+        "consumer technology"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.864,
+            "text": "The Verge reports that AI image company Midjourney has bought the astrology app Co-Star."
+          },
+          {
+            "start": 6.814,
+            "end": 12.991,
+            "text": "Co-Star's founder is joining Midjourney to help build the company's first consumer apps."
+          },
+          {
+            "start": 12.991,
+            "end": 25.182,
+            "text": "The deal suggests that AI firms are looking beyond model demos and trying to create products with stronger daily habits, communities and mobile experiences."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260725-006",
+      "title": "Iran Blames US in Hormuz Dispute",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks"
+      },
+      "english": "Al Jazeera reports that Iran has blamed the United States for tensions over the Strait of Hormuz, while both sides say talks are continuing. The report says there were no new US strikes overnight for the first time in two weeks. The waterway remains vital for energy markets, so diplomatic signals are being watched closely.",
+      "chinese": "半岛电视台报道，伊朗将霍尔木兹海峡紧张局势归咎于美国，同时双方都表示谈判仍在继续。报道称，这是两周来首次一夜之间没有新的美国打击。该水道对能源市场至关重要，因此各方正密切关注外交信号。",
+      "keywords": [
+        "Iran",
+        "United States",
+        "Strait of Hormuz",
+        "energy security"
+      ],
+      "audio": {
+        "english": "audio/2026-07-25/news-20260725-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-25/news-20260725-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.247,
+            "text": "Al Jazeera reports that Iran has blamed the United States for tensions over the Strait of Hormuz, while both sides say talks are continuing."
+          },
+          {
+            "start": 10.197,
+            "end": 15.902,
+            "text": "The report says there were no new US strikes overnight for the first time in two weeks."
+          },
+          {
+            "start": 15.902,
+            "end": 22.991,
+            "text": "The waterway remains vital for energy markets, so diplomatic signals are being watched closely."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-25; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles and feeds from configured sources; Reuters was not used because config.txt provides no Reuters feed and accessible same-day Reuters results were insufficient during this run."
+  ]
+}
