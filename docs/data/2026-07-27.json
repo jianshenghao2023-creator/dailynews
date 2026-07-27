@@ -1,0 +1,276 @@
+{
+  "date": "2026-07-27",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-27T18:23:12+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260727-001",
+      "title": "US Targets EU Tech Fines in Trade Probe",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/trump-eu-trade-tech-fine-google-2e125ac0d3c1ac7a96c9194a372ba47e"
+      },
+      "english": "Associated Press reports that the United States will investigate European Union trade practices after Brussels fined major American technology companies. President Trump says the penalties are unfair and has threatened new tariffs. The dispute connects digital regulation with trade policy, adding pressure to US-EU relations soon after Washington announced wider import duties.",
+      "chinese": "美联社报道，在欧盟对美国大型科技公司处以罚款后，美国将调查欧盟贸易做法。特朗普总统称这些处罚不公平，并威胁征收新关税。这场争端把数字监管与贸易政策联系在一起，并在华盛顿宣布更广泛进口关税后进一步加剧美欧关系压力。",
+      "keywords": [
+        "US-EU trade",
+        "tech regulation",
+        "tariffs",
+        "digital markets"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.423,
+            "text": "Associated Press reports that the United States will investigate European Union trade practices after Brussels fined major American technology companies."
+          },
+          {
+            "start": 11.373,
+            "end": 17.064,
+            "text": "President Trump says the penalties are unfair and has threatened new tariffs."
+          },
+          {
+            "start": 17.064,
+            "end": 27.902,
+            "text": "The dispute connects digital regulation with trade policy, adding pressure to US-EU relations soon after Washington announced wider import duties."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260727-002",
+      "title": "France Approves Under-15 Social Media Ban",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/france-social-media-ban-macron-94abd981ccea85138af314cfb1ea62cf"
+      },
+      "english": "Associated Press reports that France has approved a broad ban on social media for children under 15, the first such national measure in the European Union. Supporters say it protects young people from harmful online content. Critics warn that age checks may threaten privacy and could be difficult to enforce before the new school year.",
+      "chinese": "美联社报道，法国已批准禁止15岁以下儿童使用社交媒体的广泛措施，这是欧盟首个此类全国性规定。支持者认为该措施能保护年轻人免受有害网络内容影响。批评者警告说，年龄验证可能威胁隐私，而且在新学年前落实并不容易。",
+      "keywords": [
+        "France",
+        "social media ban",
+        "children online",
+        "privacy"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.923,
+            "text": "Associated Press reports that France has approved a broad ban on social media for children under 15, the first such national measure in the European Union."
+          },
+          {
+            "start": 11.873,
+            "end": 16.844,
+            "text": "Supporters say it protects young people from harmful online content."
+          },
+          {
+            "start": 16.844,
+            "end": 24.608,
+            "text": "Critics warn that age checks may threaten privacy and could be difficult to enforce before the new school year."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260727-003",
+      "title": "Nuclear Ship Concepts Clear Early Reviews",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/nuclear-ships-just-cleared-three-design-reviews-but-theyre-potentially-decades-from-trading-port-to-port/"
+      },
+      "english": "gCaptain reports that three nuclear-powered commercial ship concepts have received early design approvals since June. The projects include container and car carrier ideas using newer reactor designs. However, approvals in principle are not construction permits. Rules, insurance, port access and public acceptance remain major barriers before nuclear merchant ships can trade widely.",
+      "chinese": "gCaptain报道，自6月以来，三个核动力商船概念获得了早期设计认可。这些项目包括采用新型反应堆设计的集装箱船和汽车运输船方案。不过，原则性认可并不等于建造许可。法规、保险、港口准入和公众接受度仍是核动力商船广泛运营前的主要障碍。",
+      "keywords": [
+        "nuclear shipping",
+        "shipbuilding",
+        "reactor design",
+        "maritime regulation"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.879,
+            "text": "gCaptain reports that three nuclear-powered commercial ship concepts have received early design approvals since June."
+          },
+          {
+            "start": 8.829,
+            "end": 14.902,
+            "text": "The projects include container and car carrier ideas using newer reactor designs."
+          },
+          {
+            "start": 14.902,
+            "end": 19.564,
+            "text": "However, approvals in principle are not construction permits."
+          },
+          {
+            "start": 19.564,
+            "end": 29.27,
+            "text": "Rules, insurance, port access and public acceptance remain major barriers before nuclear merchant ships can trade widely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260727-004",
+      "title": "Indian Crew Safe After Tanker Attack",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/india-flags-attack-on-lpg-tanker-in-iran-waters-says-crew-safe/"
+      },
+      "english": "gCaptain reports that India says 28 Indian crew members are safe after an LPG tanker came under attack in Iranian territorial waters. India is also tracking a separate attack on a commercial vessel in the Black Sea. The incidents show how regional conflicts are increasing risks for seafarers and shipping routes.",
+      "chinese": "gCaptain报道，印度表示，一艘液化石油气船在伊朗领海遭袭后，船上28名印度船员安全。印度还在跟进黑海一艘商船遭袭的另一起事件。这些事件显示，地区冲突正在增加船员和航运路线面临的风险。",
+      "keywords": [
+        "LPG tanker",
+        "Iran waters",
+        "Black Sea",
+        "seafarer safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.879,
+            "text": "gCaptain reports that India says 28 Indian crew members are safe after an LPG tanker came under attack in Iranian territorial waters."
+          },
+          {
+            "start": 11.829,
+            "end": 17.314,
+            "text": "India is also tracking a separate attack on a commercial vessel in the Black Sea."
+          },
+          {
+            "start": 17.314,
+            "end": 23.991,
+            "text": "The incidents show how regional conflicts are increasing risks for seafarers and shipping routes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260727-005",
+      "title": "Nvidia and Microsoft Back Open AI Security",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+      },
+      "english": "The Verge reports that Nvidia, Microsoft and other technology companies have formed an Open Secure AI Alliance to share security tools. The group says defenders need open tools as advanced AI risks grow. The move follows debate over open-weight Chinese models and concerns that closed systems may leave security teams with fewer options.",
+      "chinese": "The Verge报道，英伟达、微软和其他科技公司成立了开放安全人工智能联盟，用于共享安全工具。该组织表示，随着先进AI风险上升，防御者需要开放工具。此举发生在围绕中国开源权重模型的争论之后，也反映出对封闭系统可能限制安全团队选择的担忧。",
+      "keywords": [
+        "AI security",
+        "Nvidia",
+        "Microsoft",
+        "open models"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.967,
+            "text": "The Verge reports that Nvidia, Microsoft and other technology companies have formed an Open Secure AI Alliance to share security tools."
+          },
+          {
+            "start": 10.917,
+            "end": 16.299,
+            "text": "The group says defenders need open tools as advanced AI risks grow."
+          },
+          {
+            "start": 16.3,
+            "end": 25.638,
+            "text": "The move follows debate over open-weight Chinese models and concerns that closed systems may leave security teams with fewer options."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260727-006",
+      "title": "Fire Clouds Raise European Wildfire Danger",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/27/what-is-a-fire-cloud-pyrocumulonimbus-pyrocb-france-spain-wildfires"
+      },
+      "english": "The Guardian explains that powerful wildfire clouds may be making fires in Europe more dangerous. These clouds can create strong winds and sometimes lightning, which can spread flames or start new fires. Experts link the rising risk to climate change and say firefighters may face more unpredictable conditions in France, Spain and beyond.",
+      "chinese": "《卫报》解释说，强大的野火云可能正在让欧洲火灾更加危险。这类云会产生强风，有时还会带来闪电，从而推动火势蔓延或引发新的火点。专家将风险上升与气候变化联系起来，并表示法国、西班牙及其他地区的消防员可能面临更难预测的情况。",
+      "keywords": [
+        "Europe wildfires",
+        "fire clouds",
+        "climate change",
+        "public safety"
+      ],
+      "audio": {
+        "english": "audio/2026-07-27/news-20260727-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-27/news-20260727-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.305,
+            "text": "The Guardian explains that powerful wildfire clouds may be making fires in Europe more dangerous."
+          },
+          {
+            "start": 7.255,
+            "end": 15.123,
+            "text": "These clouds can create strong winds and sometimes lightning, which can spread flames or start new fires."
+          },
+          {
+            "start": 15.123,
+            "end": 25.961,
+            "text": "Experts link the rising risk to climate change and say firefighters may face more unpredictable conditions in France, Spain and beyond."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-27; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under both the configured 200-word maximum and the run request's 80-word target.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles and pages from configured sources; Reuters was not selected because a direct configured Reuters feed is not available in config.txt."
+  ]
+}

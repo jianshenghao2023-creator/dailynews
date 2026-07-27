@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:11,923
+Associated Press reports that France has approved a broad ban on social media for children under 15, the first such national measure in the European Union.
+
+2
+00:00:11,873 --> 00:00:16,844
+Supporters say it protects young people from harmful online content.
+
+3
+00:00:16,844 --> 00:00:24,608
+Critics warn that age checks may threaten privacy and could be difficult to enforce before the new school year.
+

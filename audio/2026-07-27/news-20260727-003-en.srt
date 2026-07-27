@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:08,879
+gCaptain reports that three nuclear-powered commercial ship concepts have received early design approvals since June.
+
+2
+00:00:08,829 --> 00:00:14,902
+The projects include container and car carrier ideas using newer reactor designs.
+
+3
+00:00:14,902 --> 00:00:19,564
+However, approvals in principle are not construction permits.
+
+4
+00:00:19,564 --> 00:00:29,270
+Rules, insurance, port access and public acceptance remain major barriers before nuclear merchant ships can trade widely.
+

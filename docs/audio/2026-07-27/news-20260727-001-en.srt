@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:11,423
+Associated Press reports that the United States will investigate European Union trade practices after Brussels fined major American technology companies.
+
+2
+00:00:11,373 --> 00:00:17,064
+President Trump says the penalties are unfair and has threatened new tariffs.
+
+3
+00:00:17,064 --> 00:00:27,902
+The dispute connects digital regulation with trade policy, adding pressure to US-EU relations soon after Washington announced wider import duties.
+

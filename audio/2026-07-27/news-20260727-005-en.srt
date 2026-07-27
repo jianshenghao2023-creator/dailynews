@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,967
+The Verge reports that Nvidia, Microsoft and other technology companies have formed an Open Secure AI Alliance to share security tools.
+
+2
+00:00:10,917 --> 00:00:16,299
+The group says defenders need open tools as advanced AI risks grow.
+
+3
+00:00:16,300 --> 00:00:25,638
+The move follows debate over open-weight Chinese models and concerns that closed systems may leave security teams with fewer options.
+
