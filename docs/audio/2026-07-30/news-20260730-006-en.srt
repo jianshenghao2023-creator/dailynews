@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,894
+gCaptain reports that PanStar is preparing South Korea's first container voyage to Europe through the Northern Sea Route.
+
+2
+00:00:08,844 --> 00:00:15,432
+The August service from Busan is planned to call at Rotterdam, Hamburg and Gdansk.
+
+3
+00:00:15,432 --> 00:00:27,623
+Exporters are interested because Red Sea risks and supply-chain uncertainty make shorter Arctic routes more attractive, though safety and climate concerns remain.
+

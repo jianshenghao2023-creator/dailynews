@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,188
+The Verge reports that Microsoft plans to release a Copilot super app this year.
+
+2
+00:00:06,138 --> 00:00:13,888
+The app is expected to combine chat, coding help and agent features for both consumers and business users.
+
+3
+00:00:13,888 --> 00:00:22,638
+The move shows how major technology companies are trying to turn AI assistants into daily work platforms instead of separate tools.
+

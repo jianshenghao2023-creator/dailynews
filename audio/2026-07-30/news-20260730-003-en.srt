@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,379
+BBC News reports that the United States launched heavy strikes on Iran after an attempted attack on American troops.
+
+2
+00:00:08,329 --> 00:00:14,079
+US officials said Iranian ballistic missiles were aimed at forces in Jordan.
+
+3
+00:00:14,079 --> 00:00:26,211
+The strikes mark another sharp escalation in the regional conflict, raising fears about energy routes, diplomacy and the safety of civilians across the Middle East.
+

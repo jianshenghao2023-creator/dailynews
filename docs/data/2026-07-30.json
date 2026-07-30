@@ -1,0 +1,281 @@
+{
+  "date": "2026-07-30",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-07-30T07:47:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260730-001",
+      "title": "China Rejects Overcapacity Claims Before Tariff Decision",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/china-economy-overcapacity-trade-tariffs-cf3e096486d6f0c83b0b52e0aa7f446d"
+      },
+      "english": "Associated Press reports that China has rejected Western claims that its factories produce too much. Beijing says the criticism is unfair as the United States prepares findings from a trade probe that could bring new tariffs. The dispute affects autos, solar panels, steel and other industries, and it may add more tension to China-Europe-US trade.",
+      "chinese": "美联社报道，中国反驳了西方关于其工厂产能过剩的说法。北京称这些批评并不公平，而美国正准备公布一项贸易调查结果，可能导致新的关税。争议涉及汽车、太阳能板、钢铁等行业，也可能进一步加剧中欧美贸易关系的紧张。",
+      "keywords": [
+        "China trade",
+        "overcapacity",
+        "tariffs",
+        "manufacturing"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.408,
+            "text": "Associated Press reports that China has rejected Western claims that its factories produce too much."
+          },
+          {
+            "start": 7.358,
+            "end": 16.02,
+            "text": "Beijing says the criticism is unfair as the United States prepares findings from a trade probe that could bring new tariffs."
+          },
+          {
+            "start": 16.02,
+            "end": 25.417,
+            "text": "The dispute affects autos, solar panels, steel and other industries, and it may add more tension to China-Europe-US trade."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260730-002",
+      "title": "Hundreds Try to Swim Toward Ceuta",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/spain-hundreds-of-migrants-attempt-to-swim-toward-ceuta/a-78166847"
+      },
+      "english": "Deutsche Welle reports that hundreds of migrants tried to swim from Morocco toward Spain's Ceuta enclave. Spanish rescue teams, the Civil Guard and the Red Cross pulled people from the water. Spain's interior minister called the situation extraordinary. The episode shows how migration pressure remains a difficult social and political issue for Europe.",
+      "chinese": "德国之声报道，数百名移民试图从摩洛哥游向西班牙的休达飞地。西班牙救援人员、国民警卫队和红十字会从海中救起多人。西班牙内政部长称局势非同寻常。这一事件显示，移民压力仍是欧洲面临的复杂社会和政治问题。",
+      "keywords": [
+        "Ceuta",
+        "migration",
+        "Spain",
+        "European society"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.585,
+            "text": "Deutsche Welle reports that hundreds of migrants tried to swim from Morocco toward Spain's Ceuta enclave."
+          },
+          {
+            "start": 7.535,
+            "end": 13.888,
+            "text": "Spanish rescue teams, the Civil Guard and the Red Cross pulled people from the water."
+          },
+          {
+            "start": 13.888,
+            "end": 18.594,
+            "text": "Spain's interior minister called the situation extraordinary."
+          },
+          {
+            "start": 18.594,
+            "end": 25.476,
+            "text": "The episode shows how migration pressure remains a difficult social and political issue for Europe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260730-003",
+      "title": "US Launches Heavy Strikes on Iran",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo"
+      },
+      "english": "BBC News reports that the United States launched heavy strikes on Iran after an attempted attack on American troops. US officials said Iranian ballistic missiles were aimed at forces in Jordan. The strikes mark another sharp escalation in the regional conflict, raising fears about energy routes, diplomacy and the safety of civilians across the Middle East.",
+      "chinese": "BBC报道，美国在美军遭到未遂袭击后对伊朗发动了大规模打击。美国官员称，伊朗弹道导弹瞄准了驻约旦的美军。这次打击标志着地区冲突再次明显升级，引发外界对能源通道、外交努力以及中东平民安全的担忧。",
+      "keywords": [
+        "Iran",
+        "United States",
+        "Middle East",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.379,
+            "text": "BBC News reports that the United States launched heavy strikes on Iran after an attempted attack on American troops."
+          },
+          {
+            "start": 8.329,
+            "end": 14.079,
+            "text": "US officials said Iranian ballistic missiles were aimed at forces in Jordan."
+          },
+          {
+            "start": 14.079,
+            "end": 26.211,
+            "text": "The strikes mark another sharp escalation in the regional conflict, raising fears about energy routes, diplomacy and the safety of civilians across the Middle East."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260730-004",
+      "title": "Southern Europe Battles Deadly Wildfires",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/c3d9c45cdbf57d19bbec46d49e5237de"
+      },
+      "english": "Associated Press reports that southern Europe is fighting severe wildfires during intense heat and strong winds. Three firefighters have died in Greece, while France is battling a huge blaze in the Gironde region. Thousands of people have been evacuated. Scientists warn that climate change is making European fire seasons hotter, longer and harder to control.",
+      "chinese": "美联社报道，在高温和强风影响下，南欧正与严重野火作斗争。希腊已有三名消防员遇难，法国则在吉伦特地区扑救一场大火。数千人被疏散。科学家警告，气候变化正在让欧洲火灾季更炎热、更漫长，也更难控制。",
+      "keywords": [
+        "Europe wildfires",
+        "Greece",
+        "France",
+        "climate risk"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.997,
+            "text": "Associated Press reports that southern Europe is fighting severe wildfires during intense heat and strong winds."
+          },
+          {
+            "start": 8.947,
+            "end": 16.755,
+            "text": "Three firefighters have died in Greece, while France is battling a huge blaze in the Gironde region."
+          },
+          {
+            "start": 16.755,
+            "end": 19.535,
+            "text": "Thousands of people have been evacuated."
+          },
+          {
+            "start": 19.535,
+            "end": 27.873,
+            "text": "Scientists warn that climate change is making European fire seasons hotter, longer and harder to control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260730-005",
+      "title": "Microsoft Plans Copilot Super App",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
+      },
+      "english": "The Verge reports that Microsoft plans to release a Copilot super app this year. The app is expected to combine chat, coding help and agent features for both consumers and business users. The move shows how major technology companies are trying to turn AI assistants into daily work platforms instead of separate tools.",
+      "chinese": "The Verge报道，微软计划今年推出一款Copilot超级应用。该应用预计会把聊天、代码辅助和智能体功能整合起来，服务个人用户和企业用户。这一举动显示，大型科技公司正试图把AI助手变成日常工作平台，而不是彼此分散的工具。",
+      "keywords": [
+        "Microsoft",
+        "Copilot",
+        "AI assistants",
+        "enterprise software"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.188,
+            "text": "The Verge reports that Microsoft plans to release a Copilot super app this year."
+          },
+          {
+            "start": 6.138,
+            "end": 13.888,
+            "text": "The app is expected to combine chat, coding help and agent features for both consumers and business users."
+          },
+          {
+            "start": 13.888,
+            "end": 22.638,
+            "text": "The move shows how major technology companies are trying to turn AI assistants into daily work platforms instead of separate tools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260730-006",
+      "title": "South Korea Tests Arctic Route to Europe",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/panstar-prepares-for-south-koreas-first-arctic-container-voyage-to-europe/"
+      },
+      "english": "gCaptain reports that PanStar is preparing South Korea's first container voyage to Europe through the Northern Sea Route. The August service from Busan is planned to call at Rotterdam, Hamburg and Gdansk. Exporters are interested because Red Sea risks and supply-chain uncertainty make shorter Arctic routes more attractive, though safety and climate concerns remain.",
+      "chinese": "gCaptain报道，PanStar正准备韩国首次经北方海航道前往欧洲的集装箱航行。这条8月从釜山出发的航线计划停靠鹿特丹、汉堡和格但斯克。由于红海风险和供应链不确定性，出口商对更短的北极航线更感兴趣，但安全和气候问题仍然存在。",
+      "keywords": [
+        "Arctic shipping",
+        "South Korea",
+        "Europe trade",
+        "container routes"
+      ],
+      "audio": {
+        "english": "audio/2026-07-30/news-20260730-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-07-30/news-20260730-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.894,
+            "text": "gCaptain reports that PanStar is preparing South Korea's first container voyage to Europe through the Northern Sea Route."
+          },
+          {
+            "start": 8.844,
+            "end": 15.432,
+            "text": "The August service from Busan is planned to call at Rotterdam, Hamburg and Gdansk."
+          },
+          {
+            "start": 15.432,
+            "end": 27.623,
+            "text": "Exporters are interested because Red Sea risks and supply-chain uncertainty make shorter Arctic routes more attractive, though safety and climate concerns remain."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-07-30; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum and the run request's 80-word target.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles and RSS-accessible items from configured sources; Reuters was not selected because no direct configured Reuters feed is available."
+  ]
+}
