@@ -10,6 +10,7 @@ A Windows desktop tool for converting `.txt` and Word `.docx` files into natural
 - Assign a separate Microsoft Edge TTS voice to every detected speaker and narrator.
 - Adjust the pause between dialogue turns.
 - Generate follow-along audio with a pause 1.2 times each sentence's spoken duration.
+- Generate a same-name `.lrc` file and embed synchronized and full lyrics in the MP3.
 - Force Reading or Dialogue mode when automatic detection is not suitable.
 - Adjust speech speed from -50% to +50%.
 - Convert files one by one in the background.
@@ -39,6 +40,12 @@ Names followed by colons, full-width colons, dashes, Markdown, pipe separators, 
 ## Follow-Along Mode
 
 When Follow-along mode is selected, the app splits the material into sentences, generates each sentence separately, measures its actual audio duration, and adds silence equal to 1.2 times that duration. This works for both normal reading and tagged dialogue. The normal turn-pause setting is disabled in this mode.
+
+## Synchronized Lyrics
+
+The Synchronized lyrics option is enabled by default. For `lesson.mp3`, the app also creates `lesson.lrc` with sentence timestamps. It embeds an ID3 `SYLT` synchronized-lyrics frame and a `USLT` full-text frame in the MP3.
+
+Dialogue lyric lines include the speaker or narrator name. The generated timeline includes dialogue pauses and follow-along silence, so the next line does not appear early. Music-player support varies; use the `.lrc` file with the exact same base filename as the MP3 when the player does not read embedded lyrics.
 
 ## Portable Package
 

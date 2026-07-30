@@ -2,17 +2,26 @@ import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+from mutagen.id3 import ID3
+
 from edge_tts_converter import (
     FOLLOW_ALONG_PAUSE_MULTIPLIER,
+    LyricCue,
     MODE_AUTO,
     MODE_DIALOGUE,
     NARRATOR_KEY,
+    RenderedSegment,
+    SpeechSegment,
     analyze_text,
+    build_dialogue_lyric_cues,
+    build_follow_along_lyric_cues,
     create_silence_mp3,
     expand_segments_to_sentences,
+    format_lrc_timestamp,
     probe_audio_duration_ms,
     safe_output_path,
     split_sentences,
+    write_synchronized_lyrics,
 )
 
 
@@ -110,6 +119,62 @@ David - Yes, please sit down.
             measured_ms = probe_audio_duration_ms(silence_path)
 
             self.assertLessEqual(abs(measured_ms - expected_ms), 80)
+
+    def test_lrc_timestamp_format(self) -> None:
+        self.assertEqual(format_lrc_timestamp(62_340), "01:02.34")
+
+    def test_dialogue_lyrics_include_turn_pause(self) -> None:
+        segments = (
+            SpeechSegment("Narrator", NARRATOR_KEY, "Opening.", True),
+            SpeechSegment("Anna", "anna", "Hello.", False),
+        )
+        rendered = [
+            RenderedSegment(Path("one.mp3"), 1000, (LyricCue(100, 900, "Opening."),)),
+            RenderedSegment(Path("two.mp3"), 500, (LyricCue(50, 450, "Hello."),)),
+        ]
+
+        cues = build_dialogue_lyric_cues(rendered, segments, [800, 0])
+
+        self.assertEqual(cues[0].start_ms, 100)
+        self.assertEqual(cues[1].start_ms, 1850)
+        self.assertEqual(cues[1].text, "Anna: Hello.")
+
+    def test_follow_along_lyrics_include_sentence_silence(self) -> None:
+        segments = (
+            SpeechSegment("Narrator", NARRATOR_KEY, "First.", True),
+            SpeechSegment("Narrator", NARRATOR_KEY, "Second.", True),
+        )
+        rendered = [
+            RenderedSegment(Path("one.mp3"), 1000, (LyricCue(0, 900, "First."),)),
+            RenderedSegment(Path("two.mp3"), 500, (LyricCue(0, 450, "Second."),)),
+        ]
+
+        cues = build_follow_along_lyric_cues(
+            rendered,
+            segments,
+            is_dialogue=False,
+            applied_pauses_ms=[1200, 600],
+        )
+
+        self.assertEqual(cues[0].start_ms, 0)
+        self.assertEqual(cues[1].start_ms, 2200)
+
+    def test_lrc_and_embedded_id3_lyrics_are_written(self) -> None:
+        with TemporaryDirectory() as tmp:
+            mp3_path = Path(tmp) / "lesson.mp3"
+            create_silence_mp3(mp3_path, 1000)
+            cues = (
+                LyricCue(0, 400, "First sentence."),
+                LyricCue(500, 900, "Second sentence."),
+            )
+
+            lrc_path = write_synchronized_lyrics(mp3_path, cues)
+            tags = ID3(mp3_path)
+
+            self.assertTrue(lrc_path.exists())
+            self.assertIn("[00:00.50]Second sentence.", lrc_path.read_text(encoding="utf-8-sig"))
+            self.assertEqual(len(tags.getall("SYLT")), 1)
+            self.assertEqual(len(tags.getall("USLT")), 1)
 
     def test_batch_outputs_with_same_filename_are_unique(self) -> None:
         with TemporaryDirectory() as tmp:

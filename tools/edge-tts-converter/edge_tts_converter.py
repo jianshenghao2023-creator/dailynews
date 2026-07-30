@@ -15,6 +15,7 @@ from typing import Callable
 import edge_tts
 import imageio_ffmpeg
 from docx import Document
+from mutagen.id3 import ID3, ID3NoHeaderError, SYLT, USLT
 from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QAction
 from PySide6.QtWidgets import (
@@ -120,6 +121,7 @@ class ConvertJob:
     rate: int
     dialogue_pause_ms: int
     follow_along: bool
+    generate_lyrics: bool
 
 
 @dataclass(frozen=True)
@@ -128,6 +130,20 @@ class SpeechSegment:
     speaker_key: str
     text: str
     is_narrator: bool
+
+
+@dataclass(frozen=True)
+class LyricCue:
+    start_ms: int
+    end_ms: int
+    text: str
+
+
+@dataclass(frozen=True)
+class RenderedSegment:
+    path: Path
+    duration_ms: int
+    cues: tuple[LyricCue, ...]
 
 
 @dataclass(frozen=True)
@@ -364,13 +380,34 @@ def safe_output_path(
     return candidate
 
 
-async def synthesize_to_mp3(text: str, voice: str, rate: int, output: Path) -> None:
+async def synthesize_to_mp3(
+    text: str,
+    voice: str,
+    rate: int,
+    output: Path,
+) -> tuple[LyricCue, ...]:
     communicate = edge_tts.Communicate(
         text=text,
         voice=voice,
         rate=rate_to_edge_value(rate),
+        boundary="SentenceBoundary",
     )
-    await communicate.save(str(output))
+    cues: list[LyricCue] = []
+    with output.open("wb") as audio_file:
+        async for chunk in communicate.stream():
+            if chunk["type"] == "audio":
+                audio_file.write(chunk["data"])
+            elif chunk["type"] == "SentenceBoundary":
+                start_ms = round(chunk["offset"] / 10_000)
+                duration_ms = round(chunk["duration"] / 10_000)
+                cues.append(
+                    LyricCue(
+                        start_ms=start_ms,
+                        end_ms=start_ms + duration_ms,
+                        text=clean_text(chunk["text"]),
+                    )
+                )
+    return tuple(cues)
 
 
 def run_ffmpeg(arguments: list[str]) -> None:
@@ -467,15 +504,26 @@ def encode_concat_list(sequence: list[Path], list_name: str, output: Path) -> No
     )
 
 
+def dialogue_transition_pause_ms(
+    index: int,
+    segments: tuple[SpeechSegment, ...],
+    pause_ms: int,
+) -> int:
+    if pause_ms <= 0 or index >= len(segments) - 1:
+        return 0
+    uses_narrator = segments[index].is_narrator or segments[index + 1].is_narrator
+    return min(2500, pause_ms + 250) if uses_narrator else pause_ms
+
+
 def combine_dialogue_mp3(
     segment_files: list[Path],
     segments: tuple[SpeechSegment, ...],
     pause_ms: int,
     output: Path,
-) -> None:
+) -> list[int]:
     if len(segment_files) == 1:
         shutil.copyfile(segment_files[0], output)
-        return
+        return [0]
 
     work_dir = segment_files[0].parent
     standard_pause = work_dir / "pause.mp3"
@@ -483,27 +531,36 @@ def combine_dialogue_mp3(
     if pause_ms > 0:
         create_silence_mp3(standard_pause, pause_ms)
         create_silence_mp3(narrator_pause, min(2500, pause_ms + 250))
+    standard_duration_ms = probe_audio_duration_ms(standard_pause) if standard_pause.exists() else 0
+    narrator_duration_ms = probe_audio_duration_ms(narrator_pause) if narrator_pause.exists() else 0
 
     sequence: list[Path] = []
+    applied_pauses_ms: list[int] = []
     for index, segment_file in enumerate(segment_files):
         sequence.append(segment_file)
-        if pause_ms <= 0 or index == len(segment_files) - 1:
+        transition_pause_ms = dialogue_transition_pause_ms(index, segments, pause_ms)
+        if transition_pause_ms <= 0:
+            applied_pauses_ms.append(0)
             continue
-        transition_uses_narrator = segments[index].is_narrator or segments[index + 1].is_narrator
-        pause_file = narrator_pause if transition_uses_narrator else standard_pause
+        pause_file = narrator_pause if transition_pause_ms > pause_ms else standard_pause
         sequence.append(pause_file)
+        applied_pauses_ms.append(
+            narrator_duration_ms if pause_file == narrator_pause else standard_duration_ms
+        )
 
     encode_concat_list(sequence, "dialogue-concat.txt", output)
+    return applied_pauses_ms
 
 
 def combine_follow_along_mp3(
     segment_files: list[Path],
     pause_durations_ms: list[int],
     output: Path,
-) -> None:
+) -> list[int]:
     if len(segment_files) != len(pause_durations_ms):
         raise ValueError("Sentence audio and pause counts do not match")
     sequence: list[Path] = []
+    applied_pauses_ms: list[int] = []
     work_dir = segment_files[0].parent
     for index, (segment_file, duration_ms) in enumerate(
         zip(segment_files, pause_durations_ms),
@@ -511,8 +568,10 @@ def combine_follow_along_mp3(
     ):
         pause_file = work_dir / f"follow-pause-{index:04d}.mp3"
         create_silence_mp3(pause_file, duration_ms)
+        applied_pauses_ms.append(probe_audio_duration_ms(pause_file))
         sequence.extend([segment_file, pause_file])
     encode_concat_list(sequence, "follow-along-concat.txt", output)
+    return applied_pauses_ms
 
 
 async def synthesize_dialogue_segments(
@@ -523,8 +582,8 @@ async def synthesize_dialogue_segments(
     rate: int,
     work_dir: Path,
     progress_callback: Callable[[int, int, SpeechSegment], None] | None = None,
-) -> list[Path]:
-    segment_files: list[Path] = []
+) -> list[RenderedSegment]:
+    rendered_segments: list[RenderedSegment] = []
     total = len(segments)
     for index, segment in enumerate(segments, start=1):
         voice = narrator_voice if segment.is_narrator else role_voices.get(
@@ -534,9 +593,144 @@ async def synthesize_dialogue_segments(
         segment_file = work_dir / f"segment-{index:04d}.mp3"
         if progress_callback:
             progress_callback(index, total, segment)
-        await synthesize_to_mp3(segment.text, voice, rate, segment_file)
-        segment_files.append(segment_file)
-    return segment_files
+        cues = await synthesize_to_mp3(segment.text, voice, rate, segment_file)
+        duration_ms = probe_audio_duration_ms(segment_file)
+        if not cues:
+            cues = (LyricCue(0, duration_ms, segment.text),)
+        rendered_segments.append(
+            RenderedSegment(
+                path=segment_file,
+                duration_ms=duration_ms,
+                cues=cues,
+            )
+        )
+    return rendered_segments
+
+
+def displayed_lyric_text(
+    segment: SpeechSegment,
+    text: str,
+    is_dialogue: bool,
+) -> str:
+    if not is_dialogue:
+        return text
+    if segment.is_narrator:
+        return f"Narration: {text}"
+    if segment.speaker == "Speaker":
+        return text
+    return f"{segment.speaker}: {text}"
+
+
+def build_dialogue_lyric_cues(
+    rendered_segments: list[RenderedSegment],
+    segments: tuple[SpeechSegment, ...],
+    applied_pauses_ms: list[int],
+) -> tuple[LyricCue, ...]:
+    if not (
+        len(rendered_segments) == len(segments) == len(applied_pauses_ms)
+    ):
+        raise ValueError("Dialogue segments and pause counts do not match")
+    cues: list[LyricCue] = []
+    timeline_ms = 0
+    for index, (rendered, segment) in enumerate(zip(rendered_segments, segments)):
+        for cue in rendered.cues:
+            cues.append(
+                LyricCue(
+                    start_ms=timeline_ms + cue.start_ms,
+                    end_ms=timeline_ms + cue.end_ms,
+                    text=displayed_lyric_text(segment, cue.text, True),
+                )
+            )
+        timeline_ms += rendered.duration_ms
+        timeline_ms += applied_pauses_ms[index]
+    return tuple(cues)
+
+
+def build_follow_along_lyric_cues(
+    rendered_segments: list[RenderedSegment],
+    segments: tuple[SpeechSegment, ...],
+    is_dialogue: bool,
+    applied_pauses_ms: list[int],
+) -> tuple[LyricCue, ...]:
+    if not (
+        len(rendered_segments) == len(segments) == len(applied_pauses_ms)
+    ):
+        raise ValueError("Follow-along segments and pause counts do not match")
+    cues: list[LyricCue] = []
+    timeline_ms = 0
+    for index, (rendered, segment) in enumerate(zip(rendered_segments, segments)):
+        for cue in rendered.cues:
+            cues.append(
+                LyricCue(
+                    start_ms=timeline_ms + cue.start_ms,
+                    end_ms=timeline_ms + cue.end_ms,
+                    text=displayed_lyric_text(segment, cue.text, is_dialogue),
+                )
+            )
+        timeline_ms += rendered.duration_ms
+        timeline_ms += applied_pauses_ms[index]
+    return tuple(cues)
+
+
+def format_lrc_timestamp(milliseconds: int) -> str:
+    centiseconds = max(0, milliseconds) // 10
+    minutes, remainder = divmod(centiseconds, 6000)
+    seconds, fraction = divmod(remainder, 100)
+    return f"{minutes:02d}:{seconds:02d}.{fraction:02d}"
+
+
+def lyric_language(cues: tuple[LyricCue, ...]) -> str:
+    text = " ".join(cue.text for cue in cues)
+    cjk_count = len(re.findall(r"[\u3400-\u9fff]", text))
+    latin_count = len(re.findall(r"[A-Za-z]", text))
+    return "zho" if cjk_count > latin_count else "eng"
+
+
+def write_synchronized_lyrics(
+    mp3_path: Path,
+    cues: tuple[LyricCue, ...],
+) -> Path:
+    if not cues:
+        raise ValueError("No synchronized lyric cues were generated")
+
+    lrc_path = mp3_path.with_suffix(".lrc")
+    lrc_lines = [
+        f"[ti:{mp3_path.stem}]",
+        "[by:Edge TTS Converter]",
+        *(
+            f"[{format_lrc_timestamp(cue.start_ms)}]{cue.text}"
+            for cue in cues
+        ),
+    ]
+    lrc_path.write_text("\n".join(lrc_lines) + "\n", encoding="utf-8-sig")
+
+    try:
+        tags = ID3(mp3_path)
+    except ID3NoHeaderError:
+        tags = ID3()
+    tags.delall("USLT")
+    tags.delall("SYLT")
+    language = lyric_language(cues)
+    tags.add(
+        USLT(
+            encoding=1,
+            lang=language,
+            desc="Lyrics",
+            text="\n".join(cue.text for cue in cues),
+        )
+    )
+    tags.add(
+        SYLT(
+            encoding=1,
+            lang=language,
+            format=2,
+            type=1,
+            desc="Synchronized lyrics",
+            text=[(cue.text, cue.start_ms) for cue in cues],
+        )
+    )
+    tags.save(mp3_path, v2_version=3)
+    return lrc_path
 
 
 def synthesize_dialogue_to_mp3(
@@ -548,10 +742,10 @@ def synthesize_dialogue_to_mp3(
     pause_ms: int,
     output: Path,
     progress_callback: Callable[[int, int, SpeechSegment], None] | None = None,
-) -> None:
+) -> tuple[LyricCue, ...]:
     with tempfile.TemporaryDirectory(prefix="edge-tts-dialogue-") as tmp:
         work_dir = Path(tmp)
-        segment_files = asyncio.run(
+        rendered_segments = asyncio.run(
             synthesize_dialogue_segments(
                 analysis.segments,
                 role_voices,
@@ -562,14 +756,20 @@ def synthesize_dialogue_to_mp3(
                 progress_callback,
             )
         )
+        segment_files = [rendered.path for rendered in rendered_segments]
         combined_output = work_dir / "combined.mp3"
-        combine_dialogue_mp3(
+        applied_pauses_ms = combine_dialogue_mp3(
             segment_files,
             analysis.segments,
             pause_ms,
             combined_output,
         )
         shutil.copyfile(combined_output, output)
+        return build_dialogue_lyric_cues(
+            rendered_segments,
+            analysis.segments,
+            applied_pauses_ms,
+        )
 
 
 def synthesize_follow_along_to_mp3(
@@ -578,16 +778,17 @@ def synthesize_follow_along_to_mp3(
     narrator_voice: str,
     fallback_voice: str,
     rate: int,
+    is_dialogue: bool,
     output: Path,
     progress_callback: Callable[[int, int, SpeechSegment], None] | None = None,
-) -> None:
+) -> tuple[LyricCue, ...]:
     sentence_segments = expand_segments_to_sentences(segments)
     if not sentence_segments:
         raise ValueError("No speakable sentences found")
 
     with tempfile.TemporaryDirectory(prefix="edge-tts-follow-along-") as tmp:
         work_dir = Path(tmp)
-        segment_files = asyncio.run(
+        rendered_segments = asyncio.run(
             synthesize_dialogue_segments(
                 sentence_segments,
                 role_voices,
@@ -598,13 +799,24 @@ def synthesize_follow_along_to_mp3(
                 progress_callback,
             )
         )
+        segment_files = [rendered.path for rendered in rendered_segments]
         pause_durations_ms = [
-            round(probe_audio_duration_ms(segment_file) * FOLLOW_ALONG_PAUSE_MULTIPLIER)
-            for segment_file in segment_files
+            round(rendered.duration_ms * FOLLOW_ALONG_PAUSE_MULTIPLIER)
+            for rendered in rendered_segments
         ]
         combined_output = work_dir / "combined.mp3"
-        combine_follow_along_mp3(segment_files, pause_durations_ms, combined_output)
+        applied_pauses_ms = combine_follow_along_mp3(
+            segment_files,
+            pause_durations_ms,
+            combined_output,
+        )
         shutil.copyfile(combined_output, output)
+        return build_follow_along_lyric_cues(
+            rendered_segments,
+            sentence_segments,
+            is_dialogue,
+            applied_pauses_ms,
+        )
 
 
 def run_self_test() -> int:
@@ -620,15 +832,20 @@ def run_self_test() -> int:
         analysis = analyze_text(read_input_file(source), MODE_AUTO)
         if not analysis.is_dialogue:
             return 1
-        synthesize_follow_along_to_mp3(
+        cues = synthesize_follow_along_to_mp3(
             segments=analysis.segments,
             role_voices={"ava": "en-US-AvaNeural", "ryan": "en-GB-RyanNeural"},
             narrator_voice="en-US-AvaNeural",
             fallback_voice="en-US-AvaNeural",
             rate=-8,
+            is_dialogue=True,
             output=output,
         )
-        if not output.exists() or output.stat().st_size == 0:
+        lrc_path = write_synchronized_lyrics(output, cues)
+        if not output.exists() or output.stat().st_size == 0 or not lrc_path.exists():
+            return 1
+        tags = ID3(output)
+        if not tags.getall("SYLT") or not tags.getall("USLT"):
             return 1
     return 0
 
@@ -672,6 +889,7 @@ class ConvertWorker(QThread):
                         )
 
                 role_voices = dict(job.role_voices)
+                lyric_cues: tuple[LyricCue, ...] = ()
                 if job.follow_along:
                     sentence_segments = expand_segments_to_sentences(analysis.segments)
 
@@ -689,7 +907,7 @@ class ConvertWorker(QThread):
                         f"Follow-along mode: {job.source.name} - "
                         f"{len(sentence_segments)} sentence(s), 1.2x pauses"
                     )
-                    synthesize_follow_along_to_mp3(
+                    lyric_cues = synthesize_follow_along_to_mp3(
                         segments=analysis.segments,
                         role_voices=role_voices,
                         narrator_voice=(
@@ -697,6 +915,7 @@ class ConvertWorker(QThread):
                         ),
                         fallback_voice=job.reading_voice,
                         rate=job.rate,
+                        is_dialogue=analysis.is_dialogue,
                         output=job.output,
                         progress_callback=report_sentence,
                     )
@@ -707,7 +926,7 @@ class ConvertWorker(QThread):
                             f"{job.source.name}: turn {done}/{turn_total} ({segment.speaker})"
                         )
 
-                    synthesize_dialogue_to_mp3(
+                    lyric_cues = synthesize_dialogue_to_mp3(
                         analysis=analysis,
                         role_voices=role_voices,
                         narrator_voice=job.narrator_voice,
@@ -719,13 +938,27 @@ class ConvertWorker(QThread):
                     )
                 else:
                     self.status.emit(f"Converting {job.source.name} as reading")
-                    asyncio.run(
+                    lyric_cues = asyncio.run(
                         synthesize_to_mp3(
                             clean_text(source_text),
                             job.reading_voice,
                             job.rate,
                             job.output,
                         )
+                    )
+                if job.generate_lyrics:
+                    if not lyric_cues:
+                        duration_ms = probe_audio_duration_ms(job.output)
+                        lyric_cues = (
+                            LyricCue(
+                                0,
+                                duration_ms,
+                                clean_text(source_text),
+                            ),
+                        )
+                    lrc_path = write_synchronized_lyrics(job.output, lyric_cues)
+                    self.log.emit(
+                        f"Lyrics: {lrc_path.name} + embedded synchronized lyrics"
                     )
                 completed += 1
                 self.log.emit(f"Done: {job.source.name} -> {job.output.name}")
@@ -849,6 +1082,10 @@ class EdgeTTSConverterWindow(QMainWindow):
         self.follow_along_checkbox = QCheckBox("Follow-along mode (1.2x sentence pause)")
         settings_layout.addWidget(self.follow_along_checkbox, 6, 1, 1, 2)
 
+        self.lyrics_checkbox = QCheckBox("Synchronized lyrics (.lrc + embedded)")
+        self.lyrics_checkbox.setChecked(True)
+        settings_layout.addWidget(self.lyrics_checkbox, 7, 1, 1, 2)
+
         self.file_list = QListWidget()
         self.file_list.setSelectionMode(QListWidget.SelectionMode.ExtendedSelection)
         main_layout.addWidget(self.file_list, stretch=2)
@@ -907,6 +1144,7 @@ class EdgeTTSConverterWindow(QMainWindow):
             "Dialogue lines must use [speaker]: or [speaker: Name]: tags.\n"
             "Narration lines must use [narration]: tags.\n"
             "Follow-along mode adds a 1.2x sentence-duration pause.\n\n"
+            "Synchronized lyrics can be saved as LRC and embedded in MP3.\n\n"
             "Internet access is required. Old .doc files should be saved as .docx first.",
         )
 
@@ -1136,6 +1374,7 @@ class EdgeTTSConverterWindow(QMainWindow):
                     rate=rate,
                     dialogue_pause_ms=self.pause_slider.value(),
                     follow_along=self.follow_along_checkbox.isChecked(),
+                    generate_lyrics=self.lyrics_checkbox.isChecked(),
                 )
             )
 
@@ -1145,7 +1384,8 @@ class EdgeTTSConverterWindow(QMainWindow):
         self._update_progress_label(0, len(jobs))
         self.log(
             f"Starting {len(jobs)} job(s), mode {mode}, speed {rate_to_edge_value(rate)}, "
-            f"follow-along {'on' if self.follow_along_checkbox.isChecked() else 'off'}"
+            f"follow-along {'on' if self.follow_along_checkbox.isChecked() else 'off'}, "
+            f"lyrics {'on' if self.lyrics_checkbox.isChecked() else 'off'}"
         )
         self.statusBar().showMessage("Converting...")
 
@@ -1168,6 +1408,7 @@ class EdgeTTSConverterWindow(QMainWindow):
             self.narrator_voice_combo,
             self.speed_slider,
             self.follow_along_checkbox,
+            self.lyrics_checkbox,
             self.role_table,
             self.start_button,
         ]:
