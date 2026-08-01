@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:06,335
+Deutsche Welle reports that Germany is widening deportations to Afghanistan.
+
+2
+00:00:06,285 --> 00:00:17,829
+The article describes the case of an Afghan man in detention who fears removal, after Germany deported a person with no criminal record to Kabul earlier in the week.
+
+3
+00:00:17,829 --> 00:00:25,976
+The policy raises difficult questions about migration control, human rights and safety under Taliban rule.
+

@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-01",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-01T18:35:11+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260801-001",
+      "title": "US Sanctions Bill Raises EU Tariff Concerns",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/01/us-senate-bill-on-russia-sanctions-risks-backfiring-against-european-allies"
+      },
+      "english": "Euronews reports that a Russia sanctions bill in the US Senate could give President Donald Trump broad power to place tariffs on both rivals and allies. European officials worry the measure may hit companies that still trade with Russia indirectly. The debate shows how sanctions, energy policy and transatlantic trade can become linked in difficult ways.",
+      "chinese": "欧洲新闻台报道，美国参议院一项针对俄罗斯的制裁法案可能赋予总统唐纳德·特朗普对竞争对手和盟友加征关税的广泛权力。欧洲官员担心，该措施可能打击仍与俄罗斯存在间接贸易关系的企业。这场争论显示，制裁、能源政策和跨大西洋贸易可能以复杂方式相互影响。",
+      "keywords": [
+        "US tariffs",
+        "Russia sanctions",
+        "European Union",
+        "transatlantic trade"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.673,
+            "text": "Euronews reports that a Russia sanctions bill in the US Senate could give President Donald Trump broad power to place tariffs on both rivals and allies."
+          },
+          {
+            "start": 10.623,
+            "end": 17.064,
+            "text": "European officials worry the measure may hit companies that still trade with Russia indirectly."
+          },
+          {
+            "start": 17.064,
+            "end": 25.049,
+            "text": "The debate shows how sanctions, energy policy and transatlantic trade can become linked in difficult ways."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260801-002",
+      "title": "Spain Seeks EU Talks After Ceuta Crossings",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+      },
+      "english": "The Guardian reports that Spanish Prime Minister Pedro Sanchez has called for an urgent EU meeting after mass crossings into Ceuta from Morocco. He criticized what Spain sees as selfish and unlawful responses from some European partners. The crisis highlights how migration can quickly create pressure on borders, public services and EU unity.",
+      "chinese": "《卫报》报道，西班牙首相佩德罗·桑切斯在大批人员从摩洛哥进入休达后，呼吁欧盟召开紧急会议。他批评部分欧洲伙伴的反应在西班牙看来自私且不合法。这场危机凸显出，移民问题会迅速给边境、公共服务和欧盟团结带来压力。",
+      "keywords": [
+        "Ceuta",
+        "migration",
+        "Spain",
+        "European Union"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.394,
+            "text": "The Guardian reports that Spanish Prime Minister Pedro Sanchez has called for an urgent EU meeting after mass crossings into Ceuta from Morocco."
+          },
+          {
+            "start": 10.344,
+            "end": 17.844,
+            "text": "He criticized what Spain sees as selfish and unlawful responses from some European partners."
+          },
+          {
+            "start": 17.844,
+            "end": 25.799,
+            "text": "The crisis highlights how migration can quickly create pressure on borders, public services and EU unity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260801-003",
+      "title": "Germany Expands Deportations to Afghanistan",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germany-widens-deportations-to-afghanistan/a-78173466"
+      },
+      "english": "Deutsche Welle reports that Germany is widening deportations to Afghanistan. The article describes the case of an Afghan man in detention who fears removal, after Germany deported a person with no criminal record to Kabul earlier in the week. The policy raises difficult questions about migration control, human rights and safety under Taliban rule.",
+      "chinese": "德国之声报道，德国正在扩大对阿富汗的遣返。文章讲述了一名被拘押的阿富汗男子担心被遣返的情况，此前德国本周已将一名没有犯罪记录的人遣返回喀布尔。这一政策引发了关于移民管控、人权以及塔利班统治下安全状况的艰难问题。",
+      "keywords": [
+        "Germany",
+        "Afghanistan",
+        "deportation",
+        "migration policy"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.335,
+            "text": "Deutsche Welle reports that Germany is widening deportations to Afghanistan."
+          },
+          {
+            "start": 6.285,
+            "end": 17.829,
+            "text": "The article describes the case of an Afghan man in detention who fears removal, after Germany deported a person with no criminal record to Kabul earlier in the week."
+          },
+          {
+            "start": 17.829,
+            "end": 25.976,
+            "text": "The policy raises difficult questions about migration control, human rights and safety under Taliban rule."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260801-004",
+      "title": "LNG Carrier Damaged Near Hormuz",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/gaslog-lng-carrier-damaged-exiting-hormuz-as-ukmto-reports-two-new-attacks/"
+      },
+      "english": "gCaptain reports that a GasLog-operated LNG carrier was damaged while leaving the Strait of Hormuz, as maritime security authorities noted two new incidents near the waterway. The Strait is vital for global energy shipments. The report underlines how regional conflict can quickly affect shipping risk, insurance costs and energy market confidence.",
+      "chinese": "gCaptain 报道，一艘由 GasLog 运营的液化天然气船在驶离霍尔木兹海峡时受损，同时海事安全机构称该水道附近又发生两起安全事件。霍尔木兹海峡对全球能源运输至关重要。报道显示，地区冲突可能迅速影响航运风险、保险成本和能源市场信心。",
+      "keywords": [
+        "LNG shipping",
+        "Strait of Hormuz",
+        "maritime security",
+        "energy markets"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 13.497,
+            "text": "gCaptain reports that a GasLog-operated LNG carrier was damaged while leaving the Strait of Hormuz, as maritime security authorities noted two new incidents near the waterway."
+          },
+          {
+            "start": 13.447,
+            "end": 16.991,
+            "text": "The Strait is vital for global energy shipments."
+          },
+          {
+            "start": 16.991,
+            "end": 26.388,
+            "text": "The report underlines how regional conflict can quickly affect shipping risk, insurance costs and energy market confidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260801-005",
+      "title": "Google Removes Earth AI Image Tool",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
+      },
+      "english": "The Verge reports that Google removed an AI image editing feature from Google Earth only one day after launch. Online examples showed people using it to create realistic fake images, including refugees and bomb craters. The case shows why powerful AI tools need careful safeguards before they are added to widely used public platforms.",
+      "chinese": "The Verge 报道，谷歌在推出一天后就从 Google Earth 中移除了一个 AI 图像编辑功能。网络示例显示，有人用它制作逼真的假图像，包括难民和弹坑。这一事件说明，强大的 AI 工具在加入广泛使用的公共平台前，需要谨慎的安全防护。",
+      "keywords": [
+        "Google Earth",
+        "AI images",
+        "deepfakes",
+        "platform safety"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.335,
+            "text": "The Verge reports that Google removed an AI image editing feature from Google Earth only one day after launch."
+          },
+          {
+            "start": 8.285,
+            "end": 16.447,
+            "text": "Online examples showed people using it to create realistic fake images, including refugees and bomb craters."
+          },
+          {
+            "start": 16.447,
+            "end": 25.005,
+            "text": "The case shows why powerful AI tools need careful safeguards before they are added to widely used public platforms."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260801-006",
+      "title": "Gaza Strikes Hit Medical Supply Warehouse",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse"
+      },
+      "english": "Al Jazeera reports that Israeli strikes killed four people across Gaza and destroyed a medical supply warehouse. Gaza health officials condemned the attack on medicine stores, warning that damaged supplies could worsen shortages for hospitals and patients. The incident adds to concerns about civilians, aid access and fragile ceasefire discussions.",
+      "chinese": "半岛电视台报道，以色列在加沙多地发动打击，造成四人死亡，并摧毁了一处医疗物资仓库。加沙卫生官员谴责对药品仓库的袭击，警告受损物资可能加剧医院和患者面临的短缺。此事加深了外界对平民、援助通道和脆弱停火讨论的担忧。",
+      "keywords": [
+        "Gaza",
+        "Israel",
+        "medical supplies",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-08-01/news-20260801-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-01/news-20260801-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.908,
+            "text": "Al Jazeera reports that Israeli strikes killed four people across Gaza and destroyed a medical supply warehouse."
+          },
+          {
+            "start": 8.858,
+            "end": 19.064,
+            "text": "Gaza health officials condemned the attack on medicine stores, warning that damaged supplies could worsen shortages for hospitals and patients."
+          },
+          {
+            "start": 19.064,
+            "end": 26.241,
+            "text": "The incident adds to concerns about civilians, aid access and fragile ceasefire discussions."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-01; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the run request's 80-word target and the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles and RSS-accessible items from configured sources. Reuters was not selected because no direct configured Reuters feed is available, and the AP RSS endpoint returned HTML instead of parseable RSS."
+  ]
+}

@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,908
+Al Jazeera reports that Israeli strikes killed four people across Gaza and destroyed a medical supply warehouse.
+
+2
+00:00:08,858 --> 00:00:19,064
+Gaza health officials condemned the attack on medicine stores, warning that damaged supplies could worsen shortages for hospitals and patients.
+
+3
+00:00:19,064 --> 00:00:26,241
+The incident adds to concerns about civilians, aid access and fragile ceasefire discussions.
+

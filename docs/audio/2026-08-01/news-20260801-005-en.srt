@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,335
+The Verge reports that Google removed an AI image editing feature from Google Earth only one day after launch.
+
+2
+00:00:08,285 --> 00:00:16,447
+Online examples showed people using it to create realistic fake images, including refugees and bomb craters.
+
+3
+00:00:16,447 --> 00:00:25,005
+The case shows why powerful AI tools need careful safeguards before they are added to widely used public platforms.
+
