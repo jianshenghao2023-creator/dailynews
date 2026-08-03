@@ -1,0 +1,8 @@
+1
+00:00:00,100 --> 00:00:12,114
+The Verge reports that debate over AI-made music has reached the Billboard Hot 100 after listeners questioned whether Fenix Flexin's song Rubberz used generative tools.
+
+2
+00:00:12,064 --> 00:00:24,888
+The case shows how difficult it can be to prove whether a popular track is human-made, AI-assisted or fully synthetic, especially when artists do not release original project files.
+

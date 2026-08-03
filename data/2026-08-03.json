@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-03",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-03T22:27:11+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260803-001",
+      "title": "EU Faces Hard Choices in China Trade Talks",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/07/31/time-is-running-out-what-trade-concessions-can-the-eu-win-from-china"
+      },
+      "english": "Euronews reports that EU-China trade tensions may keep rising as Brussels seeks concessions from Beijing. Europe wants to reduce a large trade deficit and protect key industries, while China still needs the European market as US tariffs limit other options. The dispute shows how trade, rare earths and industrial policy are becoming closely connected.",
+      "chinese": "欧洲新闻台报道，随着布鲁塞尔要求北京作出让步，欧中贸易紧张关系可能继续升级。欧洲希望减少巨额贸易逆差并保护关键产业，而美国关税限制了中国的其他出口选择，使欧洲市场仍然重要。这一争端显示，贸易、稀土和产业政策正变得紧密相连。",
+      "keywords": [
+        "EU-China trade",
+        "tariffs",
+        "rare earths",
+        "industrial policy"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.276,
+            "text": "Euronews reports that EU-China trade tensions may keep rising as Brussels seeks concessions from Beijing."
+          },
+          {
+            "start": 8.226,
+            "end": 19.314,
+            "text": "Europe wants to reduce a large trade deficit and protect key industries, while China still needs the European market as US tariffs limit other options."
+          },
+          {
+            "start": 19.314,
+            "end": 26.711,
+            "text": "The dispute shows how trade, rare earths and industrial policy are becoming closely connected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260803-002",
+      "title": "Ceuta Migrant Children Face Uncertain Future",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/spain-migration-ceuta-morocco-062f841ea084d3b930d5beb07327cc7d"
+      },
+      "english": "The Associated Press reports that hundreds of migrant children remain stranded in Spain's Ceuta after a mass crossing from Morocco. Local shelters are full, and officials say many minors need protection under Spanish law. The crisis is testing border policy, child welfare systems and European cooperation on migration.",
+      "chinese": "美联社报道，大批人员从摩洛哥进入西班牙休达后，数百名移民儿童仍滞留当地。当地收容设施已经满员，官员表示，许多未成年人按照西班牙法律需要得到保护。这场危机正在考验边境政策、儿童福利体系以及欧洲在移民问题上的合作。",
+      "keywords": [
+        "Ceuta",
+        "migration",
+        "Spain",
+        "child welfare"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.673,
+            "text": "The Associated Press reports that hundreds of migrant children remain stranded in Spain's Ceuta after a mass crossing from Morocco."
+          },
+          {
+            "start": 9.623,
+            "end": 16.505,
+            "text": "Local shelters are full, and officials say many minors need protection under Spanish law."
+          },
+          {
+            "start": 16.505,
+            "end": 24.549,
+            "text": "The crisis is testing border policy, child welfare systems and European cooperation on migration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260803-003",
+      "title": "Korea and US Open Shipbuilding Center",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/korea-u-s-shipbuilding-partnership-center-launches-to-advance-150-billion-masga-initiative/"
+      },
+      "english": "gCaptain reports that South Korea and the United States have launched a new shipbuilding partnership center in Washington. The project supports a $150 billion plan to strengthen US shipyards through investment, technology transfer, worker training and research. It also reflects Washington's effort to rebuild maritime capacity while competing with China.",
+      "chinese": "gCaptain 报道，韩国和美国在华盛顿启动了一个新的造船合作中心。该项目支持一项 1500 亿美元计划，通过投资、技术转移、工人培训和研究来加强美国船厂能力。它也反映出华盛顿在与中国竞争的同时重建海事工业能力的努力。",
+      "keywords": [
+        "shipbuilding",
+        "South Korea",
+        "United States",
+        "maritime industry"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.261,
+            "text": "gCaptain reports that South Korea and the United States have launched a new shipbuilding partnership center in Washington."
+          },
+          {
+            "start": 9.211,
+            "end": 20.873,
+            "text": "The project supports a $150 billion plan to strengthen US shipyards through investment, technology transfer, worker training and research."
+          },
+          {
+            "start": 20.873,
+            "end": 27.594,
+            "text": "It also reflects Washington's effort to rebuild maritime capacity while competing with China."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260803-004",
+      "title": "EU AI Labels Take Effect",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
+      },
+      "english": "The Verge reports that new EU transparency rules for AI are now in effect. Companies must tell users when they are interacting with AI systems and label realistic synthetic media. Firms that fail to comply could face large fines. The rules aim to help people recognize chatbots, deepfakes and other AI-generated content more easily.",
+      "chinese": "The Verge 报道，欧盟新的 AI 透明度规则已经生效。企业必须在用户与 AI 系统互动时作出提示，并标注逼真的合成媒体。未遵守规定的公司可能面临高额罚款。这些规则旨在帮助人们更容易识别聊天机器人、深度伪造和其他 AI 生成内容。",
+      "keywords": [
+        "AI Act",
+        "European Union",
+        "deepfakes",
+        "transparency"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 6.247,
+            "text": "The Verge reports that new EU transparency rules for AI are now in effect."
+          },
+          {
+            "start": 6.197,
+            "end": 13.594,
+            "text": "Companies must tell users when they are interacting with AI systems and label realistic synthetic media."
+          },
+          {
+            "start": 13.594,
+            "end": 17.505,
+            "text": "Firms that fail to comply could face large fines."
+          },
+          {
+            "start": 17.505,
+            "end": 25.241,
+            "text": "The rules aim to help people recognize chatbots, deepfakes and other AI-generated content more easily."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260803-005",
+      "title": "Russia and Ukraine Trade Heavy Attacks",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks"
+      },
+      "english": "Al Jazeera reports that at least 17 people were killed as Russia and Ukraine exchanged new attacks. Local officials described deaths in Russian regions and in Ukraine's Dnipropetrovsk area. The fighting underlines how the war continues to harm civilians, even as both governments deny deliberately targeting them.",
+      "chinese": "半岛电视台报道，俄罗斯和乌克兰相互发动新一轮袭击，至少 17 人死亡。当地官员称，俄罗斯部分地区以及乌克兰第聂伯罗彼得罗夫斯克地区都出现伤亡。战斗显示，尽管双方政府都否认故意攻击平民，战争仍在持续伤害平民。",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "drone attacks",
+        "civilian casualties"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.158,
+            "text": "Al Jazeera reports that at least 17 people were killed as Russia and Ukraine exchanged new attacks."
+          },
+          {
+            "start": 8.108,
+            "end": 15.138,
+            "text": "Local officials described deaths in Russian regions and in Ukraine's Dnipropetrovsk area."
+          },
+          {
+            "start": 15.138,
+            "end": 24.285,
+            "text": "The fighting underlines how the war continues to harm civilians, even as both governments deny deliberately targeting them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260803-006",
+      "title": "AI Music Debate Reaches Pop Charts",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop"
+      },
+      "english": "The Verge reports that debate over AI-made music has reached the Billboard Hot 100 after listeners questioned whether Fenix Flexin's song Rubberz used generative tools. The case shows how difficult it can be to prove whether a popular track is human-made, AI-assisted or fully synthetic, especially when artists do not release original project files.",
+      "chinese": "The Verge 报道，围绕 AI 音乐的争论已经延伸到公告牌百强单曲榜，因为听众质疑 Fenix Flexin 的歌曲 Rubberz 是否使用了生成式工具。此事显示，在艺术家不公开原始工程文件的情况下，很难证明一首热门歌曲是人类创作、AI 辅助还是完全由 AI 合成。",
+      "keywords": [
+        "AI music",
+        "Billboard Hot 100",
+        "generative AI",
+        "online culture"
+      ],
+      "audio": {
+        "english": "audio/2026-08-03/news-20260803-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-03/news-20260803-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 12.114,
+            "text": "The Verge reports that debate over AI-made music has reached the Billboard Hot 100 after listeners questioned whether Fenix Flexin's song Rubberz used generative tools."
+          },
+          {
+            "start": 12.064,
+            "end": 24.888,
+            "text": "The case shows how difficult it can be to prove whether a popular track is human-made, AI-assisted or fully synthetic, especially when artists do not release original project files."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-03; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the run request's 80-word target and the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles and source pages from configured sources. Reuters was not selected because no direct configured Reuters feed is available; BBC, DW, The Guardian and Politico Europe were checked through search but the selected items better matched the configured topics and recency."
+  ]
+}

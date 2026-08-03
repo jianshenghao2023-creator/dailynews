@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:06,247
+The Verge reports that new EU transparency rules for AI are now in effect.
+
+2
+00:00:06,197 --> 00:00:13,594
+Companies must tell users when they are interacting with AI systems and label realistic synthetic media.
+
+3
+00:00:13,594 --> 00:00:17,505
+Firms that fail to comply could face large fines.
+
+4
+00:00:17,505 --> 00:00:25,241
+The rules aim to help people recognize chatbots, deepfakes and other AI-generated content more easily.
+
