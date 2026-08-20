@@ -1,0 +1,272 @@
+{
+  "date": "2026-08-20",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-20T15:10:59+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260820-001",
+      "title": "Europe Faces Pressure to Compete in AI",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/20/overcome-market-fragmentation-or-miss-the-ai-train-lagarde-warns-the-eu"
+      },
+      "english": "Euronews reports that European Central Bank President Christine Lagarde warned the EU not to fall behind in artificial intelligence. She said Europe has strong talent and companies, but its single market remains too fragmented. Her message was that easier cross-border investment and faster scaling are needed if Europe wants to compete with the United States and China.",
+      "chinese": "欧洲新闻台报道，欧洲央行行长克里斯蒂娜·拉加德警告欧盟不要在人工智能领域落后。她表示，欧洲拥有强大的人才和企业，但单一市场仍过于分散。她的观点是，如果欧洲想与美国和中国竞争，就需要更顺畅的跨境投资和更快的企业规模化。",
+      "keywords": [
+        "AI",
+        "European Union",
+        "single market",
+        "competitiveness"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.879,
+            "text": "Euronews reports that European Central Bank President Christine Lagarde warned the EU not to fall behind in artificial intelligence."
+          },
+          {
+            "start": 9.829,
+            "end": 17.167,
+            "text": "She said Europe has strong talent and companies, but its single market remains too fragmented."
+          },
+          {
+            "start": 17.167,
+            "end": 26.902,
+            "text": "Her message was that easier cross-border investment and faster scaling are needed if Europe wants to compete with the United States and China."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260820-002",
+      "title": "Kyiv Attack Shows Air Defence Strain",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo"
+      },
+      "english": "BBC News reports that at least 15 people were killed in Kyiv after a major Russian attack hit apartment blocks and warehouses. Ukrainian officials said the strikes came as the country faces shortages in air defence systems. The attack underlines the pressure on Ukraine to protect cities while the war continues to drain equipment and lives.",
+      "chinese": "BBC 报道，俄罗斯对基辅发动大规模袭击，击中公寓楼和仓库，造成至少 15 人死亡。乌克兰官员表示，袭击发生之际，该国正面临防空系统短缺。此事凸显出，在战争持续消耗装备和生命的情况下，乌克兰保护城市的压力越来越大。",
+      "keywords": [
+        "Ukraine",
+        "Kyiv",
+        "Russia",
+        "air defence"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.408,
+            "text": "BBC News reports that at least 15 people were killed in Kyiv after a major Russian attack hit apartment blocks and warehouses."
+          },
+          {
+            "start": 9.358,
+            "end": 16.285,
+            "text": "Ukrainian officials said the strikes came as the country faces shortages in air defence systems."
+          },
+          {
+            "start": 16.285,
+            "end": 24.491,
+            "text": "The attack underlines the pressure on Ukraine to protect cities while the war continues to drain equipment and lives."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260820-003",
+      "title": "Tanker Boarding Raises Shipping Risk",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/tanker-off-yemen-boarded-by-armed-people-diverted-towards-somalia-ukmto-says/"
+      },
+      "english": "gCaptain reports that armed people boarded a tanker off Yemen and diverted it towards Somalia, according to UK Maritime Trade Operations. The incident adds to worries about piracy and conflict-linked risk around the Gulf of Aden. For shipping companies, higher danger can mean route changes, extra security costs and delays for cargo moving between Asia and Europe.",
+      "chinese": "gCaptain 报道，英国海上贸易行动办公室称，一艘油轮在也门附近被武装人员登船并转向索马里方向。该事件加剧了外界对亚丁湾周边海盗活动和冲突相关风险的担忧。对航运公司来说，风险上升可能意味着改道、额外安保成本以及亚欧货运延误。",
+      "keywords": [
+        "shipping",
+        "Gulf of Aden",
+        "piracy",
+        "tanker"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.1,
+            "text": "gCaptain reports that armed people boarded a tanker off Yemen and diverted it towards Somalia, according to UK Maritime Trade Operations."
+          },
+          {
+            "start": 11.05,
+            "end": 17.741,
+            "text": "The incident adds to worries about piracy and conflict-linked risk around the Gulf of Aden."
+          },
+          {
+            "start": 17.741,
+            "end": 28.447,
+            "text": "For shipping companies, higher danger can mean route changes, extra security costs and delays for cargo moving between Asia and Europe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260820-004",
+      "title": "Spain Relocates Children from Ceuta",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+      },
+      "english": "The Guardian reports that Spain will allow 500 migrant children in Ceuta to move to the mainland, reversing an earlier hard line. Many adults who crossed from Morocco have returned, but Spain has legal duties toward unaccompanied minors. The decision may ease street homelessness in Ceuta, while also testing regional politics and European migration rules.",
+      "chinese": "《卫报》报道，西班牙将允许 500 名滞留休达的移民儿童前往本土，改变了此前强硬的立场。许多从摩洛哥进入休达的成年人已经返回，但西班牙对无人陪伴未成年人负有法律保护义务。该决定可能缓解休达街头儿童无家可归的问题，同时考验地区政治和欧洲移民规则。",
+      "keywords": [
+        "Spain",
+        "Ceuta",
+        "migration",
+        "children"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.864,
+            "text": "The Guardian reports that Spain will allow 500 migrant children in Ceuta to move to the mainland, reversing an earlier hard line."
+          },
+          {
+            "start": 10.814,
+            "end": 18.932,
+            "text": "Many adults who crossed from Morocco have returned, but Spain has legal duties toward unaccompanied minors."
+          },
+          {
+            "start": 18.932,
+            "end": 27.564,
+            "text": "The decision may ease street homelessness in Ceuta, while also testing regional politics and European migration rules."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260820-005",
+      "title": "China Trade Debate Turns to Yuan",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/19/china-trump-trade-weak-yuan"
+      },
+      "english": "The Guardian published analysis arguing that the US-China trade fight is not settled, even though direct American imports from China have fallen. It says some goods are moving through other countries, while a weak yuan keeps Chinese exports competitive. The debate matters for Europe too, because trade pressure often shifts across global supply chains.",
+      "chinese": "《卫报》发表分析称，尽管美国从中国的直接进口下降，美中贸易争端并未真正解决。文章认为，一些商品正通过其他国家转运，而人民币偏弱继续增强中国出口竞争力。这场讨论对欧洲也很重要，因为贸易压力往往会在全球供应链中转移。",
+      "keywords": [
+        "US-China trade",
+        "yuan",
+        "supply chains",
+        "tariffs"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.452,
+            "text": "The Guardian published analysis arguing that the US-China trade fight is not settled, even though direct American imports from China have fallen."
+          },
+          {
+            "start": 10.402,
+            "end": 17.638,
+            "text": "It says some goods are moving through other countries, while a weak yuan keeps Chinese exports competitive."
+          },
+          {
+            "start": 17.638,
+            "end": 24.917,
+            "text": "The debate matters for Europe too, because trade pressure often shifts across global supply chains."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260820-006",
+      "title": "Smart Glasses Trigger Privacy Fears",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/report/982414/meta-glasses-work-surveillance-labor-security"
+      },
+      "english": "The Verge reports that Meta smart glasses are raising new privacy concerns in workplaces. Some service workers say customers or managers can record them too easily, sometimes for online content. Supporters see useful hands-free technology, but critics warn that laws and company policies have not kept up with small, wearable cameras and AI features.",
+      "chinese": "The Verge 报道，Meta 智能眼镜正在工作场所引发新的隐私担忧。一些服务业员工表示，顾客或管理者太容易录制他们，有时还会用于网络内容。支持者认为这是一种有用的免提技术，但批评者警告，法律和公司政策尚未跟上小型可穿戴摄像头和 AI 功能的发展。",
+      "keywords": [
+        "Meta",
+        "smart glasses",
+        "privacy",
+        "online trends"
+      ],
+      "audio": {
+        "english": "audio/2026-08-20/news-20260820-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-20/news-20260820-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.041,
+            "text": "The Verge reports that Meta smart glasses are raising new privacy concerns in workplaces."
+          },
+          {
+            "start": 6.991,
+            "end": 14.858,
+            "text": "Some service workers say customers or managers can record them too easily, sometimes for online content."
+          },
+          {
+            "start": 14.858,
+            "end": 27.182,
+            "text": "Supporters see useful hands-free technology, but critics warn that laws and company policies have not kept up with small, wearable cameras and AI features."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-20; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the requested 80-word shadowing target and the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public articles, feeds and source pages from configured sources. Reuters was checked through search, but no direct configured Reuters feed was available. AP, DW, Al Jazeera and Politico Europe were checked, but the selected items better matched the configured topic mix and recency.",
+    "One selected trade item is a Guardian analysis, used because it directly matched the China-Europe-US trade focus while newer hard-news trade items from configured public sources were limited."
+  ]
+}

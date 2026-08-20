@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,041
+The Verge reports that Meta smart glasses are raising new privacy concerns in workplaces.
+
+2
+00:00:06,991 --> 00:00:14,858
+Some service workers say customers or managers can record them too easily, sometimes for online content.
+
+3
+00:00:14,858 --> 00:00:27,182
+Supporters see useful hands-free technology, but critics warn that laws and company policies have not kept up with small, wearable cameras and AI features.
+

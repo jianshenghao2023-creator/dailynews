@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,408
+BBC News reports that at least 15 people were killed in Kyiv after a major Russian attack hit apartment blocks and warehouses.
+
+2
+00:00:09,358 --> 00:00:16,285
+Ukrainian officials said the strikes came as the country faces shortages in air defence systems.
+
+3
+00:00:16,285 --> 00:00:24,491
+The attack underlines the pressure on Ukraine to protect cities while the war continues to drain equipment and lives.
+

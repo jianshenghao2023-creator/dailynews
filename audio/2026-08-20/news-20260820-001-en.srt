@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,879
+Euronews reports that European Central Bank President Christine Lagarde warned the EU not to fall behind in artificial intelligence.
+
+2
+00:00:09,829 --> 00:00:17,167
+She said Europe has strong talent and companies, but its single market remains too fragmented.
+
+3
+00:00:17,167 --> 00:00:26,902
+Her message was that easier cross-border investment and faster scaling are needed if Europe wants to compete with the United States and China.
+
