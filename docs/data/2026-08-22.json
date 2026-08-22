@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-22",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-22T07:23:28+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260822-001",
+      "title": "China Challenges EU Subsidy Rules",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/china-eu-foreign-subsidies-regulation-link-trade-talks/"
+      },
+      "english": "Politico Europe reports that China has criticised the EU's foreign subsidies rules and connected the dispute to wider trade talks. Beijing says the rules unfairly target Chinese companies, while Brussels argues they protect fair competition. The clash matters because both sides are trying to restart dialogue while pressure grows over electric vehicles, public contracts and industrial policy.",
+      "chinese": "Politico Europe 报道，中国批评欧盟的外国补贴规则，并把这一争议与更广泛的贸易谈判联系起来。北京认为这些规则不公平地针对中国企业，而布鲁塞尔则表示规则是在保护公平竞争。这场冲突很重要，因为双方正试图重启对话，同时电动汽车、公共合同和产业政策方面的压力不断上升。",
+      "keywords": [
+        "China-EU trade",
+        "foreign subsidies",
+        "industrial policy",
+        "Brussels"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.864,
+            "text": "Politico Europe reports that China has criticised the EU's foreign subsidies rules and connected the dispute to wider trade talks."
+          },
+          {
+            "start": 9.814,
+            "end": 17.608,
+            "text": "Beijing says the rules unfairly target Chinese companies, while Brussels argues they protect fair competition."
+          },
+          {
+            "start": 17.608,
+            "end": 29.123,
+            "text": "The clash matters because both sides are trying to restart dialogue while pressure grows over electric vehicles, public contracts and industrial policy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260822-002",
+      "title": "Migrant Boat Missing Near Tunisia",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes"
+      },
+      "english": "Al Jazeera reports that at least 13 Tunisians are missing after a boat carrying migrants sank while heading toward Italy. Two people were rescued, according to a migrant rights group. The case highlights the continuing danger of the central Mediterranean route, where people still risk small boats despite stronger border controls and repeated deadly accidents.",
+      "chinese": "Al Jazeera 报道，一艘载有移民、驶往意大利方向的船只沉没后，至少 13 名突尼斯人失踪。据一个移民权益组织称，有两人获救。此事凸显出中地中海路线的持续危险，尽管边境管控加强、致命事故反复发生，仍有人冒险乘坐小船出海。",
+      "keywords": [
+        "migration",
+        "Tunisia",
+        "Italy",
+        "Mediterranean"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.438,
+            "text": "Al Jazeera reports that at least 13 Tunisians are missing after a boat carrying migrants sank while heading toward Italy."
+          },
+          {
+            "start": 8.388,
+            "end": 13.094,
+            "text": "Two people were rescued, according to a migrant rights group."
+          },
+          {
+            "start": 13.094,
+            "end": 25.829,
+            "text": "The case highlights the continuing danger of the central Mediterranean route, where people still risk small boats despite stronger border controls and repeated deadly accidents."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260822-003",
+      "title": "Panama Canal Limits Raise Delays",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/panama-canal-draught-restrictions-set-to-add-to-congestion-chaos/"
+      },
+      "english": "gCaptain reports that the Panama Canal is preparing new draught limits for large ships as water conditions worsen. The restrictions are expected to begin in late August and could add to congestion. For shippers, lower draught limits may mean lighter loads, higher costs and more uncertainty on routes that connect Asia, Europe and the Americas.",
+      "chinese": "gCaptain 报道，随着水位条件恶化，巴拿马运河正准备对大型船舶实施新的吃水限制。这些限制预计将在 8 月下旬开始，并可能加剧拥堵。对托运人来说，吃水限制降低可能意味着装载量减少、成本上升，以及连接亚洲、欧洲和美洲航线的不确定性增加。",
+      "keywords": [
+        "Panama Canal",
+        "shipping",
+        "congestion",
+        "draught limits"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.438,
+            "text": "gCaptain reports that the Panama Canal is preparing new draught limits for large ships as water conditions worsen."
+          },
+          {
+            "start": 9.388,
+            "end": 15.02,
+            "text": "The restrictions are expected to begin in late August and could add to congestion."
+          },
+          {
+            "start": 15.02,
+            "end": 26.667,
+            "text": "For shippers, lower draught limits may mean lighter loads, higher costs and more uncertainty on routes that connect Asia, Europe and the Americas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260822-004",
+      "title": "AI Optimism Splits by Age",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/poll-ai-age-group-weath-future-technology/"
+      },
+      "english": "Politico Europe reports that new polling finds older and wealthier people are more positive about artificial intelligence than younger adults. The results suggest that AI is not only a technology debate, but also a social one. Younger people may worry more about jobs, fairness and control, while others see productivity gains and new services.",
+      "chinese": "Politico Europe 报道，新的民调显示，年纪较大、收入较高的人对人工智能的态度比年轻成年人更积极。结果表明，AI 不只是技术争论，也是社会议题。年轻人可能更担心就业、公平和控制权，而其他人则看到生产率提升和新服务机会。",
+      "keywords": [
+        "AI",
+        "polling",
+        "age",
+        "technology"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.085,
+            "text": "Politico Europe reports that new polling finds older and wealthier people are more positive about artificial intelligence than younger adults."
+          },
+          {
+            "start": 10.035,
+            "end": 16.785,
+            "text": "The results suggest that AI is not only a technology debate, but also a social one."
+          },
+          {
+            "start": 16.785,
+            "end": 25.785,
+            "text": "Younger people may worry more about jobs, fairness and control, while others see productivity gains and new services."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260822-005",
+      "title": "Germany Plans Missile Expansion",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin/"
+      },
+      "english": "Politico Europe reports that Germany is planning a 12 billion euro missile programme to strengthen deterrence against Russia. Internal defence documents describe options from cheaper cruise missiles to Tomahawks and future hypersonic weapons. The plan shows how European countries are rethinking long-range defence as the war in Ukraine continues to shape security policy.",
+      "chinese": "Politico Europe 报道，德国正计划一项 120 亿欧元的导弹项目，以加强对俄罗斯的威慑。内部国防文件列出了从较低成本巡航导弹到战斧导弹和未来高超音速武器的多种选择。该计划显示，随着乌克兰战争继续影响安全政策，欧洲国家正在重新思考远程防御能力。",
+      "keywords": [
+        "Germany",
+        "missiles",
+        "Russia",
+        "European security"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.776,
+            "text": "Politico Europe reports that Germany is planning a 12 billion euro missile programme to strengthen deterrence against Russia."
+          },
+          {
+            "start": 8.726,
+            "end": 17.491,
+            "text": "Internal defence documents describe options from cheaper cruise missiles to Tomahawks and future hypersonic weapons."
+          },
+          {
+            "start": 17.491,
+            "end": 26.888,
+            "text": "The plan shows how European countries are rethinking long-range defence as the war in Ukraine continues to shape security policy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260822-006",
+      "title": "TikTok Settles Privacy Lawsuit",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa"
+      },
+      "english": "The Verge reports that TikTok will pay 400 million dollars to settle a US Justice Department lawsuit over children's privacy. The case accused TikTok of collecting data from young users without proper parental consent and failing to delete some accounts when asked. The settlement is a major signal that child safety rules for social platforms are becoming more serious.",
+      "chinese": "The Verge 报道，TikTok 将支付 4 亿美元，以解决美国司法部关于儿童隐私的诉讼。该案指控 TikTok 在没有适当家长同意的情况下收集未成年用户数据，并在被要求时未删除部分账户。此和解是一个重要信号，说明社交平台的儿童安全规则正变得更加严肃。",
+      "keywords": [
+        "TikTok",
+        "privacy",
+        "children",
+        "social media"
+      ],
+      "audio": {
+        "english": "audio/2026-08-22/news-20260822-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-22/news-20260822-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.217,
+            "text": "The Verge reports that TikTok will pay 400 million dollars to settle a US Justice Department lawsuit over children's privacy."
+          },
+          {
+            "start": 10.167,
+            "end": 19.549,
+            "text": "The case accused TikTok of collecting data from young users without proper parental consent and failing to delete some accounts when asked."
+          },
+          {
+            "start": 19.549,
+            "end": 27.314,
+            "text": "The settlement is a major signal that child safety rules for social platforms are becoming more serious."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-22; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6, even though the prompt mentioned a default of 8.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public feeds and source pages from configured sources: Politico Europe, Al Jazeera, gCaptain, The Verge, DW, Euronews, BBC News, AP and Reuters checks. Reuters had no configured feed, and AP's configured RSS URL returned the AP homepage instead of parseable RSS during this run."
+  ]
+}
