@@ -1,12 +1,12 @@
 1
-00:00:00,100 --> 00:00:08,776
-Politico Europe reports that Germany is planning a 12 billion euro missile programme to strengthen deterrence against Russia.
+00:00:00,100 --> 00:00:08,555
+Euronews reports that Ukraine may use part of the EU's 90 billion euro loan to buy anti-ballistic missile systems.
 
 2
-00:00:08,726 --> 00:00:17,491
-Internal defence documents describe options from cheaper cruise missiles to Tomahawks and future hypersonic weapons.
+00:00:08,505 --> 00:00:16,079
+Officials say Kyiv is discussing options as Russian strikes continue to hit civilians and infrastructure.
 
 3
-00:00:17,491 --> 00:00:26,888
-The plan shows how European countries are rethinking long-range defence as the war in Ukraine continues to shape security policy.
+00:00:16,079 --> 00:00:24,667
+The question is politically sensitive because some EU countries want the money to support European defence producers whenever possible.
 

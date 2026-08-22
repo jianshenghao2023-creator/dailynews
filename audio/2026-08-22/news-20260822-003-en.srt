@@ -1,12 +1,12 @@
 1
-00:00:00,100 --> 00:00:09,438
-gCaptain reports that the Panama Canal is preparing new draught limits for large ships as water conditions worsen.
+00:00:00,100 --> 00:00:10,055
+gCaptain reports that China's NewNew Shipping Line has delivered container cargo to Murmansk through the Northern Sea Route for the first time.
 
 2
-00:00:09,388 --> 00:00:15,020
-The restrictions are expected to begin in late August and could add to congestion.
+00:00:10,005 --> 00:00:16,123
+The ship sailed from Tianjin with automotive parts and about 500 containers.
 
 3
-00:00:15,020 --> 00:00:26,667
-For shippers, lower draught limits may mean lighter loads, higher costs and more uncertainty on routes that connect Asia, Europe and the Americas.
+00:00:16,123 --> 00:00:26,991
+The voyage shows growing interest in Arctic shipping, especially from Asian operators seeking alternative links between China, Russia and Europe.
 

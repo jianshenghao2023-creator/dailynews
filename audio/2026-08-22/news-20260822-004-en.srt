@@ -3,10 +3,10 @@
 Politico Europe reports that new polling finds older and wealthier people are more positive about artificial intelligence than younger adults.
 
 2
-00:00:10,035 --> 00:00:16,785
-The results suggest that AI is not only a technology debate, but also a social one.
+00:00:10,035 --> 00:00:16,814
+The result suggests that AI is not only a technology debate, but also a social one.
 
 3
-00:00:16,785 --> 00:00:25,785
-Younger people may worry more about jobs, fairness and control, while others see productivity gains and new services.
+00:00:16,814 --> 00:00:26,329
+Younger people may worry more about jobs, fairness and control, while others focus on productivity gains and new services.
 

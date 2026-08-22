@@ -2,7 +2,7 @@
   "date": "2026-08-22",
   "timezone": "Europe/Berlin",
   "is_demo": false,
-  "generated_at": "2026-08-22T07:23:28+02:00",
+  "generated_at": "2026-08-22T15:04:02+02:00",
   "topics": [
     "China-Europe-US trade",
     "European social issues",
@@ -16,18 +16,18 @@
   "items": [
     {
       "id": "news-20260822-001",
-      "title": "China Challenges EU Subsidy Rules",
+      "title": "China Presses EU Over Subsidy Rules",
       "source": {
         "name": "Politico Europe",
         "url": "https://www.politico.eu/article/china-eu-foreign-subsidies-regulation-link-trade-talks/"
       },
-      "english": "Politico Europe reports that China has criticised the EU's foreign subsidies rules and connected the dispute to wider trade talks. Beijing says the rules unfairly target Chinese companies, while Brussels argues they protect fair competition. The clash matters because both sides are trying to restart dialogue while pressure grows over electric vehicles, public contracts and industrial policy.",
-      "chinese": "Politico Europe 报道，中国批评欧盟的外国补贴规则，并把这一争议与更广泛的贸易谈判联系起来。北京认为这些规则不公平地针对中国企业，而布鲁塞尔则表示规则是在保护公平竞争。这场冲突很重要，因为双方正试图重启对话，同时电动汽车、公共合同和产业政策方面的压力不断上升。",
+      "english": "Politico Europe reports that China has linked the EU's foreign subsidies rules to wider trade talks with Brussels. Beijing has told Chinese companies not to hand some information to EU investigators, while the EU says the rules protect fair competition. The dispute could make negotiations harder as both sides try to manage tensions over industry, public contracts and electric vehicles.",
+      "chinese": "Politico Europe 报道，中国把欧盟的外国补贴规则与更广泛的中欧贸易谈判联系起来。北京已要求中国企业不要向欧盟调查人员提交部分信息，而欧盟则表示这些规则是在保护公平竞争。随着双方试图处理产业、公共合同和电动汽车方面的紧张关系，这一争议可能让谈判更加困难。",
       "keywords": [
         "China-EU trade",
         "foreign subsidies",
-        "industrial policy",
-        "Brussels"
+        "Brussels",
+        "industrial policy"
       ],
       "audio": {
         "english": "audio/2026-08-22/news-20260822-001-en.mp3"
@@ -39,31 +39,31 @@
         "english": [
           {
             "start": 0.1,
-            "end": 9.864,
-            "text": "Politico Europe reports that China has criticised the EU's foreign subsidies rules and connected the dispute to wider trade talks."
+            "end": 8.408,
+            "text": "Politico Europe reports that China has linked the EU's foreign subsidies rules to wider trade talks with Brussels."
           },
           {
-            "start": 9.814,
-            "end": 17.608,
-            "text": "Beijing says the rules unfairly target Chinese companies, while Brussels argues they protect fair competition."
+            "start": 8.358,
+            "end": 17.888,
+            "text": "Beijing has told Chinese companies not to hand some information to EU investigators, while the EU says the rules protect fair competition."
           },
           {
-            "start": 17.608,
-            "end": 29.123,
-            "text": "The clash matters because both sides are trying to restart dialogue while pressure grows over electric vehicles, public contracts and industrial policy."
+            "start": 17.888,
+            "end": 28.064,
+            "text": "The dispute could make negotiations harder as both sides try to manage tensions over industry, public contracts and electric vehicles."
           }
         ]
       }
     },
     {
       "id": "news-20260822-002",
-      "title": "Migrant Boat Missing Near Tunisia",
+      "title": "Migrant Boat Sinks Near Tunisia",
       "source": {
         "name": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes"
       },
-      "english": "Al Jazeera reports that at least 13 Tunisians are missing after a boat carrying migrants sank while heading toward Italy. Two people were rescued, according to a migrant rights group. The case highlights the continuing danger of the central Mediterranean route, where people still risk small boats despite stronger border controls and repeated deadly accidents.",
-      "chinese": "Al Jazeera 报道，一艘载有移民、驶往意大利方向的船只沉没后，至少 13 名突尼斯人失踪。据一个移民权益组织称，有两人获救。此事凸显出中地中海路线的持续危险，尽管边境管控加强、致命事故反复发生，仍有人冒险乘坐小船出海。",
+      "english": "Al Jazeera reports that at least 14 people are missing after a boat carrying migrants sank off Tunisia while heading toward Italy. One person was rescued, according to Tunisian officials. The accident underlines the danger of the central Mediterranean route, where people continue to risk small boats despite stronger border controls and repeated deadly crossings.",
+      "chinese": "Al Jazeera 报道，一艘载有移民、驶往意大利方向的船只在突尼斯海域沉没后，至少 14 人失踪。突尼斯官员表示，有一人获救。此事凸显中地中海路线的危险性，尽管边境管控加强、致命事故反复发生，仍有人冒险乘坐小船出海。",
       "keywords": [
         "migration",
         "Tunisia",
@@ -80,36 +80,36 @@
         "english": [
           {
             "start": 0.1,
-            "end": 8.438,
-            "text": "Al Jazeera reports that at least 13 Tunisians are missing after a boat carrying migrants sank while heading toward Italy."
+            "end": 9.291,
+            "text": "Al Jazeera reports that at least 14 people are missing after a boat carrying migrants sank off Tunisia while heading toward Italy."
           },
           {
-            "start": 8.388,
-            "end": 13.094,
-            "text": "Two people were rescued, according to a migrant rights group."
+            "start": 9.241,
+            "end": 14.123,
+            "text": "One person was rescued, according to Tunisian officials."
           },
           {
-            "start": 13.094,
-            "end": 25.829,
-            "text": "The case highlights the continuing danger of the central Mediterranean route, where people still risk small boats despite stronger border controls and repeated deadly accidents."
+            "start": 14.123,
+            "end": 26.902,
+            "text": "The accident underlines the danger of the central Mediterranean route, where people continue to risk small boats despite stronger border controls and repeated deadly crossings."
           }
         ]
       }
     },
     {
       "id": "news-20260822-003",
-      "title": "Panama Canal Limits Raise Delays",
+      "title": "Chinese Carrier Expands Arctic Route",
       "source": {
         "name": "gCaptain",
-        "url": "https://gcaptain.com/panama-canal-draught-restrictions-set-to-add-to-congestion-chaos/"
+        "url": "https://gcaptain.com/chinas-newnew-shipping-line-pushes-deeper-into-arctic-with-first-murmansk-container-run/"
       },
-      "english": "gCaptain reports that the Panama Canal is preparing new draught limits for large ships as water conditions worsen. The restrictions are expected to begin in late August and could add to congestion. For shippers, lower draught limits may mean lighter loads, higher costs and more uncertainty on routes that connect Asia, Europe and the Americas.",
-      "chinese": "gCaptain 报道，随着水位条件恶化，巴拿马运河正准备对大型船舶实施新的吃水限制。这些限制预计将在 8 月下旬开始，并可能加剧拥堵。对托运人来说，吃水限制降低可能意味着装载量减少、成本上升，以及连接亚洲、欧洲和美洲航线的不确定性增加。",
+      "english": "gCaptain reports that China's NewNew Shipping Line has delivered container cargo to Murmansk through the Northern Sea Route for the first time. The ship sailed from Tianjin with automotive parts and about 500 containers. The voyage shows growing interest in Arctic shipping, especially from Asian operators seeking alternative links between China, Russia and Europe.",
+      "chinese": "gCaptain 报道，中国 NewNew Shipping Line 首次通过北方海航道向摩尔曼斯克交付集装箱货物。该船从天津出发，载有汽车零部件和约 500 个集装箱。这次航行显示出亚洲运营商对北极航运的兴趣正在上升，尤其是寻找连接中国、俄罗斯和欧洲的替代通道。",
       "keywords": [
-        "Panama Canal",
-        "shipping",
-        "congestion",
-        "draught limits"
+        "Arctic shipping",
+        "NewNew Shipping",
+        "Northern Sea Route",
+        "Murmansk"
       ],
       "audio": {
         "english": "audio/2026-08-22/news-20260822-003-en.mp3"
@@ -121,31 +121,31 @@
         "english": [
           {
             "start": 0.1,
-            "end": 9.438,
-            "text": "gCaptain reports that the Panama Canal is preparing new draught limits for large ships as water conditions worsen."
+            "end": 10.055,
+            "text": "gCaptain reports that China's NewNew Shipping Line has delivered container cargo to Murmansk through the Northern Sea Route for the first time."
           },
           {
-            "start": 9.388,
-            "end": 15.02,
-            "text": "The restrictions are expected to begin in late August and could add to congestion."
+            "start": 10.005,
+            "end": 16.123,
+            "text": "The ship sailed from Tianjin with automotive parts and about 500 containers."
           },
           {
-            "start": 15.02,
-            "end": 26.667,
-            "text": "For shippers, lower draught limits may mean lighter loads, higher costs and more uncertainty on routes that connect Asia, Europe and the Americas."
+            "start": 16.123,
+            "end": 26.991,
+            "text": "The voyage shows growing interest in Arctic shipping, especially from Asian operators seeking alternative links between China, Russia and Europe."
           }
         ]
       }
     },
     {
       "id": "news-20260822-004",
-      "title": "AI Optimism Splits by Age",
+      "title": "AI Optimism Differs by Age",
       "source": {
         "name": "Politico Europe",
         "url": "https://www.politico.eu/article/poll-ai-age-group-weath-future-technology/"
       },
-      "english": "Politico Europe reports that new polling finds older and wealthier people are more positive about artificial intelligence than younger adults. The results suggest that AI is not only a technology debate, but also a social one. Younger people may worry more about jobs, fairness and control, while others see productivity gains and new services.",
-      "chinese": "Politico Europe 报道，新的民调显示，年纪较大、收入较高的人对人工智能的态度比年轻成年人更积极。结果表明，AI 不只是技术争论，也是社会议题。年轻人可能更担心就业、公平和控制权，而其他人则看到生产率提升和新服务机会。",
+      "english": "Politico Europe reports that new polling finds older and wealthier people are more positive about artificial intelligence than younger adults. The result suggests that AI is not only a technology debate, but also a social one. Younger people may worry more about jobs, fairness and control, while others focus on productivity gains and new services.",
+      "chinese": "Politico Europe 报道，新的民调显示，年纪较大、收入较高的人对人工智能的态度比年轻成年人更积极。结果表明，AI 不只是技术争论，也是社会议题。年轻人可能更担心就业、公平和控制权，而其他人则更关注生产率提升和新服务机会。",
       "keywords": [
         "AI",
         "polling",
@@ -167,30 +167,30 @@
           },
           {
             "start": 10.035,
-            "end": 16.785,
-            "text": "The results suggest that AI is not only a technology debate, but also a social one."
+            "end": 16.814,
+            "text": "The result suggests that AI is not only a technology debate, but also a social one."
           },
           {
-            "start": 16.785,
-            "end": 25.785,
-            "text": "Younger people may worry more about jobs, fairness and control, while others see productivity gains and new services."
+            "start": 16.814,
+            "end": 26.329,
+            "text": "Younger people may worry more about jobs, fairness and control, while others focus on productivity gains and new services."
           }
         ]
       }
     },
     {
       "id": "news-20260822-005",
-      "title": "Germany Plans Missile Expansion",
+      "title": "Ukraine Seeks Missile Defences",
       "source": {
-        "name": "Politico Europe",
-        "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin/"
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/21/ukraine-eyes-anti-ballistic-systems-with-eus-90-billion-loan"
       },
-      "english": "Politico Europe reports that Germany is planning a 12 billion euro missile programme to strengthen deterrence against Russia. Internal defence documents describe options from cheaper cruise missiles to Tomahawks and future hypersonic weapons. The plan shows how European countries are rethinking long-range defence as the war in Ukraine continues to shape security policy.",
-      "chinese": "Politico Europe 报道，德国正计划一项 120 亿欧元的导弹项目，以加强对俄罗斯的威慑。内部国防文件列出了从较低成本巡航导弹到战斧导弹和未来高超音速武器的多种选择。该计划显示，随着乌克兰战争继续影响安全政策，欧洲国家正在重新思考远程防御能力。",
+      "english": "Euronews reports that Ukraine may use part of the EU's 90 billion euro loan to buy anti-ballistic missile systems. Officials say Kyiv is discussing options as Russian strikes continue to hit civilians and infrastructure. The question is politically sensitive because some EU countries want the money to support European defence producers whenever possible.",
+      "chinese": "Euronews 报道，乌克兰可能使用欧盟 900 亿欧元贷款中的一部分购买反弹道导弹系统。官员表示，在俄罗斯持续袭击平民和基础设施之际，基辅正在讨论相关选择。这个问题具有政治敏感性，因为一些欧盟国家希望资金尽可能支持欧洲防务企业。",
       "keywords": [
-        "Germany",
-        "missiles",
-        "Russia",
+        "Ukraine",
+        "EU loan",
+        "missile defence",
         "European security"
       ],
       "audio": {
@@ -203,31 +203,31 @@
         "english": [
           {
             "start": 0.1,
-            "end": 8.776,
-            "text": "Politico Europe reports that Germany is planning a 12 billion euro missile programme to strengthen deterrence against Russia."
+            "end": 8.555,
+            "text": "Euronews reports that Ukraine may use part of the EU's 90 billion euro loan to buy anti-ballistic missile systems."
           },
           {
-            "start": 8.726,
-            "end": 17.491,
-            "text": "Internal defence documents describe options from cheaper cruise missiles to Tomahawks and future hypersonic weapons."
+            "start": 8.505,
+            "end": 16.079,
+            "text": "Officials say Kyiv is discussing options as Russian strikes continue to hit civilians and infrastructure."
           },
           {
-            "start": 17.491,
-            "end": 26.888,
-            "text": "The plan shows how European countries are rethinking long-range defence as the war in Ukraine continues to shape security policy."
+            "start": 16.079,
+            "end": 24.667,
+            "text": "The question is politically sensitive because some EU countries want the money to support European defence producers whenever possible."
           }
         ]
       }
     },
     {
       "id": "news-20260822-006",
-      "title": "TikTok Settles Privacy Lawsuit",
+      "title": "TikTok Settles Child Privacy Case",
       "source": {
         "name": "The Verge",
         "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa"
       },
-      "english": "The Verge reports that TikTok will pay 400 million dollars to settle a US Justice Department lawsuit over children's privacy. The case accused TikTok of collecting data from young users without proper parental consent and failing to delete some accounts when asked. The settlement is a major signal that child safety rules for social platforms are becoming more serious.",
-      "chinese": "The Verge 报道，TikTok 将支付 4 亿美元，以解决美国司法部关于儿童隐私的诉讼。该案指控 TikTok 在没有适当家长同意的情况下收集未成年用户数据，并在被要求时未删除部分账户。此和解是一个重要信号，说明社交平台的儿童安全规则正变得更加严肃。",
+      "english": "The Verge reports that TikTok will pay 400 million dollars to settle a US Justice Department lawsuit over children's privacy. The case accused the company of collecting data from young users without proper parental consent and not deleting some accounts when asked. The settlement is a major signal that child safety rules for social platforms are becoming stricter.",
+      "chinese": "The Verge 报道，TikTok 将支付 4 亿美元，以解决美国司法部关于儿童隐私的诉讼。该案指控公司在没有适当家长同意的情况下收集未成年用户数据，并在被要求时未删除部分账户。此和解释放出一个重要信号：社交平台的儿童安全规则正变得更加严格。",
       "keywords": [
         "TikTok",
         "privacy",
@@ -249,13 +249,13 @@
           },
           {
             "start": 10.167,
-            "end": 19.549,
-            "text": "The case accused TikTok of collecting data from young users without proper parental consent and failing to delete some accounts when asked."
+            "end": 19.344,
+            "text": "The case accused the company of collecting data from young users without proper parental consent and not deleting some accounts when asked."
           },
           {
-            "start": 19.549,
-            "end": 27.314,
-            "text": "The settlement is a major signal that child safety rules for social platforms are becoming more serious."
+            "start": 19.344,
+            "end": 26.535,
+            "text": "The settlement is a major signal that child safety rules for social platforms are becoming stricter."
           }
         ]
       }
@@ -263,9 +263,9 @@
   ],
   "run_notes": [
     "Generated only for the current Europe/Berlin date, 2026-08-22; no missed dates were backfilled.",
-    "Selected 6 non-duplicate items to match config.txt news_count=6, even though the prompt mentioned a default of 8.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6, even though the automation prompt mentioned a default of 8.",
     "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
     "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
-    "Used current public feeds and source pages from configured sources: Politico Europe, Al Jazeera, gCaptain, The Verge, DW, Euronews, BBC News, AP and Reuters checks. Reuters had no configured feed, and AP's configured RSS URL returned the AP homepage instead of parseable RSS during this run."
+    "Used current public feeds, source pages and web search from configured sources. Reuters had no configured feed, and the configured AP RSS URL returned an HTML page instead of parseable RSS during this run."
   ]
 }

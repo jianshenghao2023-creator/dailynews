@@ -3,10 +3,10 @@
 The Verge reports that TikTok will pay 400 million dollars to settle a US Justice Department lawsuit over children's privacy.
 
 2
-00:00:10,167 --> 00:00:19,549
-The case accused TikTok of collecting data from young users without proper parental consent and failing to delete some accounts when asked.
+00:00:10,167 --> 00:00:19,344
+The case accused the company of collecting data from young users without proper parental consent and not deleting some accounts when asked.
 
 3
-00:00:19,549 --> 00:00:27,314
-The settlement is a major signal that child safety rules for social platforms are becoming more serious.
+00:00:19,344 --> 00:00:26,535
+The settlement is a major signal that child safety rules for social platforms are becoming stricter.
 

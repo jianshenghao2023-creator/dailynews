@@ -1,12 +1,12 @@
 1
-00:00:00,100 --> 00:00:09,864
-Politico Europe reports that China has criticised the EU's foreign subsidies rules and connected the dispute to wider trade talks.
+00:00:00,100 --> 00:00:08,408
+Politico Europe reports that China has linked the EU's foreign subsidies rules to wider trade talks with Brussels.
 
 2
-00:00:09,814 --> 00:00:17,608
-Beijing says the rules unfairly target Chinese companies, while Brussels argues they protect fair competition.
+00:00:08,358 --> 00:00:17,888
+Beijing has told Chinese companies not to hand some information to EU investigators, while the EU says the rules protect fair competition.
 
 3
-00:00:17,608 --> 00:00:29,123
-The clash matters because both sides are trying to restart dialogue while pressure grows over electric vehicles, public contracts and industrial policy.
+00:00:17,888 --> 00:00:28,064
+The dispute could make negotiations harder as both sides try to manage tensions over industry, public contracts and electric vehicles.
 
