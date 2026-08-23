@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:05,952
+Euronews reports that Europe is facing several weather emergencies at the same time.
+
+2
+00:00:05,902 --> 00:00:16,800
+Wildfires in Serbia and Bosnia have forced evacuations and road closures, while Spain has dealt with floods, storms and separate fires.
+
+3
+00:00:16,800 --> 00:00:22,608
+Poland has also reported thousands of emergency calls after severe storms.
+
+4
+00:00:22,608 --> 00:00:29,829
+The events show how heat, drought and sudden heavy rain can disrupt daily life across the region.
+

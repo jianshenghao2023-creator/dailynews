@@ -1,0 +1,286 @@
+{
+  "date": "2026-08-23",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-23T15:03:21+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260823-001",
+      "title": "US-Canada Trade War Deepens",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/trump-tariffs-canada-us-trade-war-293908564c7a381ea58a61db6e9a8517"
+      },
+      "english": "Associated Press reports that new US tariffs of 50 percent on many Canadian products began after trade talks collapsed. The measures affect about 20 billion dollars in goods, from food to furniture. Canada says it will answer with matching tariffs from September 8. The dispute could raise prices for households and put more pressure on the USMCA trade system.",
+      "chinese": "美联社报道，在贸易谈判破裂后，美国对许多加拿大商品征收的 50% 新关税已经生效。这些措施涉及约 200 亿美元商品，从食品到家具都有。加拿大表示将从 9 月 8 日起实施对等关税。该争端可能推高家庭成本，并给美墨加贸易体系带来更大压力。",
+      "keywords": [
+        "US-Canada trade",
+        "tariffs",
+        "USMCA",
+        "consumer prices"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.57,
+            "text": "Associated Press reports that new US tariffs of 50 percent on many Canadian products began after trade talks collapsed."
+          },
+          {
+            "start": 9.52,
+            "end": 15.05,
+            "text": "The measures affect about 20 billion dollars in goods, from food to furniture."
+          },
+          {
+            "start": 15.05,
+            "end": 19.844,
+            "text": "Canada says it will answer with matching tariffs from September 8."
+          },
+          {
+            "start": 19.844,
+            "end": 26.123,
+            "text": "The dispute could raise prices for households and put more pressure on the USMCA trade system."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260823-002",
+      "title": "Extreme Weather Strains Europe",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/23/extreme-weather-hits-europe-as-wildfires-floods-and-storms-force-thousands-to-evacuate"
+      },
+      "english": "Euronews reports that Europe is facing several weather emergencies at the same time. Wildfires in Serbia and Bosnia have forced evacuations and road closures, while Spain has dealt with floods, storms and separate fires. Poland has also reported thousands of emergency calls after severe storms. The events show how heat, drought and sudden heavy rain can disrupt daily life across the region.",
+      "chinese": "Euronews 报道，欧洲正同时面临多起极端天气事件。塞尔维亚和波黑的野火迫使居民疏散并导致道路关闭，西班牙则遭遇洪水、风暴和另一些火灾。波兰也在强风暴后接到数千起紧急求助。这些事件显示，热浪、干旱和突发暴雨会严重扰乱欧洲各地的日常生活。",
+      "keywords": [
+        "Europe",
+        "extreme weather",
+        "wildfires",
+        "floods"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 5.952,
+            "text": "Euronews reports that Europe is facing several weather emergencies at the same time."
+          },
+          {
+            "start": 5.902,
+            "end": 16.8,
+            "text": "Wildfires in Serbia and Bosnia have forced evacuations and road closures, while Spain has dealt with floods, storms and separate fires."
+          },
+          {
+            "start": 16.8,
+            "end": 22.608,
+            "text": "Poland has also reported thousands of emergency calls after severe storms."
+          },
+          {
+            "start": 22.608,
+            "end": 29.829,
+            "text": "The events show how heat, drought and sudden heavy rain can disrupt daily life across the region."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260823-003",
+      "title": "Chinese Robots Break Sprint Records",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2"
+      },
+      "english": "Associated Press reports that Chinese humanoid robots beat human records at the World Humanoid Robot Games in Beijing. One robot completed a 100-meter sprint in 9.39 seconds, faster than Usain Bolt's world record. Organizers say more than 2,000 robots are taking part. Experts note that most humanoids are still used mainly for demonstrations and research, not everyday work.",
+      "chinese": "美联社报道，中国人形机器人在北京世界人形机器人运动会上打破了人类纪录。一台机器人以 9.39 秒跑完 100 米，快于博尔特保持的人类世界纪录。组织者称，超过 2000 台机器人参加比赛。专家指出，大多数人形机器人目前仍主要用于展示和研究，而不是日常工作。",
+      "keywords": [
+        "AI",
+        "humanoid robots",
+        "China",
+        "robotics"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.041,
+            "text": "Associated Press reports that Chinese humanoid robots beat human records at the World Humanoid Robot Games in Beijing."
+          },
+          {
+            "start": 8.991,
+            "end": 18.285,
+            "text": "One robot completed a 100-meter sprint in 9.39 seconds, faster than Usain Bolt's world record."
+          },
+          {
+            "start": 18.285,
+            "end": 22.741,
+            "text": "Organizers say more than 2,000 robots are taking part."
+          },
+          {
+            "start": 22.741,
+            "end": 30.373,
+            "text": "Experts note that most humanoids are still used mainly for demonstrations and research, not everyday work."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260823-004",
+      "title": "Zelenskyy Rejects Wartime Election Calls",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
+      },
+      "english": "The Guardian reports that President Volodymyr Zelenskyy rejected calls for elections while Ukraine is still at war. He said a vote now could divide the country and would be hard to organize safely for soldiers, displaced citizens and people abroad. The debate follows criticism from a dismissed former defence minister and comes as Ukraine prepares for more Russian missile pressure before winter.",
+      "chinese": "《卫报》报道，乌克兰总统泽连斯基拒绝了在战争期间举行选举的呼声。他表示，现在投票可能分裂国家，而且很难让军人、流离失所者和海外公民安全参与。此前一名被解职的前国防部长提出批评，而乌克兰也在准备应对冬季前更多俄罗斯导弹压力。",
+      "keywords": [
+        "Ukraine",
+        "Zelenskyy",
+        "wartime elections",
+        "Russia"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.923,
+            "text": "The Guardian reports that President Volodymyr Zelenskyy rejected calls for elections while Ukraine is still at war."
+          },
+          {
+            "start": 8.873,
+            "end": 18.608,
+            "text": "He said a vote now could divide the country and would be hard to organize safely for soldiers, displaced citizens and people abroad."
+          },
+          {
+            "start": 18.608,
+            "end": 28.594,
+            "text": "The debate follows criticism from a dismissed former defence minister and comes as Ukraine prepares for more Russian missile pressure before winter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260823-005",
+      "title": "Cargo Ship Sinks Off India",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/india-ship-rescue-distress-coast-guard-navy-9299f36df9604d21fe7c7f8328ac5153"
+      },
+      "english": "Associated Press reports that India is searching for crew members after the Panama-flagged MV Ocean Winner sank in the Bay of Bengal. Two people were rescued, while navy and coast guard ships continued surface searches. The vessel had 24 crew members, including 20 Chinese nationals, and was carrying iron ore from India's Paradip Port to China.",
+      "chinese": "美联社报道，巴拿马籍 MV Ocean Winner 号在孟加拉湾沉没后，印度正在搜寻船员。已有两人获救，印度海军和海岸警卫队船只继续在海面搜索。该船共有 24 名船员，其中包括 20 名中国公民，事发时正从印度帕拉迪普港向中国运输铁矿石。",
+      "keywords": [
+        "shipping",
+        "Bay of Bengal",
+        "cargo ship",
+        "China trade"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.644,
+            "text": "Associated Press reports that India is searching for crew members after the Panama-flagged MV Ocean Winner sank in the Bay of Bengal."
+          },
+          {
+            "start": 9.594,
+            "end": 16.285,
+            "text": "Two people were rescued, while navy and coast guard ships continued surface searches."
+          },
+          {
+            "start": 16.285,
+            "end": 26.579,
+            "text": "The vessel had 24 crew members, including 20 Chinese nationals, and was carrying iron ore from India's Paradip Port to China."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260823-006",
+      "title": "EU Ministers Seek Oil Windfall Tax",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+      },
+      "english": "Euronews reports that six EU countries want finance ministers to discuss a bloc-wide windfall tax on oil companies. Germany, Italy, Austria, Poland, Portugal and Spain say energy firms are earning unusually high profits during the Middle East war and shipping disruption around Hormuz. Supporters argue that crisis profits should help consumers, but the EU has not yet proposed a new levy.",
+      "chinese": "Euronews 报道，六个欧盟国家希望财政部长讨论对石油公司征收全欧盟暴利税。德国、意大利、奥地利、波兰、葡萄牙和西班牙认为，在中东战争和霍尔木兹周边航运受扰期间，能源企业获得了异常高的利润。支持者认为危机利润应帮助消费者，但欧盟尚未提出新税种。",
+      "keywords": [
+        "European Union",
+        "oil",
+        "windfall tax",
+        "Hormuz"
+      ],
+      "audio": {
+        "english": "audio/2026-08-23/news-20260823-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-23/news-20260823-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.791,
+            "text": "Euronews reports that six EU countries want finance ministers to discuss a bloc-wide windfall tax on oil companies."
+          },
+          {
+            "start": 8.741,
+            "end": 22.961,
+            "text": "Germany, Italy, Austria, Poland, Portugal and Spain say energy firms are earning unusually high profits during the Middle East war and shipping disruption around Hormuz."
+          },
+          {
+            "start": 22.961,
+            "end": 30.799,
+            "text": "Supporters argue that crisis profits should help consumers, but the EU has not yet proposed a new levy."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-23; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used public feeds, source pages and web search from configured sources. Reuters had no configured feed, and the configured AP RSS endpoint returned non-parseable markup, so AP items were verified through public AP pages/search results."
+  ]
+}

@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:09,041
+Associated Press reports that Chinese humanoid robots beat human records at the World Humanoid Robot Games in Beijing.
+
+2
+00:00:08,991 --> 00:00:18,285
+One robot completed a 100-meter sprint in 9.39 seconds, faster than Usain Bolt's world record.
+
+3
+00:00:18,285 --> 00:00:22,741
+Organizers say more than 2,000 robots are taking part.
+
+4
+00:00:22,741 --> 00:00:30,373
+Experts note that most humanoids are still used mainly for demonstrations and research, not everyday work.
+
