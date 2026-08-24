@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,570
+The Verge reports that Alibaba's Wan3.0 AI video model is now generally available.
+
+2
+00:00:07,520 --> 00:00:14,888
+The system can create 30-second clips from text, images, video, audio and documents.
+
+3
+00:00:14,888 --> 00:00:30,579
+The launch drew attention because promotional examples appeared to involve a Tom Cruise-like figure, raising familiar questions about likeness rights, copyright and how fast AI video tools are entering public use.
+

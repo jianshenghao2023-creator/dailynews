@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-24",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-24T21:05:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260824-001",
+      "title": "Canada Resists New US Tariffs",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/53c4f83c8365c14b372b314396ae8179"
+      },
+      "english": "Associated Press reports that Canadian Prime Minister Mark Carney says new US trade demands would gradually dismantle Canada's auto industry. President Donald Trump threatened 50 percent tariffs on Canadian vehicles, parts and steel from next year after talks collapsed. Ontario Premier Doug Ford warned that Canada could answer with electricity and critical-mineral pressure, showing how quickly a trade dispute can spread into wider economic risk.",
+      "chinese": "美联社报道，加拿大总理马克·卡尼表示，美国新的贸易要求会逐步削弱加拿大汽车工业。贸易谈判破裂后，美国总统唐纳德·特朗普威胁从明年起对加拿大汽车、零部件和钢铁征收 50% 关税。安大略省省长道格·福特警告，加拿大可能用电力和关键矿产作为回应，显示贸易争端可能迅速扩大为更广泛的经济风险。",
+      "keywords": [
+        "US-Canada trade",
+        "tariffs",
+        "auto industry",
+        "critical minerals"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.555,
+            "text": "Associated Press reports that Canadian Prime Minister Mark Carney says new US trade demands would gradually dismantle Canada's auto industry."
+          },
+          {
+            "start": 10.505,
+            "end": 19.961,
+            "text": "President Donald Trump threatened 50 percent tariffs on Canadian vehicles, parts and steel from next year after talks collapsed."
+          },
+          {
+            "start": 19.961,
+            "end": 32.711,
+            "text": "Ontario Premier Doug Ford warned that Canada could answer with electricity and critical-mineral pressure, showing how quickly a trade dispute can spread into wider economic risk."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260824-002",
+      "title": "US Expands Iran Sanctions Threat",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/e367634d8853c8fa4a341132cd577f31"
+      },
+      "english": "Associated Press reports that US Treasury Secretary Scott Bessent announced new sanctions designed to block Iran's remaining revenue sources. Washington warned banks and governments that continued financial ties with Tehran could trigger secondary sanctions. Iran's currency fell to a record low, while officials in Tehran said outside support for the measures would be treated as a hostile act.",
+      "chinese": "美联社报道，美国财政部长斯科特·贝森特宣布新一轮制裁，目标是切断伊朗剩余收入来源。华盛顿警告银行和各国政府，如果继续与德黑兰保持金融往来，可能面临二级制裁。伊朗货币跌至历史低点，德黑兰官员则表示，外部支持这些措施将被视为敌对行为。",
+      "keywords": [
+        "Iran",
+        "US sanctions",
+        "secondary sanctions",
+        "geopolitics"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.423,
+            "text": "Associated Press reports that US Treasury Secretary Scott Bessent announced new sanctions designed to block Iran's remaining revenue sources."
+          },
+          {
+            "start": 10.373,
+            "end": 18.461,
+            "text": "Washington warned banks and governments that continued financial ties with Tehran could trigger secondary sanctions."
+          },
+          {
+            "start": 18.461,
+            "end": 28.314,
+            "text": "Iran's currency fell to a record low, while officials in Tehran said outside support for the measures would be treated as a hostile act."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260824-003",
+      "title": "Europe Backs Ukraine in Kyiv",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/24/european-allies-back-ukraine-as-country-marks-independence-day-without-us-envoys"
+      },
+      "english": "Euronews reports that European leaders gathered in Kyiv as Ukraine marked its 35th Independence Day. The UK said it would share technology to help Ukraine produce long-range SCALP missiles, and the EU approved 6.1 billion euros for defence. No senior Trump administration envoys attended, underlining a visible gap between European support and the current US posture.",
+      "chinese": "Euronews 报道，乌克兰庆祝第 35 个独立日时，多名欧洲领导人聚集在基辅。英国表示将分享技术，帮助乌克兰生产远程 SCALP 导弹，欧盟也批准了 61 亿欧元防务援助。特朗普政府没有派高级代表出席，突显欧洲支持与当前美国姿态之间的明显差距。",
+      "keywords": [
+        "Ukraine",
+        "European Union",
+        "SCALP missiles",
+        "defence aid"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.717,
+            "text": "Euronews reports that European leaders gathered in Kyiv as Ukraine marked its 35th Independence Day."
+          },
+          {
+            "start": 7.667,
+            "end": 18.167,
+            "text": "The UK said it would share technology to help Ukraine produce long-range SCALP missiles, and the EU approved 6.1 billion euros for defence."
+          },
+          {
+            "start": 18.167,
+            "end": 28.211,
+            "text": "No senior Trump administration envoys attended, underlining a visible gap between European support and the current US posture."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260824-004",
+      "title": "Berlin Pool Event Sparks Race Debate",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/24/scrapping-of-berlin-swimming-day-for-black-children-becomes-latest-in-long-list-of-race-linked-pool-rows"
+      },
+      "english": "The Guardian reports that a private swimming day for Black children in Berlin was cancelled after criticism and threats. Organizers said the event was meant to create a safe space and address barriers that some families face at public pools. The dispute has revived a wider European debate about race, public services and who feels welcome in shared community spaces.",
+      "chinese": "《卫报》报道，柏林一场面向黑人儿童的私人游泳活动在遭到批评和威胁后被取消。组织者表示，该活动旨在提供安全空间，并回应一些家庭在公共泳池遇到的障碍。这场争议重新引发欧洲关于种族、公共服务以及谁能在共享社区空间中感到受欢迎的讨论。",
+      "keywords": [
+        "Berlin",
+        "race debate",
+        "public pools",
+        "European society"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.997,
+            "text": "The Guardian reports that a private swimming day for Black children in Berlin was cancelled after criticism and threats."
+          },
+          {
+            "start": 8.947,
+            "end": 17.182,
+            "text": "Organizers said the event was meant to create a safe space and address barriers that some families face at public pools."
+          },
+          {
+            "start": 17.182,
+            "end": 26.623,
+            "text": "The dispute has revived a wider European debate about race, public services and who feels welcome in shared community spaces."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260824-005",
+      "title": "Canada Funds Arctic Icebreakers",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/canada-bets-11-billion-on-six-new-icebreakers-as-arctic-shipbuilding-race-accelerates/"
+      },
+      "english": "gCaptain reports that Canada will spend more than 11 billion Canadian dollars to build six new icebreakers for its coast guard. The contract is described as Quebec's largest shipbuilding award. The ships are meant to replace older vessels and strengthen Canada's ability to operate in the Arctic, where climate change and security competition are making maritime capacity more important.",
+      "chinese": "gCaptain 报道，加拿大将投入超过 110 亿加元，为海岸警卫队建造六艘新破冰船。这份合同被称为魁北克历史上最大的造船合同。新船将替代老旧船只，并加强加拿大在北极地区行动的能力；气候变化和安全竞争正在让北极海事能力变得更重要。",
+      "keywords": [
+        "shipbuilding",
+        "Canada",
+        "icebreakers",
+        "Arctic"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.467,
+            "text": "gCaptain reports that Canada will spend more than 11 billion Canadian dollars to build six new icebreakers for its coast guard."
+          },
+          {
+            "start": 9.417,
+            "end": 14.461,
+            "text": "The contract is described as Quebec's largest shipbuilding award."
+          },
+          {
+            "start": 14.461,
+            "end": 28.314,
+            "text": "The ships are meant to replace older vessels and strengthen Canada's ability to operate in the Arctic, where climate change and security competition are making maritime capacity more important."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260824-006",
+      "title": "Alibaba Releases AI Video Model",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/983705/ai-tom-cruise-alibaba-wan-3"
+      },
+      "english": "The Verge reports that Alibaba's Wan3.0 AI video model is now generally available. The system can create 30-second clips from text, images, video, audio and documents. The launch drew attention because promotional examples appeared to involve a Tom Cruise-like figure, raising familiar questions about likeness rights, copyright and how fast AI video tools are entering public use.",
+      "chinese": "The Verge 报道，阿里巴巴的 Wan3.0 AI 视频模型已经全面开放。该系统可以根据文字、图片、视频、音频和文档生成 30 秒视频。发布内容引发关注，因为宣传示例中似乎出现了类似汤姆·克鲁斯的人物，再次引出肖像权、版权以及 AI 视频工具快速进入公众使用的问题。",
+      "keywords": [
+        "AI video",
+        "Alibaba",
+        "copyright",
+        "Wan3.0"
+      ],
+      "audio": {
+        "english": "audio/2026-08-24/news-20260824-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-24/news-20260824-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.57,
+            "text": "The Verge reports that Alibaba's Wan3.0 AI video model is now generally available."
+          },
+          {
+            "start": 7.52,
+            "end": 14.888,
+            "text": "The system can create 30-second clips from text, images, video, audio and documents."
+          },
+          {
+            "start": 14.888,
+            "end": 30.579,
+            "text": "The launch drew attention because promotional examples appeared to involve a Tom Cruise-like figure, raising familiar questions about likeness rights, copyright and how fast AI video tools are entering public use."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-24; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used public source pages and web search from configured sources. Reuters had no configured feed and did not provide stronger current public candidates than the selected source set during this run."
+  ]
+}
