@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,452
+Euronews reports that Brazil fined TikTok owner ByteDance 153.7 million reais over children's and teenagers' data.
+
+2
+00:00:10,402 --> 00:00:19,417
+Regulators said the platform failed to prevent improper processing of minors' information, including for users without accounts.
+
+3
+00:00:19,417 --> 00:00:29,844
+ByteDance must delete irregularly collected data and improve privacy settings, parental supervision and content filters for young users.
+

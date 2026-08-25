@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,805
+gCaptain reports that only two tankers crossed the Strait of Hormuz on Monday, the lowest daily number of commodity vessels since early May.
+
+2
+00:00:10,755 --> 00:00:18,844
+Ship-tracking data showed traffic far below the recent average, while some vessels may have turned off transponders.
+
+3
+00:00:18,844 --> 00:00:25,697
+Analysts warned that any attack near the chokepoint could further disrupt oil and gas flows.
+

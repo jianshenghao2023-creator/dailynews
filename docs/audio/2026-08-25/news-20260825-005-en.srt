@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:08,717
+Politico Europe reports that Waymo plans to launch self-driving taxis in Munich by the end of 2027.
+
+2
+00:00:08,667 --> 00:00:14,167
+It would be the company's first robotaxi service inside the European Union.
+
+3
+00:00:14,167 --> 00:00:25,447
+The move will test how German and EU regulators handle autonomous vehicles as US companies push driverless technology into more international markets.
+

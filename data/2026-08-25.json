@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-25",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-25T19:09:38+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260825-001",
+      "title": "EU Sends Trade Officials to China",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/25/euronews-exclusive-eu-officials-to-travel-to-china-as-october-deadline-for-trade-rebalanci"
+      },
+      "english": "Euronews reports that EU officials will travel to China in the coming days for technical trade talks. Brussels wants visible progress before an October deadline, as it tries to reduce a record daily trade deficit with Beijing. The talks have become tense after China told companies not to cooperate with EU investigations into foreign subsidies.",
+      "chinese": "Euronews 报道，欧盟官员将在未来几天前往中国，举行技术层面的贸易谈判。布鲁塞尔希望在 10 月最后期限前看到明确进展，同时试图缩小与北京之间创纪录的日均贸易逆差。此前，中国要求企业不要配合欧盟关于外国补贴的调查，使谈判气氛变得紧张。",
+      "keywords": [
+        "EU-China trade",
+        "trade deficit",
+        "foreign subsidies",
+        "October deadline"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.247,
+            "text": "Euronews reports that EU officials will travel to China in the coming days for technical trade talks."
+          },
+          {
+            "start": 7.197,
+            "end": 16.3,
+            "text": "Brussels wants visible progress before an October deadline, as it tries to reduce a record daily trade deficit with Beijing."
+          },
+          {
+            "start": 16.3,
+            "end": 24.491,
+            "text": "The talks have become tense after China told companies not to cooperate with EU investigations into foreign subsidies."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260825-002",
+      "title": "China Criticizes New US Iran Sanctions",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go"
+      },
+      "english": "BBC News reports that China rejected new US plans to widen sanctions on Iran and countries that keep trading with it. Beijing said its cooperation with Tehran follows international law and should not be disrupted. Washington warned that banks, firms and governments could face isolation if they continue financial links with Iran, a major oil supplier to China.",
+      "chinese": "BBC News 报道，中国反对美国扩大对伊朗以及继续与伊朗贸易国家的制裁计划。北京表示，中伊合作符合国际法，不应受到干扰。华盛顿警告称，如果银行、企业和政府继续与伊朗保持金融联系，可能面临孤立；伊朗是中国的重要石油供应方。",
+      "keywords": [
+        "US sanctions",
+        "China",
+        "Iran",
+        "oil trade"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.438,
+            "text": "BBC News reports that China rejected new US plans to widen sanctions on Iran and countries that keep trading with it."
+          },
+          {
+            "start": 9.388,
+            "end": 16.314,
+            "text": "Beijing said its cooperation with Tehran follows international law and should not be disrupted."
+          },
+          {
+            "start": 16.314,
+            "end": 27.373,
+            "text": "Washington warned that banks, firms and governments could face isolation if they continue financial links with Iran, a major oil supplier to China."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260825-003",
+      "title": "Hormuz Ship Traffic Falls Sharply",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/commodity-vessel-transits-through-strait-of-hormuz-hit-three-month-low-data-shows/"
+      },
+      "english": "gCaptain reports that only two tankers crossed the Strait of Hormuz on Monday, the lowest daily number of commodity vessels since early May. Ship-tracking data showed traffic far below the recent average, while some vessels may have turned off transponders. Analysts warned that any attack near the chokepoint could further disrupt oil and gas flows.",
+      "chinese": "gCaptain 报道，周一只有两艘油轮通过霍尔木兹海峡，这是自 5 月初以来大宗商品船舶单日通行量的最低水平。船舶追踪数据显示，通行量远低于近期平均水平，部分船只可能关闭了应答器。分析人士警告，如果这一关键航道附近发生袭击，油气运输可能进一步受扰。",
+      "keywords": [
+        "Strait of Hormuz",
+        "shipping",
+        "oil flows",
+        "tanker traffic"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.805,
+            "text": "gCaptain reports that only two tankers crossed the Strait of Hormuz on Monday, the lowest daily number of commodity vessels since early May."
+          },
+          {
+            "start": 10.755,
+            "end": 18.844,
+            "text": "Ship-tracking data showed traffic far below the recent average, while some vessels may have turned off transponders."
+          },
+          {
+            "start": 18.844,
+            "end": 25.697,
+            "text": "Analysts warned that any attack near the chokepoint could further disrupt oil and gas flows."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260825-004",
+      "title": "German Leisure Moves Online",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/germans-swap-friends-for-screens-in-their-free-time/a-78497420"
+      },
+      "english": "Deutsche Welle reports that Germans are spending less free time going out with friends and more time online. A new survey found that 19 percent regularly meet friends outside, down from 37 percent forty years ago. Digital music, social media, games and weekly AI use are growing, especially among young adults, but exercise and volunteering have also increased.",
+      "chinese": "Deutsche Welle 报道，德国人外出与朋友相聚的休闲时间减少，线上娱乐时间增加。一项新调查显示，定期外出见朋友的人占 19%，而 40 年前为 37%。数字音乐、社交媒体、游戏和每周使用 AI 的比例都在上升，年轻成年人尤其明显；不过，锻炼和志愿服务也有所增加。",
+      "keywords": [
+        "Germany",
+        "social life",
+        "AI use",
+        "digital leisure"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 7.423,
+            "text": "Deutsche Welle reports that Germans are spending less free time going out with friends and more time online."
+          },
+          {
+            "start": 7.373,
+            "end": 16.27,
+            "text": "A new survey found that 19 percent regularly meet friends outside, down from 37 percent forty years ago."
+          },
+          {
+            "start": 16.27,
+            "end": 28.226,
+            "text": "Digital music, social media, games and weekly AI use are growing, especially among young adults, but exercise and volunteering have also increased."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260825-005",
+      "title": "Waymo Plans Munich Robotaxis",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/waymo-to-launch-robotaxis-in-munich-in-2027/"
+      },
+      "english": "Politico Europe reports that Waymo plans to launch self-driving taxis in Munich by the end of 2027. It would be the company's first robotaxi service inside the European Union. The move will test how German and EU regulators handle autonomous vehicles as US companies push driverless technology into more international markets.",
+      "chinese": "Politico Europe 报道，Waymo 计划在 2027 年底前于慕尼黑推出自动驾驶出租车服务。这将是该公司在欧盟内部的首个 robotaxi 项目。随着美国企业将无人驾驶技术推向更多国际市场，这一举措将考验德国和欧盟监管机构如何管理自动驾驶车辆。",
+      "keywords": [
+        "Waymo",
+        "robotaxis",
+        "Munich",
+        "autonomous vehicles"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.717,
+            "text": "Politico Europe reports that Waymo plans to launch self-driving taxis in Munich by the end of 2027."
+          },
+          {
+            "start": 8.667,
+            "end": 14.167,
+            "text": "It would be the company's first robotaxi service inside the European Union."
+          },
+          {
+            "start": 14.167,
+            "end": 25.447,
+            "text": "The move will test how German and EU regulators handle autonomous vehicles as US companies push driverless technology into more international markets."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260825-006",
+      "title": "Brazil Fines TikTok Owner",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/next/2026/08/25/brazil-fines-tiktok-owner-over-misuse-of-childrens-and-teenagers-data"
+      },
+      "english": "Euronews reports that Brazil fined TikTok owner ByteDance 153.7 million reais over children's and teenagers' data. Regulators said the platform failed to prevent improper processing of minors' information, including for users without accounts. ByteDance must delete irregularly collected data and improve privacy settings, parental supervision and content filters for young users.",
+      "chinese": "Euronews 报道，巴西因儿童和青少年数据问题对 TikTok 母公司字节跳动罚款 1.537 亿雷亚尔。监管机构称，该平台未能防止未成年人个人信息被不当处理，包括未注册账户用户的数据。字节跳动必须删除违规收集的数据，并改进年轻用户的隐私设置、家长监督和内容过滤。",
+      "keywords": [
+        "TikTok",
+        "ByteDance",
+        "children's data",
+        "Brazil"
+      ],
+      "audio": {
+        "english": "audio/2026-08-25/news-20260825-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-25/news-20260825-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.452,
+            "text": "Euronews reports that Brazil fined TikTok owner ByteDance 153.7 million reais over children's and teenagers' data."
+          },
+          {
+            "start": 10.402,
+            "end": 19.417,
+            "text": "Regulators said the platform failed to prevent improper processing of minors' information, including for users without accounts."
+          },
+          {
+            "start": 19.417,
+            "end": 29.844,
+            "text": "ByteDance must delete irregularly collected data and improve privacy settings, parental supervision and content filters for young users."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Generated only for the current Europe/Berlin date, 2026-08-25; no missed dates were backfilled.",
+    "Selected 6 non-duplicate items to match config.txt news_count=6.",
+    "English rewrites are original, neutral, learner-friendly B2 summaries under 80 words and within the configured 200-word maximum.",
+    "Chinese output is Simplified Chinese text only because generate_chinese_mp3=false.",
+    "Used current public RSS entries, source pages, and web search from configured media sources; no Chinese MP3 generation was requested."
+  ]
+}

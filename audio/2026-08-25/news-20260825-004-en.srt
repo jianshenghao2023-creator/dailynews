@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:07,423
+Deutsche Welle reports that Germans are spending less free time going out with friends and more time online.
+
+2
+00:00:07,373 --> 00:00:16,270
+A new survey found that 19 percent regularly meet friends outside, down from 37 percent forty years ago.
+
+3
+00:00:16,270 --> 00:00:28,226
+Digital music, social media, games and weekly AI use are growing, especially among young adults, but exercise and volunteering have also increased.
+
