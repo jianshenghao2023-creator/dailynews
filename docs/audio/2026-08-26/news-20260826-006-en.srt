@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:10,555
+The Guardian reports that a new mpox outbreak in Guinea-Bissau has renewed global concern, especially because children appear heavily affected.
+
+2
+00:00:10,505 --> 00:00:19,741
+The virus has spread far beyond earlier local outbreaks, with many countries reporting cases since 2022.
+
+3
+00:00:19,741 --> 00:00:28,652
+Health experts say stronger surveillance, public trust and access to vaccines remain important for containing new waves.
+

@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,923
+The Verge reports that Google has introduced Gemini 3.5 Transcribe, an AI audio model for cleaner speech-to-text work.
+
+2
+00:00:09,873 --> 00:00:20,152
+It supports more than 85 languages, can handle specialist vocabulary and can remove filler words such as ums and ahs.
+
+3
+00:00:20,152 --> 00:00:27,770
+The launch shows how AI tools are moving deeper into everyday writing, meetings and media workflows.
+

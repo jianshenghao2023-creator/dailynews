@@ -1,0 +1,267 @@
+{
+  "date": "2026-08-26",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-26T20:29:48+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260826-001",
+      "title": "Canada Turns Toward Europe",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/26/mark-carney-to-address-european-parliament-as-canada-turns-to-brussels-amid-trumps-tariff-"
+      },
+      "english": "Euronews reports that Canadian Prime Minister Mark Carney will address the European Parliament in September as Ottawa seeks closer EU ties. The move follows a sharp trade fight with Washington, including new US duties on Canadian goods and planned Canadian counter-tariffs. Brussels and Ottawa both want more stable partners while global trade becomes more political.",
+      "chinese": "Euronews 报道，加拿大总理马克·卡尼将于 9 月在欧洲议会发表讲话，渥太华正寻求与欧盟建立更紧密关系。此前，加拿大与美国的贸易争端升级，包括美国对加拿大商品加征关税，以及加拿大计划采取反制关税。随着全球贸易越来越政治化，布鲁塞尔和渥太华都希望找到更稳定的伙伴。",
+      "keywords": [
+        "Canada-EU ties",
+        "US tariffs",
+        "counter-tariffs",
+        "trade policy"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.379,
+            "text": "Euronews reports that Canadian Prime Minister Mark Carney will address the European Parliament in September as Ottawa seeks closer EU ties."
+          },
+          {
+            "start": 10.329,
+            "end": 19.623,
+            "text": "The move follows a sharp trade fight with Washington, including new US duties on Canadian goods and planned Canadian counter-tariffs."
+          },
+          {
+            "start": 19.623,
+            "end": 26.344,
+            "text": "Brussels and Ottawa both want more stable partners while global trade becomes more political."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260826-002",
+      "title": "Europe Counts Heat Costs",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/no-this-wasn-t-a-completely-normal-summer-despite-far-right-climate-denial/a-78513682"
+      },
+      "english": "Deutsche Welle reports that Europe’s extreme summer heat is now being measured in deaths, lost output and damaged crops. Scientists say human-caused climate change made the heat more severe, even as some politicians describe it as normal summer weather. The article notes pressure on health systems, farms, roads and energy plants across the continent.",
+      "chinese": "Deutsche Welle 报道，欧洲今夏极端高温造成的影响正在以死亡人数、经济损失和农作物减产来衡量。科学家表示，人为导致的气候变化使高温更加严重，尽管一些政界人士仍把它称为普通夏季天气。报道指出，欧洲各地的医疗系统、农业、道路和能源设施都承受了压力。",
+      "keywords": [
+        "European heat",
+        "climate change",
+        "public health",
+        "crop losses"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.085,
+            "text": "Deutsche Welle reports that Europe’s extreme summer heat is now being measured in deaths, lost output and damaged crops."
+          },
+          {
+            "start": 9.035,
+            "end": 18.491,
+            "text": "Scientists say human-caused climate change made the heat more severe, even as some politicians describe it as normal summer weather."
+          },
+          {
+            "start": 18.491,
+            "end": 26.52,
+            "text": "The article notes pressure on health systems, farms, roads and energy plants across the continent."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260826-003",
+      "title": "Danube Grain Ships Face Delays",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/up-to-70-ships-queue-off-danube-as-bottlenecks-slow-ukraine-grain-exports/"
+      },
+      "english": "gCaptain reports that as many as 70 ships are waiting near the Danube’s Sulina Canal to reach Ukrainian ports and load grain. Traders and analysts blamed a shortage of pilots and priority for other cargoes. The delays show how Black Sea risks and river bottlenecks can still affect food exports and freight planning.",
+      "chinese": "gCaptain 报道，多达 70 艘船正在多瑙河苏利纳运河附近等待进入乌克兰港口装载粮食。贸易商和分析人士认为，延误原因包括引航员不足以及其他货物获得优先通行。这些延误显示，黑海风险和河运瓶颈仍会影响粮食出口和运费安排。",
+      "keywords": [
+        "Danube shipping",
+        "Ukraine grain",
+        "Sulina Canal",
+        "freight delays"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.717,
+            "text": "gCaptain reports that as many as 70 ships are waiting near the Danube’s Sulina Canal to reach Ukrainian ports and load grain."
+          },
+          {
+            "start": 9.667,
+            "end": 15.711,
+            "text": "Traders and analysts blamed a shortage of pilots and priority for other cargoes."
+          },
+          {
+            "start": 15.711,
+            "end": 23.123,
+            "text": "The delays show how Black Sea risks and river bottlenecks can still affect food exports and freight planning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260826-004",
+      "title": "Google Adds Cleaner AI Transcription",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai"
+      },
+      "english": "The Verge reports that Google has introduced Gemini 3.5 Transcribe, an AI audio model for cleaner speech-to-text work. It supports more than 85 languages, can handle specialist vocabulary and can remove filler words such as ums and ahs. The launch shows how AI tools are moving deeper into everyday writing, meetings and media workflows.",
+      "chinese": "The Verge 报道，谷歌推出 Gemini 3.5 Transcribe，这是一款用于更清晰语音转文字的 AI 音频模型。它支持 85 种以上语言，可以处理专业词汇，并能去除“嗯”“啊”等填充词。这一发布显示，AI 工具正更深入地进入日常写作、会议和媒体工作流程。",
+      "keywords": [
+        "Gemini 3.5 Transcribe",
+        "AI audio",
+        "speech-to-text",
+        "Google"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.923,
+            "text": "The Verge reports that Google has introduced Gemini 3.5 Transcribe, an AI audio model for cleaner speech-to-text work."
+          },
+          {
+            "start": 9.873,
+            "end": 20.152,
+            "text": "It supports more than 85 languages, can handle specialist vocabulary and can remove filler words such as ums and ahs."
+          },
+          {
+            "start": 20.152,
+            "end": 27.77,
+            "text": "The launch shows how AI tools are moving deeper into everyday writing, meetings and media workflows."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260826-005",
+      "title": "France Warns of Hybrid Attacks",
+      "source": {
+        "name": "Politico Europe",
+        "url": "https://www.politico.eu/article/expect-more-violent-hostile-action-after-leipzig-drone-attack-french-intelligence-boss-warns/"
+      },
+      "english": "Politico Europe reports that France’s domestic intelligence chief warned of more violent hostile actions as hybrid warfare grows across Europe. She cited the discovery of an explosive drone near a Ukrainian cargo plane at Leipzig Airport. Officials have not assigned blame, but France says foreign interference and disinformation have increased sharply since 2022.",
+      "chinese": "Politico Europe 报道，法国国内情报负责人警告说，随着混合战在欧洲加剧，法国可能面临更多暴力敌对行动。她提到，德国莱比锡机场一架乌克兰货机附近曾发现爆炸无人机。有关方面尚未确认责任方，但法国表示，自 2022 年以来，外国干预和虚假信息活动明显增加。",
+      "keywords": [
+        "hybrid warfare",
+        "France",
+        "Leipzig drone",
+        "foreign interference"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.673,
+            "text": "Politico Europe reports that France’s domestic intelligence chief warned of more violent hostile actions as hybrid warfare grows across Europe."
+          },
+          {
+            "start": 10.623,
+            "end": 17.829,
+            "text": "She cited the discovery of an explosive drone near a Ukrainian cargo plane at Leipzig Airport."
+          },
+          {
+            "start": 17.829,
+            "end": 27.697,
+            "text": "Officials have not assigned blame, but France says foreign interference and disinformation have increased sharply since 2022."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260826-006",
+      "title": "Mpox Returns to Headlines",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children"
+      },
+      "english": "The Guardian reports that a new mpox outbreak in Guinea-Bissau has renewed global concern, especially because children appear heavily affected. The virus has spread far beyond earlier local outbreaks, with many countries reporting cases since 2022. Health experts say stronger surveillance, public trust and access to vaccines remain important for containing new waves.",
+      "chinese": "The Guardian 报道，几内亚比绍出现新的 mpox 疫情，再次引发全球担忧，尤其是儿童似乎受到较大影响。自 2022 年以来，这种病毒已远远超出早期局部疫情范围，许多国家报告了病例。卫生专家表示，加强监测、建立公众信任以及获得疫苗，仍是控制新一波疫情的关键。",
+      "keywords": [
+        "mpox",
+        "Guinea-Bissau",
+        "children",
+        "public health"
+      ],
+      "audio": {
+        "english": "audio/2026-08-26/news-20260826-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-26/news-20260826-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 10.555,
+            "text": "The Guardian reports that a new mpox outbreak in Guinea-Bissau has renewed global concern, especially because children appear heavily affected."
+          },
+          {
+            "start": 10.505,
+            "end": 19.741,
+            "text": "The virus has spread far beyond earlier local outbreaks, with many countries reporting cases since 2022."
+          },
+          {
+            "start": 19.741,
+            "end": 28.652,
+            "text": "Health experts say stronger surveillance, public trust and access to vaccines remain important for containing new waves."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Configured news_count is 6, so this run generated six items. Accessible configured feeds did not provide a clearly new same-day China-Europe-only story; the trade item uses the closest current EU-linked trade story from Euronews."
+  ]
+}
