@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,408
+The Guardian reports that British households still face heavy pressure from energy bills, even after the government promised relief.
+
+2
+00:00:09,358 --> 00:00:16,755
+Experts say the UK electricity system remains expensive because gas often sets the market price.
+
+3
+00:00:16,755 --> 00:00:25,755
+The debate shows how Europe's cost-of-living problem is linked to energy policy, climate plans and the speed of grid reform.
+

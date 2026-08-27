@@ -1,0 +1,267 @@
+{
+  "date": "2026-08-27",
+  "timezone": "Europe/Berlin",
+  "is_demo": false,
+  "generated_at": "2026-08-27T21:05:00+02:00",
+  "topics": [
+    "China-Europe-US trade",
+    "European social issues",
+    "shipbuilding and shipping markets",
+    "AI",
+    "geopolitical events",
+    "highly trending online topics"
+  ],
+  "cefr_level": "B2",
+  "max_english_words": 200,
+  "items": [
+    {
+      "id": "news-20260827-001",
+      "title": "EU-China Trade Talks Near Deadline",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/08/25/euronews-exclusive-eu-officials-to-travel-to-china-as-october-deadline-for-trade-rebalanci"
+      },
+      "english": "Euronews reports that EU officials will visit China soon as Brussels tries to reduce its large trade deficit with Beijing. The talks are tense because China has limited cooperation with EU subsidy investigations. October matters because a rare-earths truce is due to end, and Europe needs those minerals for cars, green technology and defense.",
+      "chinese": "Euronews 报道，欧盟官员将很快访问中国，布鲁塞尔希望缩小与北京之间巨大的贸易逆差。谈判气氛紧张，因为中国限制企业配合欧盟的补贴调查。10 月很关键，因为稀土出口休战安排即将到期，而欧洲汽车、绿色技术和国防产业都需要这些矿产。",
+      "keywords": [
+        "EU-China trade",
+        "rare earths",
+        "trade deficit",
+        "subsidy investigations"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-001-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-001-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.247,
+            "text": "Euronews reports that EU officials will visit China soon as Brussels tries to reduce its large trade deficit with Beijing."
+          },
+          {
+            "start": 9.197,
+            "end": 15.932,
+            "text": "The talks are tense because China has limited cooperation with EU subsidy investigations."
+          },
+          {
+            "start": 15.932,
+            "end": 26.138,
+            "text": "October matters because a rare-earths truce is due to end, and Europe needs those minerals for cars, green technology and defense."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260827-002",
+      "title": "UK Energy Bills Stay Painful",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/27/thursday-briefing-will-the-government-reform-the-system-to-bring-down-our-energy-bills"
+      },
+      "english": "The Guardian reports that British households still face heavy pressure from energy bills, even after the government promised relief. Experts say the UK electricity system remains expensive because gas often sets the market price. The debate shows how Europe's cost-of-living problem is linked to energy policy, climate plans and the speed of grid reform.",
+      "chinese": "《卫报》报道，英国政府承诺减轻负担后，家庭能源账单仍让许多人承压。专家表示，英国电力系统价格偏高，一个重要原因是燃气发电经常决定市场电价。这场争论显示，欧洲生活成本问题与能源政策、气候计划和电网改革速度密切相关。",
+      "keywords": [
+        "energy bills",
+        "cost of living",
+        "UK households",
+        "electricity market"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-002-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-002-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.408,
+            "text": "The Guardian reports that British households still face heavy pressure from energy bills, even after the government promised relief."
+          },
+          {
+            "start": 9.358,
+            "end": 16.755,
+            "text": "Experts say the UK electricity system remains expensive because gas often sets the market price."
+          },
+          {
+            "start": 16.755,
+            "end": 25.755,
+            "text": "The debate shows how Europe's cost-of-living problem is linked to energy policy, climate plans and the speed of grid reform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260827-003",
+      "title": "Container Rates Lift Chinese Liners",
+      "source": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com/chinese-container-liners-head-for-profit-jump-as-rates-surge/"
+      },
+      "english": "gCaptain reports that Chinese container shipping companies may see stronger profits as freight rates rise. Shippers moved goods early before tariff changes, while Red Sea and Strait of Hormuz risks kept routes costly and uncertain. Analysts say higher spot rates help carriers now, but extra ship capacity and future trade tensions could pressure earnings later.",
+      "chinese": "gCaptain 报道，随着运价上涨，中国集装箱航运公司可能获得更强利润。托运人为赶在关税变化前发货，而红海和霍尔木兹海峡风险让航线成本和不确定性上升。分析人士表示，较高的即期运价目前有利于船公司，但未来新增运力和贸易紧张可能压低盈利。",
+      "keywords": [
+        "container shipping",
+        "freight rates",
+        "Chinese liners",
+        "tariffs"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-003-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-003-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 8.35,
+            "text": "gCaptain reports that Chinese container shipping companies may see stronger profits as freight rates rise."
+          },
+          {
+            "start": 8.3,
+            "end": 18.035,
+            "text": "Shippers moved goods early before tariff changes, while Red Sea and Strait of Hormuz risks kept routes costly and uncertain."
+          },
+          {
+            "start": 18.035,
+            "end": 27.741,
+            "text": "Analysts say higher spot rates help carriers now, but extra ship capacity and future trade tensions could pressure earnings later."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260827-004",
+      "title": "OpenAI Promotes New AI Chip",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
+      },
+      "english": "The Verge reports that OpenAI says its Jalapeno AI chip can answer faster and use energy more efficiently than rival systems in benchmark tests. The chip is designed for inference, the stage when a trained model serves users. OpenAI plans small deployments this year, but says it will still rely on partners such as Nvidia.",
+      "chinese": "The Verge 报道，OpenAI 表示其 Jalapeno AI 芯片在基准测试中，比竞争系统响应更快、能效更高。这款芯片用于推理阶段，也就是训练好的模型为用户提供服务的过程。OpenAI 计划今年小规模部署，但表示仍会依赖英伟达等合作伙伴。",
+      "keywords": [
+        "OpenAI",
+        "AI chip",
+        "inference",
+        "Nvidia"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-004-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-004-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 11.717,
+            "text": "The Verge reports that OpenAI says its Jalapeno AI chip can answer faster and use energy more efficiently than rival systems in benchmark tests."
+          },
+          {
+            "start": 11.667,
+            "end": 17.035,
+            "text": "The chip is designed for inference, the stage when a trained model serves users."
+          },
+          {
+            "start": 17.035,
+            "end": 24.226,
+            "text": "OpenAI plans small deployments this year, but says it will still rely on partners such as Nvidia."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260827-005",
+      "title": "Europe Faces Patriot Shortage",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/patriot-missiles-iran-war-russia-ukraine-trump-09c7d8030a2e11fbd8ee3f7176b3f2d4"
+      },
+      "english": "The Associated Press reports that US and NATO officials warn of a severe shortage of Patriot missile interceptors in Europe. Some stocks were shifted toward the Middle East during the Iran war, leaving concern about Europe's ability to handle a possible Russian missile strike. Officials say a major attack is not expected soon, but readiness is weaker.",
+      "chinese": "美联社报道，美国和北约官员警告，欧洲的“爱国者”导弹拦截弹严重不足。伊朗战争期间，部分库存被转移到中东，这让外界担心欧洲应对潜在俄罗斯导弹打击的能力。官员表示近期不预计发生大规模攻击，但防御准备变弱。",
+      "keywords": [
+        "Patriot missiles",
+        "NATO",
+        "Europe defense",
+        "Russia"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-005-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-005-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.467,
+            "text": "The Associated Press reports that US and NATO officials warn of a severe shortage of Patriot missile interceptors in Europe."
+          },
+          {
+            "start": 9.417,
+            "end": 19.314,
+            "text": "Some stocks were shifted toward the Middle East during the Iran war, leaving concern about Europe's ability to handle a possible Russian missile strike."
+          },
+          {
+            "start": 19.314,
+            "end": 25.344,
+            "text": "Officials say a major attack is not expected soon, but readiness is weaker."
+          }
+        ]
+      }
+    },
+    {
+      "id": "news-20260827-006",
+      "title": "Meta Adds Teen Safety Limits",
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/meta-instagram-settlement-protections-changes-8229962dac997f1b1557ce341c71b39d"
+      },
+      "english": "The Associated Press reports that Meta has agreed to new protections for teenagers after a major legal fight over social media harm. The rules include tighter age checks, default limits for young users and overnight restrictions. Critics say the changes are important, but they still question whether platforms have enough incentive to reduce addictive design.",
+      "chinese": "美联社报道，在围绕社交媒体伤害的重大法律争议后，Meta 同意为青少年增加新的保护措施。这些规则包括更严格的年龄验证、面向年轻用户的默认限制以及夜间使用限制。批评者认为这些变化很重要，但仍质疑平台是否有足够动力减少成瘾性设计。",
+      "keywords": [
+        "Meta",
+        "teen safety",
+        "social media",
+        "age verification"
+      ],
+      "audio": {
+        "english": "audio/2026-08-27/news-20260827-006-en.mp3"
+      },
+      "subtitle_files": {
+        "english": "audio/2026-08-27/news-20260827-006-en.srt"
+      },
+      "subtitles": {
+        "english": [
+          {
+            "start": 0.1,
+            "end": 9.805,
+            "text": "The Associated Press reports that Meta has agreed to new protections for teenagers after a major legal fight over social media harm."
+          },
+          {
+            "start": 9.755,
+            "end": 16.623,
+            "text": "The rules include tighter age checks, default limits for young users and overnight restrictions."
+          },
+          {
+            "start": 16.623,
+            "end": 24.873,
+            "text": "Critics say the changes are important, but they still question whether platforms have enough incentive to reduce addictive design."
+          }
+        ]
+      }
+    }
+  ],
+  "run_notes": [
+    "Configured news_count is 6, so this run generated six items for the current Europe/Berlin date. English items were kept under 80 words although config allows up to 200. Chinese MP3 generation remains disabled by config.txt."
+  ]
+}

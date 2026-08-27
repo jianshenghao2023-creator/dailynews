@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:09,805
+The Associated Press reports that Meta has agreed to new protections for teenagers after a major legal fight over social media harm.
+
+2
+00:00:09,755 --> 00:00:16,623
+The rules include tighter age checks, default limits for young users and overnight restrictions.
+
+3
+00:00:16,623 --> 00:00:24,873
+Critics say the changes are important, but they still question whether platforms have enough incentive to reduce addictive design.
+

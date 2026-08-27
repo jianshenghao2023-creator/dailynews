@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:11,717
+The Verge reports that OpenAI says its Jalapeno AI chip can answer faster and use energy more efficiently than rival systems in benchmark tests.
+
+2
+00:00:11,667 --> 00:00:17,035
+The chip is designed for inference, the stage when a trained model serves users.
+
+3
+00:00:17,035 --> 00:00:24,226
+OpenAI plans small deployments this year, but says it will still rely on partners such as Nvidia.
+
